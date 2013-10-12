@@ -1,0 +1,144 @@
+countraw: 4
+countrows: 2
+filename: 324540.fec
+header: {}
+rows:
+- input: "F6\x1CC00434662\x1CDriehaus for Congress\x1C1018 Benz Avenue\x1C\x1CCincinnati\x1COH\x1C45238\x1CH8OH01068\x1CDriehaus\x1CSteve\x1C\x1C\x1C\x1CH\x1COH\x1C01\x1CLuebbers\x1CJerome\x1C\x1C\x1C\x1C20080223"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00434662
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Driehaus for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1018 Benz Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cincinnati
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45238'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OH01068
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Driehaus
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Steve
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Luebbers
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Jerome
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080223'
+- input: "F65\x1CC00434662\x1CC17443905\x1CIND\x1C\x1CRandazzo\x1CCharles\x1CJ\x1C\x1C\x1C6373
+    Creekside Trl\x1C\x1CSolon\x1COH\x1C441393101\x1C\x1C20080222\x1C1000.00\x1CFinancial
+    Network of America\x1CCEO"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00434662
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C17443905
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Randazzo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6373 Creekside Trl
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Solon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '441393101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080222'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Financial Network of America
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+sourceurl: !!python/unicode 20080223
+type: single
