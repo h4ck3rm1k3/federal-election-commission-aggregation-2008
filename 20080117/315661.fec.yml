@@ -1,0 +1,131 @@
+countraw: 4
+countrows: 2
+filename: 315661.fec
+header: {}
+rows:
+- input: "F10\x1CC00200626\x1CNEW MEXICO MEDICAL EYE POLITICAL ACTION COMMITTEE (M.D.
+    EYE PAC)\x1C303 MULBERRY ST NE #D\x1C\x1CALBUQUERQUE\x1CNM\x1C87106\x1CH2AZ07070\x1CNIC
+    TEST\x1CTEST\x1C\x1C\x1C\x1CH\x1CAK\x1C01\x1C1212.00\x1C1212.00\x1C2424.00\x1CX\x1CNIC
+    Technologies TEST\x1CTESTING\x1CNIC TEST\x1CTEST\x1C\x1C\x1C\x1C20080117"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00200626
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: NEW MEXICO MEDICAL EYE POLITICAL ACTION COMMITTEE (M.D. EYE PAC)
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: '303 MULBERRY ST NE #D'
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: ALBUQUERQUE
+  - name: COMMITTEE STATE
+    number: '7'
+    value: NM
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '87106'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AZ07070
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: NIC TEST
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: TEST
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AK
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '01'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '1212.00'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '1212.00'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '2424.00'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: X
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: NIC Technologies TEST
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: TESTING
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: NIC TEST
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: TEST
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080117'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00200626
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20070117'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1212.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00200626\x1CF105.000001\x1CG2008\x1C\x1C20070117\x1C1212.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080117
+type: single
