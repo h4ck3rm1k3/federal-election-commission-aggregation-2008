@@ -1,0 +1,561 @@
+countraw: 10
+countrows: 8
+filename: 324407.fec
+header: {}
+rows:
+- input: "F6\x1CC00423384\x1CShelley Sekula-Gibbs for Congress Campaign Committee\x1CPO
+    Box 890954\x1C\x1CHouston\x1CTX\x1C772890954\x1CH6TX22184\x1CSekula-Gibbs\x1CShelley\x1CA\x1CDr.\x1CM.D.\x1CH\x1CTX\x1C22\x1CGibbs\x1CRobert\x1CW\x1CMr.\x1CJr.\x1C20080221"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Shelley Sekula-Gibbs for Congress Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 890954
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Houston
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '772890954'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX22184
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Sekula-Gibbs
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Shelley
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Dr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: M.D.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '22'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Gibbs
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Robert
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: W
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: Jr.
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080221'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11861000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Featherwood Capital LLC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12727 Featherwood Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770344907'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11861000\x1CORG\x1CFeatherwood Capital LLC\x1C\x1C\x1C\x1C\x1C\x1C12727
+    Featherwood Drive\x1C\x1CHouston\x1CTX\x1C770344907\x1C\x1C20080220\x1C2000\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11854000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hodges
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Don
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4110 Pebble Beach Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: League City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '775735859'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2100'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SSCI
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11854000\x1CIND\x1C\x1CHodges\x1CDon\x1CR.\x1CMr.\x1C\x1C4110
+    Pebble Beach Drive\x1C\x1CLeague City\x1CTX\x1C775735859\x1C\x1C20080220\x1C2100\x1CSSCI\x1COwner\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11866000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Oetting
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gregg
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1806 Haver Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770062414'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Featherwood Capital
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Independent Consultant
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11866000\x1CIND\x1C\x1COetting\x1CGregg\x1C\x1C\x1C\x1C1806
+    Haver Street\x1C\x1CHouston\x1CTX\x1C770062414\x1C\x1C20080220\x1C1000\x1CFeatherwood
+    Capital\x1CIndependent Consultant\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11859000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Salmon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ian
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3003 Memorial Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 2236
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770075996'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Featherwood Capital LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11859000\x1CIND\x1C\x1CSalmon\x1CIan\x1C\x1CMr.\x1C\x1C3003
+    Memorial Court\x1CApt. 2236\x1CHouston\x1CTX\x1C770075996\x1C\x1C20080220\x1C1000\x1CFeatherwood
+    Capital LLC\x1CPrincipal\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11860000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Teter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: F.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2517 Breaux Trace
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Seabrook
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '775863397'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Featherwood Capital LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11860000\x1CIND\x1C\x1CTeter\x1CJohn\x1CF.\x1CMr.\x1C\x1C2517
+    Breaux Trace\x1C\x1CSeabrook\x1CTX\x1C775863397\x1C\x1C20080220\x1C1000\x1CFeatherwood
+    Capital LLC\x1CPartner\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11858000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Teter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2523 Blossom Bay Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770593183'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080220'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Featherwood Capital LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11858000\x1CIND\x1C\x1CTeter\x1CWalt\x1CC.\x1CMr.\x1C\x1C2523
+    Blossom Bay Court\x1C\x1CHouston\x1CTX\x1C770593183\x1C\x1C20080220\x1C1000\x1CFeatherwood
+    Capital LLC\x1CPrincipal\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00423384
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '11867000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shindler
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: W. Allen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 617 Caroline Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770023501'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080221'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ameripoint Title of Houston
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President/CEO
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00423384\x1C11867000\x1CIND\x1C\x1CShindler\x1CW. Allen\x1C\x1C\x1C\x1C617
+    Caroline Street\x1C\x1CHouston\x1CTX\x1C770023501\x1C\x1C20080221\x1C2000\x1CAmeripoint
+    Title of Houston\x1CPresident/CEO\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080222
+type: single
