@@ -1,0 +1,667 @@
+countraw: 12
+countrows: 10
+filename: 324890.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCULLOUGH FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 22
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TUPELO
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '38802'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MS01079
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: MCCULLOUGH
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: GLENN L JR
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: JR
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080227'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00443515\x1CMCCULLOUGH FOR CONGRESS\x1CP.O. BOX 22\x1C\x1CTUPELO\x1CMS\x1C38802\x1CH8MS01079\x1CMCCULLOUGH\x1CGLENN
+    L JR\x1CL\x1C\x1CJR\x1CH\x1CMS\x1C01\x1C\x1C\x1C\x1C\x1C\x1C20080227\x1C"
+  input_count: 24
+  record: fec.version.v6_1.F6
+  result: []
+- input: "F65\x1CC00443515\x1CF6.5142\x1CIND\x1C\x1CBOYD\x1CDWAYNE\x1C\x1C\x1C\x1C2649
+    NEILL COLLING RD\x1C\x1CRAYMOND\x1CMS\x1C39154\x1C\x1C20080226\x1C1000.00\x1CAPAC-MS
+    INC\x1CPAVING CONTRACTOR"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5142
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BOYD
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DWAYNE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2649 NEILL COLLING RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RAYMOND
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39154'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: APAC-MS INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAVING CONTRACTOR
+- input: "F65\x1CC00443515\x1CF6.5138\x1CIND\x1C\x1CELMORE\x1CTOM\x1C\x1C\x1C\x1CP.O.
+    BOX 36 \x1C\x1CABERDEEN\x1CMS\x1C39730\x1C\x1C20080226\x1C2300.00\x1CEUTAW CONSTRUCTION\x1CROAD
+    BUILDER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5138
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ELMORE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: TOM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 'P.O. BOX 36 '
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ABERDEEN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39730'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: EUTAW CONSTRUCTION
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ROAD BUILDER
+- input: "F65\x1CC00443515\x1CF6.5139\x1CIND\x1C\x1CHILL\x1CJOHN\x1CF\x1C\x1C\x1C1045
+    SNOWDEN FARMS\x1C\x1CCOLLIERVILLE\x1CTN\x1C38017\x1C\x1C20080226\x1C2300.00\x1CHILL
+    BROS CONSTRUCTION\x1CROAD BUILDER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5139
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HILL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: F
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1045 SNOWDEN FARMS
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLLIERVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38017'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HILL BROS CONSTRUCTION
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ROAD BUILDER
+- input: "F65\x1CC00443515\x1CF6.5137\x1CIND\x1C\x1CLAMPTON\x1CWILLIAM\x1C\x1C\x1C\x1CPO
+    BOX 2401\x1C\x1CJACKSON\x1CMS\x1C39225\x1C\x1C20080226\x1C2300.00\x1CERGON\x1CEXECUTIVE"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5137
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LAMPTON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 2401
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: JACKSON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39225'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ERGON
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+- input: "F65\x1CC00443515\x1CF6.5140\x1CIND\x1C\x1CLYLE\x1CJOHN\x1C\x1C\x1CJR\x1C239
+    ROLLING MEADOWS ROAD\x1C\x1CRIDGELAND\x1CMS\x1C39157\x1C\x1C20080226\x1C1000.00\x1CLYLE
+    MACHINERY CO\x1CEQUIPMENT DEALER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5140
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LYLE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: JR
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 239 ROLLING MEADOWS ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RIDGELAND
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39157'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: LYLE MACHINERY CO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EQUIPMENT DEALER
+- input: "F65\x1CC00443515\x1CF6.5143\x1CIND\x1C\x1CMCGEE\x1CJOE\x1C\x1C\x1C\x1C467
+    OLD SAWMILL RD\x1C\x1CLAKE\x1CMS\x1C39092\x1C\x1C20080226\x1C1000.00\x1CSELF\x1CROAD
+    BUILDER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5143
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MCGEE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 467 OLD SAWMILL RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LAKE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39092'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ROAD BUILDER
+- input: "F65\x1CC00443515\x1CF6.5144\x1CIND\x1C\x1CSTONE\x1CWILLIAM\x1C\x1C\x1C\x1CP.O.
+    BOX 550\x1C\x1CBOONEVILLE\x1CMS\x1C38829\x1C\x1C20080226\x1C1000.00\x1CKIMES CONSTRUCTION\x1CPAVING
+    CONTRACTOR"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5144
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: STONE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 550
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BOONEVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38829'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: KIMES CONSTRUCTION
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAVING CONTRACTOR
+- input: "F65\x1CC00443515\x1CF6.5141\x1CIND\x1C\x1CTHOMPSON\x1CDARRYL\x1C\x1C\x1C\x1C95
+    TIMBER VIEW CV\x1C\x1CCORDOVA\x1CTN\x1C38018\x1C\x1C20080226\x1C1000.00\x1CPOWER
+    EQUIPMENT CO\x1COWNER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5141
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: THOMPSON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DARRYL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 95 TIMBER VIEW CV
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CORDOVA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38018'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: POWER EQUIPMENT CO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OWNER
+- input: "F65\x1CC00443515\x1CF6.5163\x1CPAC\x1CFIRSTENERGY POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C76
+    South Main Street\x1C\x1CAkron\x1COH\x1C44308\x1CC00140855\x1C20080227\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5163
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FIRSTENERGY POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 76 South Main Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '44308'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140855
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080228
+type: single
