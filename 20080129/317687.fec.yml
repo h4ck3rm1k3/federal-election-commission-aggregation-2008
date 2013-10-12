@@ -1,0 +1,666 @@
+countraw: 12
+countrows: 10
+filename: 317687.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GUTIERREZ FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 2846 N. River Walk Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: CHICAGO
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60618'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2IL08039
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: GUTIERREZ
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: LUIS V
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20070128'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00254581\x1CGUTIERREZ FOR CONGRESS\x1C2846 N. River Walk Drive\x1C\x1CCHICAGO\x1CIL\x1C60618\x1CH2IL08039\x1CGUTIERREZ\x1CLUIS
+    V\x1C\x1C\x1C\x1CH\x1CIL\x1C04\x1C\x1C\x1C\x1C\x1C\x1C20070128\x1C"
+  input_count: 24
+  record: fec.version.v6_1.F6
+  result: []
+- input: "F65\x1CC00254581\x1CF6.9597\x1CIND\x1C\x1CCaldwel\x1CKenneth\x1C\x1C\x1C\x1C9028
+    Brow Lake Rd.\x1C\x1CSoddy Daisy\x1CTN\x1C37379\x1C\x1C20080126\x1C1500.00\x1CDFM\x1CExecutive"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9597
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Caldwel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kenneth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9028 Brow Lake Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Soddy Daisy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '37379'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DFM
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00254581\x1CF6.9595\x1CIND\x1C\x1CCurry\x1CMark E.\x1C\x1C\x1C\x1C2803
+    W. 140th\x1C\x1CLeawood\x1CKS\x1C66224\x1C\x1C20080126\x1C2000.00\x1CGeneva Roth
+    Ventures\x1CPrincipal"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9595
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Curry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark E.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2803 W. 140th
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Leawood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Geneva Roth Ventures
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+- input: "F65\x1CC00254581\x1CF6.9596\x1CIND\x1C\x1CFurseth\x1CSam\x1C\x1C\x1C\x1C5820
+    Oakwood Rd.\x1C\x1CMission Hills\x1CKS\x1C66208\x1C\x1C20080126\x1C2000.00\x1CLTS
+    Management\x1CPartner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9596
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Furseth
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sam
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5820 Oakwood Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mission Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: LTS Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00254581\x1CF6.9599\x1CIND\x1C\x1CKennyhertz\x1CJohn A.\x1C\x1C\x1C\x1C6840
+    Roe Avenue\x1C\x1CPrairie Village\x1CKS\x1C66208\x1C\x1C20080126\x1C2000.00\x1CLTS
+    Management\x1CPartner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9599
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kennyhertz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6840 Roe Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Prairie Village
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: LTS Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00254581\x1CF6.9598\x1CIND\x1C\x1CKimball\x1CDeborah\x1C\x1C\x1C\x1C6456
+    Verona Rd.\x1C\x1CMision Hills\x1CKS\x1C66208\x1C\x1C20080126\x1C2000.00\x1Chomemaker\x1Chomemaker"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9598
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kimball
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Deborah
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6456 Verona Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mision Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '66208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: homemaker
+- input: "F65\x1CC00254581\x1CF6.9600\x1CIND\x1C\x1CNey\x1CVincent K.\x1C\x1C\x1C\x1C6523
+    Amber Oak\x1C\x1CSan Antonio\x1CTX\x1C78249\x1C\x1C20080126\x1C2000.00\x1CGECC
+    Inc.\x1CExecutive"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9600
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ney
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Vincent K.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6523 Amber Oak
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78249'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: GECC Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00254581\x1CF6.9592\x1CIND\x1C\x1CNodarse\x1CLazaro\x1C\x1C\x1C\x1C6519
+    N. Lawndale\x1C\x1CLincolnwood\x1CIL\x1C60712\x1C\x1C20080126\x1C1000.00\x1CLa
+    Caridad\x1CManager"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9592
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nodarse
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lazaro
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6519 N. Lawndale
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lincolnwood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60712'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: La Caridad
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Manager
+- input: "F65\x1CC00254581\x1CF6.9594\x1CPAC\x1CEXELON CORPORATION POLITICAL ACTION
+    COMMITTEE (EXELONPAC)\x1C\x1C\x1C\x1C\x1C\x1C1 FINANCIAL PLACE\x1C440 S. LASALLE
+    ST. 33RD FLOOR\x1CCHICAGO\x1CIL\x1C60605\x1CC00141218\x1C20080126\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9594
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: EXELON CORPORATION POLITICAL ACTION COMMITTEE (EXELONPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 FINANCIAL PLACE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 440 S. LASALLE ST. 33RD FLOOR
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHICAGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60605'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00141218
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00254581\x1CF6.9593\x1CPAC\x1CUNITED AIRLINES POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CPO
+    BOX 66100\x1CATTN: Financial Reporting-WHQAJ\x1CCHICAGO\x1CIL\x1C60666\x1CC00078261\x1C20080126\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254581
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9593
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED AIRLINES POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 66100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'ATTN: Financial Reporting-WHQAJ'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHICAGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60666'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00078261
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080126'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080129
+type: single
