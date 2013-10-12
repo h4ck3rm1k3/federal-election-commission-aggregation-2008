@@ -1,0 +1,145 @@
+countraw: 4
+countrows: 2
+filename: 318967.fec
+header: {}
+rows:
+- input: "F6\x1CC00415182\x1CJohn Sarbanes for Congress\x1CPO Box 6854\x1C\x1CTowson\x1CMD\x1C21285\x1CH6MD03292\x1CSarbanes\x1CJohn\x1CP.
+    S.\x1C\x1C\x1CH\x1CMD\x1C03\x1CHenderson\x1CWilliam\x1CF.\x1C\x1C\x1C20080130"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00415182
+  - name: COMMITTEE NAME
+    number: '3'
+    value: John Sarbanes for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 6854
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Towson
+  - name: STATE
+    number: '7'
+    value: MD
+  - name: ZIP
+    number: '8'
+    value: '21285'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MD03292
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Sarbanes
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: P. S.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MD
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Henderson
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: F.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080130'
+- input: "F65\x1CC00415182\x1CC4565967\x1CIND\x1C\x1CMalis\x1CIra\x1C\x1C\x1C\x1C3519
+    Englemeade Rd\x1C\x1CBaltimore\x1CMD\x1C21208\x1C\x1C20080129\x1C1000.00\x1CStifel
+    Nicolaus\x1CManaging Director"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00415182
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4565967
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Malis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ira
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3519 Englemeade Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Baltimore
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '21208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080129'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Stifel Nicolaus
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Managing Director
+sourceurl: !!python/unicode 20080131
+type: single
