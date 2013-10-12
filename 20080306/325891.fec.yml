@@ -1,0 +1,209 @@
+countraw: 5
+countrows: 3
+filename: 325891.fec
+header: {}
+rows:
+- input: "F6\x1CC00435057\x1CSteve Black for Congress Committee\x1C5700 Drake Rd\x1C\x1CCincinnati\x1COH\x1C45243\x1C\x1CBlack\x1CSteve\x1CL\x1C\x1C\x1CH\x1COH\x1C02\x1CBlack\x1CSteve
+    \x1C\x1C\x1C\x1C20080306"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435057
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Steve Black for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 5700 Drake Rd
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cincinnati
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45243'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Black
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Steve
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Black
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: 'Steve '
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080306'
+- input: "F65\x1CC00435057\x1CC4159589\x1CIND\x1C\x1CLupfer\x1CSarah\x1C\x1C\x1C\x1C1010
+    Waltham St  H390\x1C\x1CLexington\x1CMA\x1C02421\x1C\x1C20080306\x1C1000.00\x1Cn/a\x1Cretired"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435057
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4159589
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lupfer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sarah
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1010 Waltham St  H390
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lexington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02421'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080306'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired
+- input: "F65\x1CC00435057\x1CC4159592\x1CIND\x1C\x1CPost\x1CRoger\x1C\x1C\x1C\x1C2146
+    W Caton\x1C\x1CChicago\x1CIL\x1C60647\x1C\x1C20080306\x1C2300.00\x1CChristy Webber
+    & Co\x1CGeneral Manager"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435057
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4159592
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Post
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roger
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2146 W Caton
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60647'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080306'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Christy Webber & Co
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+sourceurl: !!python/unicode 20080306
+type: single
