@@ -1,0 +1,388 @@
+countraw: 6
+countrows: 3
+filename: 317459.fec
+header: {}
+rows:
+- input: "\"F8N\"\x1C\"C00422337\"\x1C\"Ember for Congress\"\x1C\"4532 Oregon Ave
+    N\"\x1C\"\"\x1C\"New Hope\"\x1C\"MN\"\x1C\"55428\"\x1C492.3\x1C20080128\x1C\x1C492.3\x1C\x1C100\x1C8325\x1C2\x1C2\x1C8325\x1C492.3\x1C\"Y\"\x1C20080228\x1C\"N\"\x1C\"\"\x1C\"N\"\x1C\"Debt
+    forgiven.\"\x1C\"N\"\x1C\"N\"\x1C\"\"\x1C\"N\"\x1C\"Debt forgiven\"\x1C\"Heinrich\"\x1C\"John\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C20080128"
+  record: fec.version.v6_1.F8
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F8N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00422337
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ember for Congress
+  - name: STREET 1
+    number: '4'
+    value: 4532 Oregon Ave N
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New Hope
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55428'
+  - name: CASH ON HAND
+    number: 9-1.
+    value: '492.3'
+  - name: AS OF
+    number: 10-1(a).
+    value: '20080128'
+  - name: Total assets to be liquidated
+    number: 11-2.
+    value: ''
+  - name: Total (assets)
+    number: 12-3.
+    value: '492.3'
+  - name: Year to date receipts
+    number: 13-4.
+    value: ''
+  - name: Year to date disbursements
+    number: 14-5.
+    value: '100'
+  - name: Total amount of debts owed by committee
+    number: 15-6.
+    value: '8325'
+  - name: Total number of creditors owed
+    number: 16-7.
+    value: '2'
+  - name: Number of creditors in part II of this plan
+    number: 17-8.
+    value: '2'
+  - name: Total amount of debts owed to creditors in part II of plan
+    number: 18-9.
+    value: '8325'
+  - name: Total amount to be paid to creditors
+    number: 19-10.
+    value: '492.3'
+  - name: Is the committee terminating activities
+    number: '20-11. '
+    value: Y
+  - name: PLANNED FOR TERMINATION REPORT
+    number: '21-11. YES '
+    value: '20080228'
+  - name: If this is an AUTH committee are there other AUTH committees
+    number: '22-12. '
+    value: N
+  - name: DESCRIPTION (IF YES list AUTH COMMITTEE ID/NAMES)
+    number: 23-12.
+    value: ''
+  - name: sufficient funds to pay total amount
+    number: '24-13. '
+    value: N
+  - name: DESCRIPTION (IF NO, steps taken to obtain the funds)
+    number: 25-13.
+    value: Debt forgiven.
+  - name: Has the committee filed previous plans
+    number: '26-14. '
+    value: N
+  - name: After disposing, any residual funds?
+    number: '27-15. '
+    value: N
+  - name: DESCRIPTION (IF YES, how will the funds be disbursed)
+    number: 28-15.
+    value: ''
+  - name: Does committee have sufficient funds to pay the remaining
+    number: '29-PART III '
+    value: N
+  - name: PART III DESCRIPTION (IF NO, steps taken to obtain the funds.)
+    number: '30'
+    value: Debt forgiven
+  - name: TREASURER LAST NAME
+    number: '31'
+    value: Heinrich
+  - name: TREASURER FIRST NAME
+    number: '32'
+    value: John
+  - name: TREASURER MIDDLE NAME
+    number: '33'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '34'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '35'
+    value: ''
+  - name: DATE SIGNED
+    number: '36'
+    value: '20080128'
+- input: "\"F82\"\x1C\"C00422337\"\x1C\"F8-L1L1\"\x1C\"CAN\"\x1C\"\"\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"7701 48th Ave N\"\x1C\"\"\x1C\"Minneapolis\"\x1C\"MN\"\x1C\"55428\"\x1C20060831\x1C7125\x1C492.3\x1C\"CAN\"\x1C\"Candidate
+    loaned personal funds to committee.\"\x1C\"Candidate has forgiven debt.\"\x1C\"None
+    needed.\"\x1C\"Y\"\x1C\"-\"\x1C\"Y\"\x1C\"-\"\x1C\"\"\x1C\"H6MN05233\"\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"D\"\x1C\"\"\x1C\"\"\x1C\"H\"\x1C\"MN\"\x1C05\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C20080128"
+  record: fec.version.v6_1.F82
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F82
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00422337
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F8-L1L1
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Reichgott Junge
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Ember
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 7701 48th Ave N
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CREDITOR STATE
+    number: '14'
+    value: MN
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '55428'
+  - name: DATE INCURRED
+    number: '16'
+    value: '20060831'
+  - name: AMOUNT OWED TO
+    number: '17'
+    value: '7125'
+  - name: AMOUNT OFFERED IN
+    number: '18'
+    value: '492.3'
+  - name: CREDITOR CODE
+    number: '19'
+    value: CAN
+  - name: DESCRIPTION (Initial Terms And Nature Of Debt)
+    number: 20-A.
+    value: Candidate loaned personal funds to committee.
+  - name: DESCRIPTION (Efforts Made By Committee To Pay Debt)
+    number: 21-B.
+    value: Candidate has forgiven debt.
+  - name: DESCRIPTION (Steps Taken By Creditor To Collect)
+    number: 22-C.
+    value: None needed.
+  - name: effort made by creditor to collect...
+    number: '23-D. '
+    value: Y
+  - name: DESCRIPTION (IF NO, Explain)
+    number: 24-D.
+    value: '-'
+  - name: terms of debt settlement comparable...
+    number: '25-E. '
+    value: Y
+  - name: DESCRIPTION (IF NO, Explain)
+    number: 26-E.
+    value: '-'
+  - name: CREDITOR COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: CREDITOR CANDIDATE ID NUMBER
+    number: '28'
+    value: H6MN05233
+  - name: CREDITOR CANDIDATE LAST NAME
+    number: '29'
+    value: Reichgott Junge
+  - name: CREDITOR CANDIDATE FIRST NAME
+    number: '30'
+    value: Ember
+  - name: CREDITOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: D
+  - name: CREDITOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: CREDITOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: CREDITOR CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: CREDITOR CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: CREDITOR CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: SIGNATURE OF REPRESENTATIVE LAST NAME
+    number: '37'
+    value: Reichgott Junge
+  - name: SIGNATURE OF REPRESENTATIVE FIRST NAME
+    number: '38'
+    value: Ember
+  - name: SIGNATURE OF REPRESENTATIVE MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: SIGNATURE OF REPRESENTATIVE PREFIX
+    number: '40'
+    value: ''
+  - name: SIGNATURE OF REPRESENTATIVE SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080128'
+- input: "\"F82\"\x1C\"C00422337\"\x1C\"F8-L1L3\"\x1C\"CAN\"\x1C\"\"\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"7701 48th Ave N\"\x1C\"\"\x1C\"Minneapolis\"\x1C\"MN\"\x1C\"55428\"\x1C20070226\x1C1200\x1C\x1C\"CAN\"\x1C\"Candidate
+    loaned personal funds to committee.\"\x1C\"Candidate has forgiven debt.\"\x1C\"None
+    needed.\"\x1C\"Y\"\x1C\"-\"\x1C\"Y\"\x1C\"-\"\x1C\"\"\x1C\"H6MN05233\"\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"D\"\x1C\"\"\x1C\"\"\x1C\"H\"\x1C\"MN\"\x1C05\x1C\"Reichgott
+    Junge\"\x1C\"Ember\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C20080128"
+  record: fec.version.v6_1.F82
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F82
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00422337
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F8-L1L3
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: Reichgott Junge
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: Ember
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 7701 48th Ave N
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CREDITOR STATE
+    number: '14'
+    value: MN
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '55428'
+  - name: DATE INCURRED
+    number: '16'
+    value: '20070226'
+  - name: AMOUNT OWED TO
+    number: '17'
+    value: '1200'
+  - name: AMOUNT OFFERED IN
+    number: '18'
+    value: ''
+  - name: CREDITOR CODE
+    number: '19'
+    value: CAN
+  - name: DESCRIPTION (Initial Terms And Nature Of Debt)
+    number: 20-A.
+    value: Candidate loaned personal funds to committee.
+  - name: DESCRIPTION (Efforts Made By Committee To Pay Debt)
+    number: 21-B.
+    value: Candidate has forgiven debt.
+  - name: DESCRIPTION (Steps Taken By Creditor To Collect)
+    number: 22-C.
+    value: None needed.
+  - name: effort made by creditor to collect...
+    number: '23-D. '
+    value: Y
+  - name: DESCRIPTION (IF NO, Explain)
+    number: 24-D.
+    value: '-'
+  - name: terms of debt settlement comparable...
+    number: '25-E. '
+    value: Y
+  - name: DESCRIPTION (IF NO, Explain)
+    number: 26-E.
+    value: '-'
+  - name: CREDITOR COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: CREDITOR CANDIDATE ID NUMBER
+    number: '28'
+    value: H6MN05233
+  - name: CREDITOR CANDIDATE LAST NAME
+    number: '29'
+    value: Reichgott Junge
+  - name: CREDITOR CANDIDATE FIRST NAME
+    number: '30'
+    value: Ember
+  - name: CREDITOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: D
+  - name: CREDITOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: CREDITOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: CREDITOR CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: CREDITOR CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: CREDITOR CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: SIGNATURE OF REPRESENTATIVE LAST NAME
+    number: '37'
+    value: Reichgott Junge
+  - name: SIGNATURE OF REPRESENTATIVE FIRST NAME
+    number: '38'
+    value: Ember
+  - name: SIGNATURE OF REPRESENTATIVE MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: SIGNATURE OF REPRESENTATIVE PREFIX
+    number: '40'
+    value: ''
+  - name: SIGNATURE OF REPRESENTATIVE SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080128'
+sourceurl: !!python/unicode 20080128
+type: single
