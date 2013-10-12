@@ -1,0 +1,1338 @@
+countraw: 43
+countrows: 41
+filename: 324907.fec
+header: {}
+rows:
+- input: "F10\x1CC00444125\x1CCITIZENS FOR MATT SHANER\x1C444 EAST COLLEGE AVENUE
+    SUITE 110\x1C\x1CSTATE COLLEGE\x1CPA\x1C16801\x1CH8PA05063\x1CShaner\x1CMatt\x1C\x1C\x1C\x1CH\x1CPA\x1C05\x1C.00\x1C372777.01\x1C372777.01\x1C\x1C\x1C\x1CHill\x1CPeter\x1C\x1C\x1C\x1C20080228"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: CITIZENS FOR MATT SHANER
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 444 EAST COLLEGE AVENUE SUITE 110
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: STATE COLLEGE
+  - name: COMMITTEE STATE
+    number: '7'
+    value: PA
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '16801'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8PA05063
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Shaner
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Matt
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '05'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '.00'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '372777.01'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '372777.01'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Hill
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Peter
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080228'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080128'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000001\x1CP2008\x1C\x1C20080128\x1C1500.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080129'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '22.60'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000002\x1CP2008\x1C\x1C20080129\x1C22.60\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000003
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080129'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '750.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000003\x1CP2008\x1C\x1C20080129\x1C750.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000004
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080130'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000004\x1CP2008\x1C\x1C20080130\x1C1500.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000005
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080130'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '750.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000005\x1CP2008\x1C\x1C20080130\x1C750.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000006
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080201'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '108.64'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000006\x1CP2008\x1C\x1C20080201\x1C108.64\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000007
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080206'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '25000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000007\x1CP2008\x1C\x1C20080206\x1C25000.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000008
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080206'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '75.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000008\x1CP2008\x1C\x1C20080206\x1C75.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000009
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080207'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '240.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000009\x1CP2008\x1C\x1C20080207\x1C240.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000010
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080208'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '27.97'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000010\x1CP2008\x1C\x1C20080208\x1C27.97\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000011
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080211'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '131231.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000011\x1CP2008\x1C\x1C20080211\x1C131231.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000012
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080211'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '20.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000012\x1CP2008\x1C\x1C20080211\x1C20.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000013
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080212'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '2235.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000013\x1CP2008\x1C\x1C20080212\x1C2235.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000014
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080212'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '2005.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000014\x1CP2008\x1C\x1C20080212\x1C2005.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000015
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080212'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '900.65'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000015\x1CP2008\x1C\x1C20080212\x1C900.65\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000016
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080213'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '2049.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000016\x1CP2008\x1C\x1C20080213\x1C2049.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000017
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080213'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '119.67'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000017\x1CP2008\x1C\x1C20080213\x1C119.67\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000018
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080213'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '155.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000018\x1CP2008\x1C\x1C20080213\x1C155.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000019
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080214'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '250.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000019\x1CP2008\x1C\x1C20080214\x1C250.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000020
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080215'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '102.53'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000020\x1CP2008\x1C\x1C20080215\x1C102.53\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000021
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080215'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '2510.19'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000021\x1CP2008\x1C\x1C20080215\x1C2510.19\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000022
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080215'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '151.55'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000022\x1CP2008\x1C\x1C20080215\x1C151.55\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000023
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080219'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '525.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000023\x1CP2008\x1C\x1C20080219\x1C525.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000024
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080219'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '495.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000024\x1CP2008\x1C\x1C20080219\x1C495.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000025
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080219'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '45.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000025\x1CP2008\x1C\x1C20080219\x1C45.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000026
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080220'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '331.71'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000026\x1CP2008\x1C\x1C20080220\x1C331.71\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000027
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080220'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '41.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000027\x1CP2008\x1C\x1C20080220\x1C41.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000028
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080220'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '10.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000028\x1CP2008\x1C\x1C20080220\x1C10.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000029
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080221'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '60.01'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000029\x1CP2008\x1C\x1C20080221\x1C60.01\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000030
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080221'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '3.89'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000030\x1CP2008\x1C\x1C20080221\x1C3.89\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000031
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080221'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '5000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000031\x1CP2008\x1C\x1C20080221\x1C5000.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000032
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080221'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '614.78'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000032\x1CP2008\x1C\x1C20080221\x1C614.78\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000033
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080221'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '389.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000033\x1CP2008\x1C\x1C20080221\x1C389.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000034
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080222'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '59.01'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000034\x1CP2008\x1C\x1C20080222\x1C59.01\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000035
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080222'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '2500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000035\x1CP2008\x1C\x1C20080222\x1C2500.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000036
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080225'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1750.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000036\x1CP2008\x1C\x1C20080225\x1C1750.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000037
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080225'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '65.80'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000037\x1CP2008\x1C\x1C20080225\x1C65.80\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000038
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080226'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1851.01'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000038\x1CP2008\x1C\x1C20080226\x1C1851.01\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000039
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080226'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1750.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000039\x1CP2008\x1C\x1C20080226\x1C1750.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000040
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080227'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '185582.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444125\x1CF105.000040\x1CP2008\x1C\x1C20080227\x1C185582.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080228
+type: single
