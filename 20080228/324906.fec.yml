@@ -1,0 +1,216 @@
+countraw: 5
+countrows: 3
+filename: 324906.fec
+header: {}
+rows:
+- input: "F6\x1CC00394353\x1CCANSECO FOR CONGRESS\x1C10004 Wurzbach Road #366\x1C\x1CSan
+    Antonio\x1CTX\x1C78230\x1CH4TX28046\x1CCanseco\x1CFrancisco\x1CRaul\x1C\x1C\x1CH\x1CTX\x1C23\x1CBlair\x1CRandy\x1CS\x1C\x1C\x1C20080228"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00394353
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CANSECO FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: '10004 Wurzbach Road #366'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Antonio
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78230'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4TX28046
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Canseco
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Francisco
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Raul
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Blair
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Randy
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: S
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080228'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00394353
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jones
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: K
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 306 Belair
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Laredo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78041'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jones & Gonzalez
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00394353\x1CF65.000001\x1CIND\x1C\x1CJones\x1CJames\x1CK\x1C\x1CJr\x1C306
+    Belair\x1C\x1CLaredo\x1CTX\x1C78041\x1C\x1C20080227\x1C1000.00\x1CJones & Gonzalez\x1CAttorney\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00394353
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Garcia
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sergio
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 17823 Salado Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78258'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investments
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00394353\x1CF65.000002\x1CIND\x1C\x1CGarcia\x1CSergio\x1CR\x1C\x1C\x1C17823
+    Salado Drive\x1C\x1CSan Antonio\x1CTX\x1C78258\x1C\x1C20080227\x1C1000.00\x1CSelf\x1CInvestments\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080228
+type: single
