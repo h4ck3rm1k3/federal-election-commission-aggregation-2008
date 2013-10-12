@@ -1,0 +1,104 @@
+countraw: 4
+countrows: 2
+filename: 314023.fec
+header: {}
+rows:
+- input: F10,C00433938,Sandy Treadwell,H8NY20122,H,NY,20,TREADWELL FOR CONGRESS,PO
+    BOX 685,,SARATOGA SPRINGS,NY,12866,320207.85,300000.00,620207.85,Keith Davis,20080101,,,
+  record: fec.version.v5_3.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER FEC COMMITTEE ID
+    number: '2'
+    value: C00433938
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Sandy Treadwell
+  - name: CANDIDATE ID
+    number: '4'
+    value: H8NY20122
+  - name: CAN/OFFICE
+    number: '5'
+    value: H
+  - name: CANDIDATE STATE
+    number: '6'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '7'
+    value: '20'
+  - name: COMMITTEE NAME
+    number: '8'
+    value: TREADWELL FOR CONGRESS
+  - name: STREET 1
+    number: '9'
+    value: PO BOX 685
+  - name: STREET 2
+    number: '10'
+    value: ''
+  - name: CITY
+    number: '11'
+    value: SARATOGA SPRINGS
+  - name: STATE
+    number: '12'
+    value: NY
+  - name: ZIP
+    number: '13'
+    value: '12866'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '14'
+    value: '320207.85'
+  - name: EXP TOTAL THIS REPORT
+    number: '15'
+    value: '300000.00'
+  - name: EXP TOTAL CYCLE-TO-DATE
+    number: '16'
+    value: '620207.85'
+  - name: as signed
+    number: 17-NAME/CANDI
+    value: Keith Davis
+  - name: Signed
+    number: 18-
+    value: '20080101'
+  - name: MEETS F6 FILING REQUIREMENTS
+    number: '19'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '20'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '21'
+    value: ''
+- input: F105,C00433938,20071231,P2007,,300000.00,,,F105.000001
+  record: fec.version.v5_3.F105
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00433938
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20071231'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: P2007
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: ''
+  - name: AMOUNT
+    number: '6'
+    value: '300000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: F105.000001
+sourceurl: !!python/unicode 20080102
+type: single
