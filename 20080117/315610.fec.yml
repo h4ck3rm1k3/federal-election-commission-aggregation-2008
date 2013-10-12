@@ -1,0 +1,159 @@
+countraw: 5
+countrows: 3
+filename: 315610.fec
+header: {}
+rows:
+- input: "F10\x1CC00436642\x1COBERWEIS FOR CONGRESS\x1C335 N River Road Ste 203\x1C\x1CBatavia\x1CIL\x1C60510\x1CH8IL14083\x1COberweis\x1CJames\x1C\x1C\x1C\x1CH\x1CIL\x1C14\x1C1327166.52\x1C28307.34\x1C1355473.86\x1C\x1C\x1C\x1CMartin\x1CSharon\x1C\x1C\x1C\x1C20080116"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436642
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: OBERWEIS FOR CONGRESS
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 335 N River Road Ste 203
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: Batavia
+  - name: COMMITTEE STATE
+    number: '7'
+    value: IL
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '60510'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8IL14083
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Oberweis
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: James
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '14'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '1327166.52'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '28307.34'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '1355473.86'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Martin
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Sharon
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080116'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436642
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080113'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00436642\x1CF105.000001\x1CP2008\x1C\x1C20080113\x1C500.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436642
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080116'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '27807.34'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00436642\x1CF105.000002\x1CP2008\x1C\x1C20080116\x1C27807.34\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080117
+type: single
