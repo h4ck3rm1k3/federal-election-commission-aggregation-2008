@@ -1,0 +1,222 @@
+countraw: 7
+countrows: 5
+filename: 325345.fec
+header: {}
+rows:
+- input: "F10\x1CC00435099\x1CBILL FOSTER FOR CONGRESS COMMITTEE\x1CPO Box 703\x1C\x1CGeneva\x1CIL\x1C60134\x1CH8IL14067\x1CFoster\x1CG.
+    William (Bill)\x1C\x1C\x1C\x1CH\x1CIL\x1C14\x1C.00\x1C581300.00\x1C581300.00\x1C\x1C\x1C\x1CRameika\x1CRegina\x1C\x1C\x1C\x1C20080301"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435099
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: BILL FOSTER FOR CONGRESS COMMITTEE
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: PO Box 703
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: Geneva
+  - name: COMMITTEE STATE
+    number: '7'
+    value: IL
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '60134'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8IL14067
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Foster
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: G. William (Bill)
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '14'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '.00'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '581300.00'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '581300.00'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Rameika
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Regina
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080301'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435099
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: S2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: Special
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080222'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '103150.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435099\x1CF105.000001\x1CS2008\x1CSpecial\x1C20080222\x1C103150.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435099
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080222'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '103150.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435099\x1CF105.000002\x1CG2008\x1C\x1C20080222\x1C103150.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435099
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000003
+  - name: ELECTION CODE
+    number: '4'
+    value: S2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: Special
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080229'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '187500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435099\x1CF105.000003\x1CS2008\x1CSpecial\x1C20080229\x1C187500.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435099
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000004
+  - name: ELECTION CODE
+    number: '4'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080229'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '187500.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435099\x1CF105.000004\x1CG2008\x1C\x1C20080229\x1C187500.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080301
+type: single
