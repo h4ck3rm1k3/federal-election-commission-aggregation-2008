@@ -1,0 +1,468 @@
+countraw: 9
+countrows: 7
+filename: 325247.fec
+header: {}
+rows:
+- input: "F6\x1CC00309237\x1CThe Reyes Committee, Inc.\x1C1011 Montana Ave\x1C\x1CEl
+    Paso\x1CTX\x1C79902   \x1CH6TX00115\x1CReyes\x1CSilvestre\x1C\x1C\x1C\x1CH\x1CTX\x1C16\x1CPate\x1CRonald\x1CE.\x1C\x1C\x1C20080229"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Reyes Committee, Inc.
+  - name: STREET 1
+    number: '4'
+    value: 1011 Montana Ave
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: El Paso
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '79902   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX00115
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Reyes
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Silvestre
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '16'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Pate
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Ronald
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: E.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080229'
+- input: "F65\x1CC00309237\x1C80229.C9501\x1CPAC\x1CBearing Point Public Services
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C1676 International Dr.\x1C\x1CMc Lean\x1CVA\x1C22102\x1C\x1C20080228\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9501
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Bearing Point Public Services PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1676 International Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22102'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00309237\x1C80229.C9502\x1CIND\x1C\x1CBellman\x1CMichael\x1C\x1C\x1C\x1C3856
+    N. Paulina St.\x1C\x1CChicago\x1CIL\x1C60613\x1C\x1C20080228\x1C1000.00\x1CLend
+    Lease\x1CC.E.O."
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9502
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bellman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3856 N. Paulina St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60613'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lend Lease
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: C.E.O.
+- input: "F65\x1CC00309237\x1C80229.C9500\x1CPAC\x1CRealtors Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1CAttn:
+    Ronda Needham\x1CPO Box 2246 \x1CAustin\x1CTX\x1C787682246\x1C\x1C20080228\x1C3000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9500
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Realtors Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 'Attn: Ronda Needham'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'PO Box 2246 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787682246'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00309237\x1C80229.C9503\x1CIND\x1C\x1CRhoads\x1CBarry\x1C\x1C\x1C\x1C6793
+    Father John Ct.\x1C\x1CMc Lean\x1CVA\x1C22101\x1C\x1C20080228\x1C1000.00\x1CThe
+    Rhoads Group\x1CGovernment Relations"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9503
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rhoads
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6793 Father John Ct.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Rhoads Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Government Relations
+- input: "F65\x1CC00309237\x1C80229.C9499\x1CIND\x1C\x1CValenzuela\x1CClaudia B.\x1C\x1C\x1C\x1C233
+    Pennsylvania\x1C\x1CEl Paso\x1CTX\x1C79903\x1C\x1C20080228\x1C2300.00\x1COmega
+    Paving Contractor, Inc\x1CAdministrative Assistant"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9499
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Valenzuela
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Claudia B.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 233 Pennsylvania
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: El Paso
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79903'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Omega Paving Contractor, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Administrative Assistant
+- input: "F65\x1CC00309237\x1C80229.C9497\x1CIND\x1C\x1CValenzuela\x1CJorge A.\x1C\x1C\x1C\x1C233
+    Pennsylvania\x1C\x1CEl Paso\x1CTX\x1C79903\x1C\x1C20080228\x1C2300.00\x1COmega
+    Paving Contractor, Inc\x1COwner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80229.C9497
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Valenzuela
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jorge A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 233 Pennsylvania
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: El Paso
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79903'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Omega Paving Contractor, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+sourceurl: !!python/unicode 20080229
+type: single
