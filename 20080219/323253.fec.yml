@@ -1,0 +1,145 @@
+countraw: 4
+countrows: 2
+filename: 323253.fec
+header: {}
+rows:
+- input: "F6\x1CC00416156\x1CKilroy for Congress\x1C550 E. Walnut Street\x1C\x1CColumbus\x1COH\x1C43215\x1C\x1CKilroy\x1CMary
+    Jo\x1C\x1C\x1C\x1CH\x1COH\x1C15\x1C\x1C\x1C\x1C\x1C\x1C20080219"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416156
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kilroy for Congress
+  - name: STREET 1
+    number: '4'
+    value: 550 E. Walnut Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Columbus
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43215'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Kilroy
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Mary Jo
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '15'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080219'
+- input: "F65\x1CC00416156\x1CC3641630\x1CIND\x1C\x1CGettman\x1CLucy\x1C\x1C\x1C\x1C4499
+    Danforth Rd\x1C\x1CColumbus\x1COH\x1C43224\x1C\x1C20080218\x1C1000.00\x1CReading
+    Recovery Council of North Amer\x1CDirector, Government Relations"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416156
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C3641630
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gettman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lucy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4499 Danforth Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080218'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Reading Recovery Council of North Amer
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director, Government Relations
+sourceurl: !!python/unicode 20080219
+type: single
