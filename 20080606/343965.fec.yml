@@ -1,0 +1,423 @@
+countraw: 8
+countrows: 6
+filename: 343965.fec
+header: {}
+rows:
+- input: "F6\x1CC00438671\x1CDUANE SAND FOR CONGRESS\x1C1155 15TH STREET NW\x1CSUITE
+    410\x1CWASHINGTON\x1CDC\x1C20005\x1CH4ND00038\x1CSAND\x1CDUANE\x1C\x1C\x1C\x1CH\x1CND\x1C00\x1CMACKENZIE\x1CSCOTT\x1CB\x1C\x1C\x1C20080606"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DUANE SAND FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1155 15TH STREET NW
+  - name: STREET 2
+    number: '5'
+    value: SUITE 410
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20005'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4ND00038
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: SAND
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: DUANE
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ND
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: MACKENZIE
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: SCOTT
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: B
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080606'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CHRISTIANSON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: RANDY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 1864
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FARGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '58107'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BEER DISTRIBUTOR
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PRESIDENT
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00438671\x1CF65.000001\x1CIND\x1C\x1CCHRISTIANSON\x1CRANDY\x1C\x1CMR\x1C\x1CPO
+    BOX 1864\x1C\x1CFARGO\x1CND\x1C58107\x1C\x1C20080604\x1C1000.00\x1CBEER DISTRIBUTOR\x1CPRESIDENT\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SWAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JAMES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5405 PINEDALE HEIGHTS
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RAPID CITY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '57702'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NONE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: RETIRED
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00438671\x1CF65.000002\x1CIND\x1C\x1CSWAN\x1CJAMES\x1CW\x1CMR\x1C\x1C5405
+    PINEDALE HEIGHTS\x1C\x1CRAPID CITY\x1CSD\x1C57702\x1C\x1C20080604\x1C2300.00\x1CNONE\x1CRETIRED\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: KIRBY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: STEVE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 122 S PHILLIPS AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SIOUX FALLS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '57104'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HERISUN
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: SELF EMPLOYER
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00438671\x1CF65.000003\x1CIND\x1C\x1CKIRBY\x1CSTEVE\x1C\x1C\x1C\x1C122
+    S PHILLIPS AVE\x1CSUITE 300\x1CSIOUX FALLS\x1CSD\x1C57104\x1C\x1C20080604\x1C1000.00\x1CHERISUN\x1CSELF
+    EMPLOYER\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MAU
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ROBERT
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 58404 - 366TH AVE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: KENMARE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '58746'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OIL MAN
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00438671\x1CF65.000004\x1CIND\x1C\x1CMAU\x1CROBERT\x1C\x1CMR\x1C\x1C58404
+    - 366TH AVE NW\x1C\x1CKENMARE\x1CND\x1C58746\x1C\x1C20080604\x1C1000.00\x1CSELF
+    EMPLOYED\x1COIL MAN\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00438671
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MCQUINN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ALVIN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1551 GULF SHORE BLVD S
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NAPLES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '34102'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AG-CHEM EQUIPMENT CO. INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: BOARD CHAIRMAN
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00438671\x1CF65.000005\x1CIND\x1C\x1CMCQUINN\x1CALVIN\x1CE\x1CMR\x1C\x1C1551
+    GULF SHORE BLVD S\x1C\x1CNAPLES\x1CFL\x1C34102\x1C\x1C20080604\x1C1000.00\x1CAG-CHEM
+    EQUIPMENT CO. INC\x1CBOARD CHAIRMAN\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080606
+type: single
