@@ -1,0 +1,662 @@
+countraw: 12
+countrows: 10
+filename: 356586.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HASTINGS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 100277
+  - name: STREET 2
+    number: '5'
+    value: .
+  - name: CITY
+    number: '6'
+    value: FT. LAUDERDALE
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '33310'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL23021
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HASTINGS
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: ALCEE L
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: MCINTOSH
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: TOMAS
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080811'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00269837\x1CHASTINGS FOR CONGRESS\x1CP.O. BOX 100277\x1C.\x1CFT.
+    LAUDERDALE\x1CFL\x1C33310\x1CH2FL23021\x1CHASTINGS\x1CALCEE L\x1C\x1C\x1C\x1CH\x1CFL\x1C23\x1CMCINTOSH\x1CTOMAS\x1C\x1CMr.\x1C\x1C20080811\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00269837\x1CF6.15604\x1CIND\x1C\x1CCERNA\x1COSCAR\x1CM.\x1CMr.\x1C\x1C2
+    GROVE ISL DR\x1CAPT.1110\x1CCOCONUT GROVE\x1CFL\x1C33133\x1C\x1C20080811\x1C1500.00\x1CSELF
+    EMPLOYED\x1CINVESTOR"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15604
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CERNA
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: OSCAR
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2 GROVE ISL DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: APT.1110
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COCONUT GROVE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33133'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INVESTOR
+- input: "F65\x1CC00269837\x1CF6.15614\x1CIND\x1C\x1CGUTIERREZ\x1CLUIS\x1C\x1CSen.\x1C\x1C3963
+    W. BELMONT AVENUE\x1C608\x1CCHICAGO\x1CIL\x1C60618\x1C\x1C20080811\x1C1500.00\x1CUS
+    CONGRESS\x1CCONGRESSMAN"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15614
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GUTIERREZ
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LUIS
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Sen.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3963 W. BELMONT AVENUE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '608'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHICAGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60618'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: US CONGRESS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CONGRESSMAN
+- input: "F65\x1CC00269837\x1CF6.15617\x1CCCM\x1CJOHN TIERNEY FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 8013\x1C\x1CSALEM\x1CMA\x1C01970\x1C\x1C20080811\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15617
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: JOHN TIERNEY FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 8013
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SALEM
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 01970
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00269837\x1CF6.15602\x1CIND\x1C\x1CPOLITIS\x1CJOHN\x1C\x1CMr.\x1C\x1C12203
+    STRICKLAND RD.\x1C\x1CRALEIGH\x1CNC\x1C27613\x1C\x1C20080811\x1C1000.00\x1CSELF\x1CBUSINESSMAN"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15602
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: POLITIS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12203 STRICKLAND RD.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RALEIGH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27613'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: BUSINESSMAN
+- input: "F65\x1CC00269837\x1CF6.15601\x1CPTY\x1CIRONWORKERS POLITICAL ACTION LEAGUE\x1C\x1C\x1C\x1C\x1C\x1C1750
+    New York Ave. NW Ste. 400\x1C.\x1CWashington\x1CDC\x1C20006\x1CC00027359\x1C20080811\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15601
+  - name: ENTITY TYPE
+    number: '4'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: IRONWORKERS POLITICAL ACTION LEAGUE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1750 New York Ave. NW Ste. 400
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00027359
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00269837\x1CF6.15608\x1CPTY\x1CAIR LINE PILOTS ASSOCIATION PAC\x1C\x1C\x1C\x1C\x1C\x1C1625
+    Massachusetts Ave. NW\x1C8th Floor\x1CWashington\x1CDC\x1C20036\x1CC00035451\x1C20080811\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15608
+  - name: ENTITY TYPE
+    number: '4'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AIR LINE PILOTS ASSOCIATION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1625 Massachusetts Ave. NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 8th Floor
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00035451
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00269837\x1CF6.15603\x1CPTY\x1CAMERICAN FEDERATION OF TEACHERS PAC\x1C\x1C\x1C\x1C\x1C\x1C555
+    NEW JERSEY AVE., N.W.\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1CC70002472\x1C20080811\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15603
+  - name: ENTITY TYPE
+    number: '4'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN FEDERATION OF TEACHERS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 555 NEW JERSEY AVE., N.W.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C70002472
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00269837\x1CF6.15611\x1CPAC\x1CBNSF RAILPAC\x1C\x1C\x1C\x1C\x1C\x1CPOST
+    OFFICE BOX 961039\x1C\x1CFORT WORTH\x1CTX\x1C761610039\x1CC00235739\x1C20080811\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15611
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BNSF RAILPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POST OFFICE BOX 961039
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FORT WORTH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '761610039'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235739
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00269837\x1CF6.15607\x1CPAC\x1CBOILERMAKER-BLACKSMITH (LEAP)\x1C\x1C\x1C\x1C\x1C\x1C753
+    STATE AVE\x1CSTE 565\x1CKANSAS CITY\x1CKS\x1C661012511\x1C\x1C20080811\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00269837
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15607
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BOILERMAKER-BLACKSMITH (LEAP)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 753 STATE AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: STE 565
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: KANSAS CITY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: KS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '661012511'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080812
+type: single
