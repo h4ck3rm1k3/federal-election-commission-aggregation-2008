@@ -1,0 +1,369 @@
+countraw: 6
+countrows: 4
+filename: 336954.fec
+header: {}
+rows:
+- input: "F24\x1CC00187450\x1C48\x1CRepublican Party of Louisiana\x1C11440 North Lake
+    Sherwood Ave\x1C\x1CBaton Rouge\x1CLA\x1C70816   \x1CKyle\x1CDan\x1C\x1C\x1C\x1C20080501"
+  record: fec.version.v6_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187450
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Republican Party of Louisiana
+  - name: STREET 1
+    number: '5'
+    value: 11440 North Lake Sherwood Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Baton Rouge
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70816   '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Kyle
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Dan
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20080501'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187450
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT.1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24
+  - name: TEXT4000
+    number: '6'
+    value: See Form 99 (FEC-336938) filed on  May 1, 2008  to amend  48 hour report
+      (FEC-336335) filed April 25, 2008.
+  - value: ''
+  expected_count: 6
+  input: "TEXT\x1CC00187450\x1CTEXT.1\x1C\x1CF24\x1CSee Form 99 (FEC-336938) filed
+    on  May 1, 2008  to amend  48 hour report (FEC-336335) filed April 25, 2008.\x1C"
+  input_count: 7
+  record: fec.version.v6_1.TEXT
+  result: []
+- input: "SF\x1CC00187450\x1C80501.E15725\x1C\x1C\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CORG\x1CRed
+    Lion Hotels\x1C\x1C\x1C\x1C\x1C\x1C2445 S Acadian Thrwy\x1C\x1CBaton Rouge\x1CLA\x1C70808\x1C20080430\x1C6427.44\x1C15421.04\x1C24C\x1CLodging
+    GOTV\x1C\x1C\x1CC00444380\x1CH8LA06055\x1CJENKINS\x1CLOUIS\x1C(WOODY)\x1C\x1C\x1CH\x1CLA\x1C06\x1C\x1C"
+  record: fec.version.v6_1.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187450
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80501.E15725
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coodinated Expenditures?
+    number: 6-
+    value: N
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: ''
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: ''
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: ''
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: ''
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: ''
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: ''
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: ''
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: Red Lion Hotels
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 2445 S Acadian Thrwy
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: Baton Rouge
+  - name: PAYEE STATE
+    number: '26'
+    value: LA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '70808'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20080430'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '6427.44'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '15421.04'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: 24C
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: Lodging GOTV
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '34'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '35'
+    value: C00444380
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '36'
+    value: H8LA06055
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '37'
+    value: JENKINS
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '38'
+    value: LOUIS
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '39'
+    value: (WOODY)
+  - name: PAYEE CANDIDATE PREFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '41'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '42'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '43'
+    value: LA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '44'
+    value: '06'
+  - name: MEMO CODE
+    number: '45'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '46'
+    value: ''
+- input: "SF\x1CC00187450\x1C80501.E15726\x1C\x1C\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CORG\x1CRed
+    Lion Hotels\x1C\x1C\x1C\x1C\x1C\x1C2445 S Acadian Thrwy\x1C\x1CBaton Rouge\x1CLA\x1C70808\x1C20080430\x1C3993.60\x1C15421.04\x1C24C\x1CMeals
+    GOTV\x1C\x1C\x1CC00444380\x1CH8LA06055\x1CJENKINS\x1CLOUIS\x1C(WOODY)\x1C\x1C\x1CH\x1CLA\x1C06\x1C\x1C"
+  record: fec.version.v6_1.SF
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187450
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80501.E15726
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: Has filer been designated to make Coodinated Expenditures?
+    number: 6-
+    value: N
+  - name: DESIGNATING COMMITTEE ID NUMBER
+    number: '7'
+    value: ''
+  - name: DESIGNATING COMMITTEE NAME
+    number: '8'
+    value: ''
+  - name: SUBORDINATE COMMITTEE ID NUMBER
+    number: '9'
+    value: ''
+  - name: SUBORDINATE COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: SUBORDINATE STREET 1
+    number: '11'
+    value: ''
+  - name: SUBORDINATE STREET 2
+    number: '12'
+    value: ''
+  - name: SUBORDINATE CITY
+    number: '13'
+    value: ''
+  - name: SUBORDINATE STATE
+    number: '14'
+    value: ''
+  - name: SUBORDINATE ZIP
+    number: '15'
+    value: ''
+  - name: ENTITY TYPE
+    number: '16'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '17'
+    value: Red Lion Hotels
+  - name: PAYEE LAST NAME
+    number: '18'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '19'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '21'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '22'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '23'
+    value: 2445 S Acadian Thrwy
+  - name: PAYEE STREET 2
+    number: '24'
+    value: ''
+  - name: PAYEE CITY
+    number: '25'
+    value: Baton Rouge
+  - name: PAYEE STATE
+    number: '26'
+    value: LA
+  - name: PAYEE ZIP
+    number: '27'
+    value: '70808'
+  - name: EXPENDITURE DATE
+    number: '28'
+    value: '20080430'
+  - name: EXPENDITURE AMOUNT
+    number: '29'
+    value: '3993.60'
+  - name: AGGREGATE GENERAL ELEC EXPENDED
+    number: '30'
+    value: '15421.04'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '31'
+    value: 24C
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '32'
+    value: Meals GOTV
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '34'
+    value: ''
+  - name: PAYEE COMMITTEE ID NUMBER
+    number: '35'
+    value: C00444380
+  - name: PAYEE CANDIDATE ID NUMBER
+    number: '36'
+    value: H8LA06055
+  - name: PAYEE CANDIDATE LAST NAME
+    number: '37'
+    value: JENKINS
+  - name: PAYEE CANDIDATE FIRST NAME
+    number: '38'
+    value: LOUIS
+  - name: PAYEE CANDIDATE MIDDLE NAME
+    number: '39'
+    value: (WOODY)
+  - name: PAYEE CANDIDATE PREFIX
+    number: '40'
+    value: ''
+  - name: PAYEE CANDIDATE SUFFIX
+    number: '41'
+    value: ''
+  - name: PAYEE CANDIDATE OFFICE
+    number: '42'
+    value: H
+  - name: PAYEE CANDIDATE STATE
+    number: '43'
+    value: LA
+  - name: PAYEE CANDIDATE DISTRICT
+    number: '44'
+    value: '06'
+  - name: MEMO CODE
+    number: '45'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '46'
+    value: ''
+sourceurl: !!python/unicode 20080501
+type: single
