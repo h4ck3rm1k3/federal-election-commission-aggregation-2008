@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 342895.fec
+header: {}
+rows:
+- input: "F6\x1CC00444927\x1CCHRIS MYERS FOR CONGRESS\x1C112 HIGH STREET\x1C\x1CMOUNT
+    HOLLY\x1CNJ\x1C08060\x1CH8NJ03172\x1CMyers\x1CChris\x1C\x1C\x1C\x1CH\x1CNJ\x1C03\x1CMyers\x1CChris\x1C\x1C\x1C\x1C20080530"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444927
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHRIS MYERS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 112 HIGH STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MOUNT HOLLY
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: 08060
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NJ03172
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Myers
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Chris
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Myers
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Chris
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080530'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444927
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Myers
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Chris
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 28 Knotty Oak Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Medford
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 08055
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '50000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lockheed Martin
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VP
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00444927\x1CF65.000001\x1CIND\x1C\x1CMyers\x1CChris\x1C\x1C\x1C\x1C28
+    Knotty Oak Drive\x1C\x1CMedford\x1CNJ\x1C08055\x1C\x1C20080530\x1C50000.00\x1CLockheed
+    Martin\x1CVP\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080530
+type: single
