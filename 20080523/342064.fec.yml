@@ -1,0 +1,217 @@
+countraw: 5
+countrows: 3
+filename: 342064.fec
+header: {}
+rows:
+- input: "F6\x1CC00444190\x1CMARCO GONZALES FOR CONGRESS MARCO FOR NEW MEXICO\x1CPO
+    BOX 2883\x1C\x1CSANTA FE\x1CNM\x1C87504\x1CH8NM03220\x1CGonzales\x1CMarco\x1CEstevan\x1CMr.\x1C\x1CH\x1CNM\x1C03\x1CGonzales\x1CMarco\x1CEstevan\x1CMr.\x1C\x1C20080523"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444190
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MARCO GONZALES FOR CONGRESS MARCO FOR NEW MEXICO
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2883
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SANTA FE
+  - name: STATE
+    number: '7'
+    value: NM
+  - name: ZIP
+    number: '8'
+    value: '87504'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NM03220
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Gonzales
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Marco
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Estevan
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NM
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Gonzales
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Marco
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: Estevan
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080523'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444190
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Branch
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeff
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2328
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Santa Fe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NM
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '87504'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Columbus Capital
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00444190\x1CF65.000001\x1CIND\x1C\x1CBranch\x1CJeff\x1C\x1C\x1C\x1CPO
+    Box 2328\x1C\x1CSanta Fe\x1CNM\x1C87504\x1C\x1C20080522\x1C2300.00\x1CColumbus
+    Capital\x1CReal Estate\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444190
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gonzales
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Wolvenboden Str. 47
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: CH - 8832
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wallerau, Switz.
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: ''
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2282.50'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Banker
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00444190\x1CF65.000002\x1CIND\x1C\x1CGonzales\x1CRobert\x1C\x1C\x1C\x1CWolvenboden
+    Str. 47\x1CCH - 8832\x1C\"Wallerau, Switz.\"\x1C\x1C\x1C\x1C20080522\x1C2282.50\x1C\x1CBanker\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080523
+type: single
