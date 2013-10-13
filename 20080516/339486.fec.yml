@@ -1,0 +1,537 @@
+countraw: 10
+countrows: 8
+filename: 339486.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Mike Rogers for Congress
+  - name: STREET 1
+    number: '4'
+    value: 123 EAST 13TH STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Anniston
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '36201'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AL03032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Rogers
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Michael
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080516'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00367862\x1CMike Rogers for Congress\x1C123 EAST 13TH STREET\x1C\x1CAnniston\x1CAL\x1C36201\x1CH2AL03032\x1CRogers\x1CMichael\x1C\x1CMr.\x1C\x1CH\x1CAL\x1C03\x1C\x1C\x1C\x1C\x1C\x1C20080516\x1C"
+  input_count: 24
+  record: fec.version.v6_1.F6
+  result: []
+- input: "F65\x1CC00367862\x1CF6.25026\x1CIND\x1C\x1CBROOKE\x1CDIXON*\x1C\x1C\x1C\x1C3204
+    FERNWAY RD\x1C\x1CBIRMINGHAM\x1CAL\x1C35223\x1C\x1C20080516\x1C1000.00\x1CEBSCO
+    INDUSTRIES\x1CEXECUTIVE"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25026
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BROOKE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DIXON*
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3204 FERNWAY RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BIRMINGHAM
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: EBSCO INDUSTRIES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+- input: "F65\x1CC00367862\x1CF6.25029\x1CIND\x1C\x1CGOODRICH\x1CHENRY\x1C\x1C\x1C\x1C402
+    OFFICE PARK DRIVE STE 104\x1C\x1CBIRMINGHAM\x1CAL\x1C35223\x1C\x1C20080516\x1C1000.00\x1CRETIRED\x1CRETIRED"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25029
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GOODRICH
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HENRY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 402 OFFICE PARK DRIVE STE 104
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BIRMINGHAM
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: RETIRED
+- input: "F65\x1CC00367862\x1CF6.25028\x1CIND\x1C\x1CHULSEY\x1CWILLIAM C.*\x1C\x1C\x1C\x1C2117
+    2ND AVENUE NORTH\x1C\x1CBIRMINGHAM\x1CAL\x1C35223\x1C\x1C20080516\x1C1000.00\x1CARLINGTON
+    PROPERTIES, INC.\x1CCEO"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25028
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HULSEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM C.*
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2117 2ND AVENUE NORTH
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BIRMINGHAM
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ARLINGTON PROPERTIES, INC.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+- input: "F65\x1CC00367862\x1CF6.25022\x1CIND\x1C\x1CSEGARS\x1CROBERT\x1C\x1C\x1C\x1C541
+    HAMILTON HILLS CT\x1C\x1CAUBURN\x1CAL\x1C36830\x1C\x1C20080516\x1C1000.00\x1CSEGAR
+    PROPERTIES, LLCQ\x1CPARTNER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25022
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SEGARS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ROBERT
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 541 HAMILTON HILLS CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AUBURN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '36830'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SEGAR PROPERTIES, LLCQ
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PARTNER
+- input: "F65\x1CC00367862\x1CF6.25024\x1CIND\x1C\x1CSHANNON\x1CMICHAEL V.\x1C\x1C\x1C\x1C220
+    CARY DRIVE\x1C\x1CAUBURN\x1CAL\x1C36830\x1C\x1C20080516\x1C1000.00\x1CSHANNON
+    STROBLE WEAVER CONSTRUCTION\x1CPARTNER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25024
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SHANNON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MICHAEL V.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 220 CARY DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AUBURN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '36830'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SHANNON STROBLE WEAVER CONSTRUCTION
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PARTNER
+- input: "F65\x1CC00367862\x1CF6.25027\x1CIND\x1C\x1CTHOMPSON\x1CHALL\x1C\x1C\x1C\x1C7
+    GLENEAGLES DRIVE\x1C\x1CSHOAL CREEK\x1CAL\x1C35242\x1C\x1C20080516\x1C1000.00\x1CTHOMPSON
+    REALTY\x1CREALTOR"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25027
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: THOMPSON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HALL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7 GLENEAGLES DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SHOAL CREEK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35242'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: THOMPSON REALTY
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: REALTOR
+- input: "F65\x1CC00367862\x1CF6.25025\x1CPAC\x1CWACHOVIA CORPORATION EMPLOYEES GOOD
+    GOVERNMENT FEDERAL FUND I\x1C\x1C\x1C\x1C\x1C\x1C301 S COLLEGE ST\x1CATTN:  BRENDA
+    BRADLEY\x1CCHARLOTTE\x1CNC\x1C28288\x1CC00012518\x1C20080516\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00367862
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25025
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WACHOVIA CORPORATION EMPLOYEES GOOD GOVERNMENT FEDERAL FUND I
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 301 S COLLEGE ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'ATTN:  BRENDA BRADLEY'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28288'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00012518
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080516
+type: single
