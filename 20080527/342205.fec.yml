@@ -1,0 +1,144 @@
+countraw: 4
+countrows: 2
+filename: 342205.fec
+header: {}
+rows:
+- input: "F6\x1CC00440735\x1CCommittee to Elect Harry Teague\x1CPO Box 5153\x1C\x1CHobbs\x1CNM\x1C88241\x1CH8NM02032\x1CTeague\x1CHarry\x1C\x1C\x1C\x1CH\x1CNM\x1C02\x1CBaldwin\x1CCarl\x1CM.\x1C\x1C\x1C20080526"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00440735
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Elect Harry Teague
+  - name: STREET 1
+    number: '4'
+    value: PO Box 5153
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Hobbs
+  - name: STATE
+    number: '7'
+    value: NM
+  - name: ZIP
+    number: '8'
+    value: '88241'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NM02032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Teague
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Harry
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NM
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Baldwin
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Carl
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: M.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080526'
+- input: "F65\x1CC00440735\x1CC4174705\x1CIND\x1C\x1CTrujillo\x1CGloria\x1CT.\x1C\x1C\x1C1121
+    Mesa Ridge Dr SW\x1C\x1CLos Lunas\x1CNM\x1C870316185\x1C\x1C20080524\x1C1500.00\x1CRAKS
+    Building Supply, Inc.\x1CBookkeeper"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00440735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4174705
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Trujillo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gloria
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: T.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1121 Mesa Ridge Dr SW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Lunas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NM
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '870316185'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080524'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RAKS Building Supply, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Bookkeeper
+sourceurl: !!python/unicode 20080527
+type: single
