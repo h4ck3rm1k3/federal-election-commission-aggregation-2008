@@ -1,0 +1,155 @@
+countraw: 4
+countrows: 2
+filename: 359735.fec
+header: {}
+rows:
+- input: "F2N\x1CH8MO09153\x1CLuetkemeyer\x1CBlaine\x1C\x1C\x1C\x1C\x1C215 Main Street\x1C\x1CSt.
+    Elizabeth\x1CMO\x1C65075\x1CREP\x1CH\x1CMO\x1C09\x1C2008\x1CC00447748\x1CBlaine
+    for Congress, Inc.\x1CPO Box 1526\x1C\x1CColumbia\x1CMO\x1C65205\x1CC00451229\x1CFriends
+    of Blaine Luetkemeyer\x1C228 South Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C22314\x1C0.00\x1C0.00\x1CLuetkemeyer\x1CBlaine\x1C\x1C\x1C\x1C20080827"
+  record: fec.version.v6_2.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8MO09153
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Luetkemeyer
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Blaine
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 215 Main Street
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: St. Elizabeth
+  - name: CANDIDATE STATE
+    number: '12'
+    value: MO
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '65075'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00447748
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Blaine for Congress, Inc.
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 1526
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Columbia
+  - name: PCC STATE
+    number: '24'
+    value: MO
+  - name: PCC ZIP
+    number: '25'
+    value: '65205'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00451229
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Friends of Blaine Luetkemeyer
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 South Washington Street
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: Luetkemeyer
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: Blaine
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080827'
+- input: "TEXT\x1CH8MO09153\x1C.TEXT\x1C\x1CF2N\x1CAmends Statement of Candidacy Filed
+    March 27, 2008."
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: H8MO09153
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F2N
+  - name: TEXT4000
+    number: '6'
+    value: Amends Statement of Candidacy Filed March 27, 2008.
+sourceurl: !!python/unicode 20080827
+type: single
