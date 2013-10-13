@@ -1,0 +1,160 @@
+countraw: 5
+countrows: 3
+filename: 333314.fec
+header: {}
+rows:
+- input: "F10\x1CC00435370\x1CFRIENDS OF JARED POLIS COMMITTEE\x1C1725 Walnut Street\x1CSte
+    A\x1CBoulder\x1CCO\x1C80302\x1CH8CO02137\x1CPolis\x1CJared\x1C\x1C\x1C\x1CH\x1CCO\x1C02\x1C602921.11\x1C453177.14\x1C1056098.25\x1C\x1C\x1C\x1CMarquez\x1CDebbie\x1C\x1C\x1C\x1C20080415"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435370
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF JARED POLIS COMMITTEE
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 1725 Walnut Street
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: Ste A
+  - name: COMMITTEE CITY
+    number: '6'
+    value: Boulder
+  - name: COMMITTEE STATE
+    number: '7'
+    value: CO
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '80302'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CO02137
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Polis
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jared
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CO
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '02'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '602921.11'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '453177.14'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '1056098.25'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Marquez
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Debbie
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080415'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435370
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080415'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '450000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435370\x1CF105.000001\x1CP2008\x1C\x1C20080415\x1C450000.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435370
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080415'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '3177.14'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00435370\x1CF105.000002\x1CP2008\x1C\x1C20080415\x1C3177.14\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080415
+type: single
