@@ -1,0 +1,595 @@
+countraw: 11
+countrows: 9
+filename: 342285.fec
+header: {}
+rows:
+- input: "F6\x1CC00441394\x1CTinsley for Congress\x1CP.O. Box 708\x1C\x1CCapitan\x1CNM\x1C88316
+    \  \x1CH2NM02134\x1CTinsley\x1CEdward\x1CR.\x1C\x1CIII\x1CH\x1CNM\x1C02\x1CKidd\x1CDon\x1C\x1C\x1C\x1C20080527"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tinsley for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 708
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Capitan
+  - name: STATE
+    number: '7'
+    value: NM
+  - name: ZIP
+    number: '8'
+    value: '88316   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NM02134
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Tinsley
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Edward
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: III
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NM
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kidd
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Don
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080527'
+- input: "F65\x1CC00441394\x1C80527.C782\x1CPAC\x1CBeef PAC\x1C\x1C\x1C\x1C\x1C\x1C5501
+    I-40 West\x1C\x1CAmarillo\x1CTX\x1C79106\x1CC00015552\x1C20080527\x1C3000.00\x1CBeef
+    PAC\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C782
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Beef PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5501 I-40 West
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Amarillo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79106'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00015552
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Beef PAC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00441394\x1C80527.C787\x1CIND\x1C\x1CBlack\x1CDorothy\x1C\x1CMrs.\x1C\x1C3860
+    W. Northwest Hwy., No. S-400\x1C\x1CDallas\x1CTX\x1C75220\x1C\x1C20080527\x1C2300.00\x1CNone\x1CHomemaker"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C787
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Black
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dorothy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3860 W. Northwest Hwy., No. S-400
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75220'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00441394\x1C80527.C789\x1CIND\x1C\x1CHamilton\x1CKent\x1C\x1CMr.\x1C\x1C301
+    Charles Road\x1C\x1CSan Antonio\x1CTX\x1C78209\x1C\x1C20080527\x1C2000.00\x1CSelf-Employed\x1CPhysician"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C789
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hamilton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 301 Charles Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78209'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00441394\x1C80527.C786\x1CIND\x1C\x1CHardeman\x1CBryan\x1C\x1CMr.\x1C\x1C2711
+    Scenic Drive\x1C\x1CAustin\x1CTX\x1C78703\x1C\x1C20080527\x1C2300.00\x1CSelf-Employed\x1CSales"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C786
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hardeman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bryan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2711 Scenic Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78703'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Sales
+- input: "F65\x1CC00441394\x1C80527.C785\x1CIND\x1C\x1CScharbauer\x1CClarence\x1C\x1CMr.\x1C\x1C1811
+    Heritage Blvd.\x1CSuite 200 \x1CMidland\x1CTX\x1C797079715\x1C\x1C20080527\x1C4600.00\x1CScharbauer
+    Interests\x1CReal Estate Development"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C785
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scharbauer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Clarence
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1811 Heritage Blvd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'Suite 200 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Midland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '797079715'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Scharbauer Interests
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Development
+- input: "F65\x1CC00441394\x1C80527.C784\x1CIND\x1C\x1CTrotter\x1CJana\x1C\x1CMrs.\x1C\x1C3409
+    FM 1058\x1C\x1CHereford\x1CTX\x1C79045\x1C\x1C20080527\x1C1000.00\x1CSelf-Employed\x1CRancher"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C784
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Trotter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3409 FM 1058
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hereford
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79045'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Rancher
+- input: "F65\x1CC00441394\x1C80527.C788\x1CIND\x1C\x1CVacalebre\x1CCarmen\x1CA.\x1CMr.\x1C\x1CPO
+    Box 4594\x1C\x1CWaterbury\x1CCT\x1C067040594\x1C\x1C20080527\x1C2300.00\x1CCarmen
+    Anthony Restaurant Grp\x1COwner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C788
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vacalebre
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carmen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 4594
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Waterbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 067040594
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Carmen Anthony Restaurant Grp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00441394\x1C80527.C783\x1CPAC\x1CWENDYS PAC\x1C\x1C\x1C\x1C\x1C\x1C4288
+    West Dublin Granville Road\x1C\x1CDublin\x1COH\x1C43017\x1C\x1C20080527\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441394
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80527.C783
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WENDYS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4288 West Dublin Granville Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dublin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43017'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080527
+type: single
