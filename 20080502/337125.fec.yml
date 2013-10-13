@@ -1,0 +1,130 @@
+countraw: 4
+countrows: 2
+filename: 337125.fec
+header: {}
+rows:
+- input: "F10\x1CC00422097\x1CERICKSON FOR CONGRESS\x1C\"175 South West Temple, Suite
+    650\"\x1C\x1CSalt Lake City\x1CUT\x1C84101\x1CH6OR05119\x1CErickson\x1CMichael\x1C\x1C\x1C\x1CH\x1COR\x1C05\x1C590000.00\x1C315000.00\x1C905000.00\x1CX\x1C\"AFMS,
+    LLC\"\x1CPresident/CEO\x1CMcQuarrie\x1CCraig\x1C\x1C\x1C\x1C20080502"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00422097
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: ERICKSON FOR CONGRESS
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 175 South West Temple, Suite 650
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: Salt Lake City
+  - name: COMMITTEE STATE
+    number: '7'
+    value: UT
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '84101'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OR05119
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Erickson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Michael
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OR
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '05'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '590000.00'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '315000.00'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '905000.00'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: X
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: AFMS, LLC
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: President/CEO
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: McQuarrie
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Craig
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080502'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00422097
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080502'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '315000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00422097\x1CF105.000001\x1CP2008\x1C\x1C20080502\x1C315000.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080502
+type: single
