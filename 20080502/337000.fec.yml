@@ -1,0 +1,722 @@
+countraw: 13
+countrows: 11
+filename: 337000.fec
+header: {}
+rows:
+- input: "F6\x1CC00411835\x1CHoosiers for Hill\x1CPO Box 1071\x1C\x1CSeymour\x1CIN\x1C47274\x1CH8IN09032\x1CHill\x1CBaron\x1CP\x1C\x1C\x1CH\x1CIN\x1C09\x1CCochran\x1CWilliam\x1CC\x1C\x1C\x1C20080501"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hoosiers for Hill
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1071
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Seymour
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '47274'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8IN09032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Hill
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Baron
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Cochran
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: C
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080501'
+- input: "F65\x1CC00411835\x1CC2022198\x1CPAC\x1CAmerican Electric Power Committee
+    for Responsible\x1C\x1C\x1C\x1C\x1C\x1C1 Riverside Plaza - 26th Floor\x1CP.O.
+    Box 16036\x1CColumbus\x1COH\x1C43215\x1CC00096842\x1C20080429\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022198
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Electric Power Committee for Responsible
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Riverside Plaza - 26th Floor
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: P.O. Box 16036
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43215'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00096842
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022190\x1CIND\x1C\x1CDavis\x1CBrad\x1CC.\x1CMr.\x1C\x1C410
+    Somerset Drive West\x1C\x1CIndianapolis\x1CIN\x1C46260\x1C\x1C20080430\x1C2300.00\x1CDavis
+    Homes\x1COwner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022190
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Davis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 410 Somerset Drive West
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Indianapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '46260'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Davis Homes
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00411835\x1CC2022188\x1CCCM\x1CDutch Ruppersberger for Congress\x1C\x1C\x1C\x1C\x1C\x1C22
+    West Padonia Road, Ste. 307\x1C\x1CLutherville Timoni\x1CMD\x1C21093\x1CC00376673\x1C20080430\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022188
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Dutch Ruppersberger for Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 22 West Padonia Road, Ste. 307
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lutherville Timoni
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '21093'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00376673
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022193\x1CIND\x1C\x1CHarrison\x1CE. Bruce\x1C\x1C\x1C\x1C3201
+    N. Vermont St\x1C\x1CArlington\x1CVA\x1C22207\x1C\x1C20080429\x1C1000.00\x1CE.
+    Bruce Harrison Company\x1CGovernment Affairs"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022193
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harrison
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: E. Bruce
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3201 N. Vermont St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22207'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: E. Bruce Harrison Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Government Affairs
+- input: "F65\x1CC00411835\x1CC2022199\x1CPAC\x1CECHOSTAR CORPORATION AND DISH NETWORK
+    CORPORATION\x1C\x1C\x1C\x1C\x1C\x1C1233 20TH STREET NW SUITE 302\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CC00330647\x1C20080429\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022199
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ECHOSTAR CORPORATION AND DISH NETWORK CORPORATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1233 20TH STREET NW SUITE 302
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00330647
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022197\x1CPAC\x1CSAFETY-KLEEN CORP POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C5400 LEGACY DRIVE\x1CCLUSTER II BLDG 3\x1CPLANO\x1CTX\x1C75024\x1CC00313312\x1C20080429\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022197
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SAFETY-KLEEN CORP POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5400 LEGACY DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: CLUSTER II BLDG 3
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PLANO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00313312
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022195\x1CPAC\x1CNATIONAL ASSOCIATION OF BROADCASTERS
+    TELEVISION AN\x1C\x1C\x1C\x1C\x1C\x1C1771 N Street NW\x1C\x1CWashington\x1CDC\x1C20036\x1CC00009985\x1C20080429\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022195
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF BROADCASTERS TELEVISION AN
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1771 N Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00009985
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022200\x1CPAC\x1CNEA FUND FOR CHILDREN AND PUBLIC
+    EDUCATION\x1C\x1C\x1C\x1C\x1C\x1C1201 16th St NW Ste 420\x1C\x1CWashington\x1CDC\x1C20036\x1CC00003251\x1C20080429\x1C4000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022200
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NEA FUND FOR CHILDREN AND PUBLIC EDUCATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 16th St NW Ste 420
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00003251
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022185\x1CPAC\x1CBABCOCK  AND WILCOX COMPANY GOOD
+    GOVERNMENT FUND ;\x1C\x1C\x1C\x1C\x1C\x1C2016 Mt. Athos Rd\x1C\x1CLynchburg\x1CVA\x1C24504\x1CC00063461\x1C20080429\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022185
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BABCOCK  AND WILCOX COMPANY GOOD GOVERNMENT FUND ;
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2016 Mt. Athos Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lynchburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '24504'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00063461
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00411835\x1CC2022196\x1CPAC\x1CUNITEDHEALTH GROUP INCORPORATED PAC
+    (UNITED FOR HE\x1C\x1C\x1C\x1C\x1C\x1C9900 Bren Road East\x1C\x1CMinnetonka\x1CMN\x1C55343\x1CC00274431\x1C20080429\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00411835
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2022196
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITEDHEALTH GROUP INCORPORATED PAC (UNITED FOR HE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9900 Bren Road East
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minnetonka
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55343'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00274431
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080502
+type: single
