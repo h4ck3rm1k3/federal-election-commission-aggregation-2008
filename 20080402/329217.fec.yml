@@ -1,0 +1,284 @@
+countraw: 9
+countrows: 7
+filename: 329217.fec
+header: {}
+rows:
+- input: "F10\x1CC00433938\x1CTREADWELL FOR CONGRESS\x1CPO BOX 685\x1C\x1CSARATOGA
+    SPRINGS\x1CNY\x1C12866\x1CH8NY20122\x1CTreadwell\x1CSandy\x1C\x1C\x1C\x1CH\x1CNY\x1C20\x1C620207.85\x1C328552.18\x1C948760.03\x1C\x1C\x1C\x1CDavis\x1CKeith\x1C\x1C\x1C\x1C20080401"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: TREADWELL FOR CONGRESS
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: PO BOX 685
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: SARATOGA SPRINGS
+  - name: COMMITTEE STATE
+    number: '7'
+    value: NY
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '12866'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NY20122
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Treadwell
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Sandy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '20'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '620207.85'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '328552.18'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '948760.03'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Davis
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Keith
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080401'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080110'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1398.80'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000001\x1CP2008\x1C\x1C20080110\x1C1398.80\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080122'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '70.20'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000002\x1CP2008\x1C\x1C20080122\x1C70.20\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000003
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080125'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '206.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000003\x1CP2008\x1C\x1C20080125\x1C206.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000004
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080205'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '1444.68'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000004\x1CP2008\x1C\x1C20080205\x1C1444.68\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000005
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080305'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '432.50'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000005\x1CP2008\x1C\x1C20080305\x1C432.50\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000006
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080331'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '325000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00433938\x1CF105.000006\x1CP2008\x1C\x1C20080331\x1C325000.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080402
+type: single
