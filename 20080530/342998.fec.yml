@@ -1,0 +1,277 @@
+countraw: 6
+countrows: 4
+filename: 342998.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443762
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT JOE CARRARO TO CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 10216 CARRARO PLACE N.W.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ALBUQUERQUE
+  - name: STATE
+    number: '7'
+    value: NM
+  - name: ZIP
+    number: '8'
+    value: '87113'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CARRARO
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: JOE
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080530'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00443762\x1CCOMMITTEE TO ELECT JOE CARRARO TO CONGRESS\x1C10216 CARRARO
+    PLACE N.W.\x1C\x1CALBUQUERQUE\x1CNM\x1C87113\x1C\x1CCARRARO\x1CJOE\x1C\x1CMr.\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C20080530\x1C"
+  input_count: 24
+  record: fec.version.v6_1.F6
+  result: []
+- input: "F65\x1CC00443762\x1CF6.4210\x1CIND\x1C\x1CDOAN\x1CJOHN\x1C\x1CMr.\x1C\x1C218
+    PRINSTON DR.\x1C\x1CCOSTA MESA\x1CCA\x1C92626\x1C\x1C20080530\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443762
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4210
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DOAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 218 PRINSTON DR.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COSTA MESA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92626'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00443762\x1CF6.4212\x1CORG\x1CPUEBLO OF ISLETA\x1C\x1C\x1C\x1C\x1C\x1CP.
+    O. BOX 1290\x1C\x1CISLETA\x1CNM\x1C87022\x1C\x1C20080530\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443762
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4212
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PUEBLO OF ISLETA
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P. O. BOX 1290
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ISLETA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NM
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '87022'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00443762\x1CF6.4211\x1CCAN\x1C\x1CCARRARO\x1CJOE\x1C\x1C\x1C\x1C10216
+    CARRARO PLACE N.W.\x1C\x1CALBUQUERQUE\x1CNM\x1C87113\x1C\x1C20080530\x1C15000.00\x1CSELF
+    EMPLOYED\x1CSTATE SENATOR"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443762
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4211
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARRARO
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10216 CARRARO PLACE N.W.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ALBUQUERQUE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NM
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '87113'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '15000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: STATE SENATOR
+sourceurl: !!python/unicode 20080530
+type: single
