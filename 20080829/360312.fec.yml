@@ -1,0 +1,276 @@
+countraw: 6
+countrows: 4
+filename: 360312.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451856
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DONALD CRAVINS JR FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2507
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: OPELOUSAS
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70570'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8LA07046
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CRAVINS
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: DONALD
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: R
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Jagneaux
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Charles
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080829'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00451856\x1CDONALD CRAVINS JR FOR CONGRESS\x1CPO BOX 2507\x1C\x1COPELOUSAS\x1CLA\x1C70570\x1CH8LA07046\x1CCRAVINS\x1CDONALD\x1CR\x1C\x1CJr\x1CH\x1CLA\x1C07\x1CJagneaux\x1CCharles\x1C\x1C\x1C\x1C20080829\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00451856\x1CF6.5078\x1CORG\x1CBen Wayne Nevers Campaign Fund\x1C\x1C\x1C\x1C\x1C\x1C61596
+    Little Southern Village Rd\x1C\x1CBogalusa\x1CLA\x1C70427\x1C\x1C20080829\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451856
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5078
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ben Wayne Nevers Campaign Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 61596 Little Southern Village Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bogalusa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70427'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080829'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00451856\x1CF6.5079\x1CIND\x1C\x1CPellerin\x1CEugene\x1C\x1C\x1C\x1CP.O.Box
+    130\x1C\x1CBreaux Bridge\x1CLA\x1C70517\x1C\x1C20080828\x1C1000.00\x1CPellerin
+    Funeral Homes\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451856
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5079
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Pellerin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Eugene
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O.Box 130
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Breaux Bridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70517'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080828'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pellerin Funeral Homes
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00451856\x1CF6.5080\x1CPAC\x1CINTERNATIONAL BROTHERHOOD OF ELECTRICAL
+    WORKERS POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C900 Seventh St, NW\x1C\x1CWashington\x1CDC\x1C20001\x1CC00027342\x1C20080829\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451856
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5080
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 900 Seventh St, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00027342
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080829'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080829
+type: single
