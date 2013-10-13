@@ -1,0 +1,355 @@
+countraw: 7
+countrows: 5
+filename: 359362.fec
+header: {}
+rows:
+- input: "F6\x1CC00428276\x1CCOMMITTEE TO ELECT TROY CARTER FOR US CONGRESS\x1C650
+    POYDRAS ST STE 2417\x1C\x1CNEW ORLEANS\x1CLA\x1C70130\x1CH2LA02032\x1CCARTER\x1CTROY\x1C\x1CmR.\x1C\x1CH\x1CLA\x1C02\x1CTAYLOR\x1CPAUL\x1CR.\x1CMR.\x1CJR.\x1C20080822"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00428276
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT TROY CARTER FOR US CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 650 POYDRAS ST STE 2417
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEW ORLEANS
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70130'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2LA02032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CARTER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: TROY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: mR.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: TAYLOR
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: PAUL
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: R.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: MR.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: JR.
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080822'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00428276
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: TAYLOR
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: PAUL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: JR.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3125 GENEVIEVE DR.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLUMBUS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43219'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080822'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SRP GROUP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CONSULTANT
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00428276\x1CF65.000001\x1CIND\x1C\x1CTAYLOR\x1CPAUL\x1CR\x1CMR.\x1CJR.\x1C3125
+    GENEVIEVE DR.\x1C\x1CCOLUMBUS\x1COH\x1C43219\x1C\x1C20080822\x1C2300.00\x1CSRP
+    GROUP\x1CCONSULTANT\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00428276
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SALEM
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: YOUSEF
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 240 BOURBON ST.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW ORLEANS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70130'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080822'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RUE BOURBON ENTERTAINMENT
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OWNER
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00428276\x1CF65.000002\x1CIND\x1C\x1CSALEM\x1CYOUSEF\x1C\x1CMR.\x1C\x1C240
+    BOURBON ST.\x1C\x1CNEW ORLEANS\x1CLA\x1C70130\x1C\x1C20080822\x1C2300.00\x1CRUE
+    BOURBON ENTERTAINMENT\x1COWNER\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00428276
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: WILLIAMS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JAMES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '5620'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: NORLAND AVENUE
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW ORLEANS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70131'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080822'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF-EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: BARBER
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00428276\x1CF65.000003\x1CIND\x1C\x1CWILLIAMS\x1CJAMES\x1CR.\x1CMR.\x1C\x1C5620\x1CNORLAND
+    AVENUE\x1CNEW ORLEANS\x1CLA\x1C70131\x1C\x1C20080822\x1C2300.00\x1CSELF-EMPLOYED\x1CBARBER\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00428276
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ALADWAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SAMER
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 240 BOURBON ST.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW ORLEANS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70130'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080822'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RUE BOURBON ENTERTAINMENT
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: GENERAL MANAGER
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00428276\x1CF65.000004\x1CIND\x1C\x1CALADWAN\x1CSAMER\x1C\x1CMR.\x1C\x1C240
+    BOURBON ST.\x1C\x1CNEW ORLEANS\x1CLA\x1C70130\x1C\x1C20080822\x1C2300.00\x1CRUE
+    BOURBON ENTERTAINMENT\x1CGENERAL MANAGER\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20080822
+type: single
