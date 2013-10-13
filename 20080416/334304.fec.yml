@@ -1,0 +1,148 @@
+countraw: 4
+countrows: 2
+filename: 334304.fec
+header: {}
+rows:
+- input: "F6\x1CC00443333\x1CManion For Congress\x1CPO Box 28\x1C\x1CDoylestown\x1CPA\x1C189010028\x1CH8PA08133\x1CManion\x1CTom\x1C\x1C\x1C\x1CH\x1CPA\x1C08\x1CManion\x1CJames\x1CJ.\x1C\x1CJr.\x1C20080416"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443333
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Manion For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 28
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Doylestown
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '189010028'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8PA08133
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Manion
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Tom
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 08
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Manion
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: James
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: J.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: Jr.
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080416'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443333
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '597000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Girouard
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8 North Trail
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lemont
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60439'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: All-Bry Construction Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00443333\x1C597000\x1CIND\x1C\x1CGirouard\x1CThomas\x1CW.\x1C\x1C\x1C8
+    North Trail\x1C\x1CLemont\x1CIL\x1C60439\x1C\x1C20080415\x1C2300\x1CAll-Bry Construction
+    Company\x1COwner\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080416
+type: single
