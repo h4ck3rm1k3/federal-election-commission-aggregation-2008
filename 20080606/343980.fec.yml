@@ -1,0 +1,663 @@
+countraw: 8
+countrows: 6
+filename: 343980.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER'S FEC ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Planned Parenthood Action Fund Inc.
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 434 West 33rd Street
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: New York
+  - name: STATE
+    number: '14'
+    value: NY
+  - name: ZIP
+    number: '15'
+    value: '10001'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: Y
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '0.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '17838.59'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Beharry
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Jankie
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20080606'
+  - value: ''
+  expected_count: 30
+  input: "F5N\x1CC90005471\x1CORG\x1CPlanned Parenthood Action Fund Inc.\x1C\x1C\x1C\x1C\x1C\x1C\x1C434
+    West 33rd Street\x1C\x1CNew York\x1CNY\x1C10001\x1CY\x1C\x1C\x1C\x1C24\x1C\x1C\x1C0.00\x1C17838.59\x1CBeharry\x1CJankie\x1C\x1C\x1C\x1C20080606\x1C"
+  input_count: 31
+  record: fec.version.v6_1.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57213313'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ML Printing, Inc.
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5 Brooke Hollow Lane
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Peekskill
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '10566'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20080429'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '43.78'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '87311.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Outer Envelopes
+  - name: CATEGORY CODE
+    number: '23'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: "F57\x1CC90005471\x1C57213313\x1CORG\x1CML Printing, Inc.\x1C\x1C\x1C\x1C\x1C\x1C5
+    Brooke Hollow Lane\x1C\x1CPeekskill\x1CNY\x1C10566\x1CP2008\x1C\x1C20080429\x1C43.78\x1C87311.22\x1C24A\x1COuter
+    Envelopes\x1C003\x1C\x1CO\x1CP80002801\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1C\x1C\x1C"
+  input_count: 35
+  record: fec.version.v6_1.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57213314'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: United States Postal Service
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: !!binary |
+      NDc1IEySRW5mYW50IFBsYXphIFNX
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20260'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20080429'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '191.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '87311.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Postage
+  - name: CATEGORY CODE
+    number: '23'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: !!binary |
+    RjU3HEM5MDAwNTQ3MRw1NzIxMzMxNBxPUkccVW5pdGVkIFN0YXRlcyBQb3N0YWwgU2VydmljZRwc
+    HBwcHDQ3NSBMkkVuZmFudCBQbGF6YSBTVxwcV2FzaGluZ3RvbhxEQxwyMDI2MBxQMjAwOBwcMjAw
+    ODA0MjkcMTkxLjk3HDg3MzExLjIyHDI0QRxQb3N0YWdlHDAwMxwcTxxQODAwMDI4MDEcTWNDYWlu
+    HEpvaG4cHBwcUBwcHA==
+  input_count: 35
+  record: fec.version.v6_1.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57213316'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Alliance FM
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 133 Industrial Avenue
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Hasbrouk Heights
+  - name: PAYEE STATE
+    number: '14'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '15'
+    value: '07604'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20080429'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '602.87'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '87311.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: 24A
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Brochure Printing
+  - name: CATEGORY CODE
+    number: '23'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: "F57\x1CC90005471\x1C57213316\x1CORG\x1CAlliance FM\x1C\x1C\x1C\x1C\x1C\x1C133
+    Industrial Avenue\x1C\x1CHasbrouk Heights\x1CNJ\x1C07604\x1CP2008\x1C\x1C20080429\x1C602.87\x1C87311.22\x1C24A\x1CBrochure
+    Printing\x1C003\x1C\x1CO\x1CP80002801\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1C\x1C\x1C"
+  input_count: 35
+  record: fec.version.v6_1.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57216907'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: The Clinton Group Inc.
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1350 Connecticut Avenue NW Ste 110
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20080606'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '16765.07'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '16999.97'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Telephone Calls
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H8ME01120
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Pingree
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Chellie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: ME
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '01'
+  - value: ''
+  expected_count: 34
+  input: "F57\x1CC90005471\x1C57216907\x1CORG\x1CThe Clinton Group Inc.\x1C\x1C\x1C\x1C\x1C\x1C1350
+    Connecticut Avenue NW Ste 110\x1C\x1CWashington\x1CDC\x1C20036\x1CP2008\x1C\x1C20080606\x1C16765.07\x1C16999.97\x1C24E\x1CTelephone
+    Calls\x1C004\x1C\x1CS\x1CH8ME01120\x1CPingree\x1CChellie\x1C\x1C\x1C\x1CH\x1CME\x1C01\x1C"
+  input_count: 35
+  record: fec.version.v6_1.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90005471
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57216908'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Planned Parenthood Federation of America Inc.
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 434 West 33rd Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: New York
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '10001'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20080606'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '234.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '16999.97'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '21'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: List Rental
+  - name: CATEGORY CODE
+    number: '23'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '24'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '25'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '26'
+    value: H8ME01120
+  - name: S/O CANDIDATE LAST NAME
+    number: '27'
+    value: Pingree
+  - name: S/O CANDIDATE FIRST NAME
+    number: '28'
+    value: Chellie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '32'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '33'
+    value: ME
+  - name: S/O CANDIDATE DISTRICT
+    number: '34'
+    value: '01'
+  - value: ''
+  expected_count: 34
+  input: "F57\x1CC90005471\x1C57216908\x1CORG\x1CPlanned Parenthood Federation of
+    America Inc.\x1C\x1C\x1C\x1C\x1C\x1C434 West 33rd Street\x1C\x1CNew York\x1CNY\x1C10001\x1CP2008\x1C\x1C20080606\x1C234.90\x1C16999.97\x1C24E\x1CList
+    Rental\x1C004\x1C\x1CS\x1CH8ME01120\x1CPingree\x1CChellie\x1C\x1C\x1C\x1CH\x1CME\x1C01\x1C"
+  input_count: 35
+  record: fec.version.v6_1.F57
+  result: []
+sourceurl: !!python/unicode 20080606
+type: single
