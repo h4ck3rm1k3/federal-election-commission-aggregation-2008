@@ -1,0 +1,594 @@
+countraw: 11
+countrows: 9
+filename: 349435.fec
+header: {}
+rows:
+- input: "F6\x1CC00384735\x1CFriends of John Barrow\x1CPO Box 8166\x1C\x1CSavannah\x1CGA\x1C31412\x1CH4GA12010\x1CBarrow\x1CJohn\x1CJ\x1C\x1C\x1CH\x1CGA\x1C12\x1CBordeaux\x1CTom\x1C\x1C\x1C\x1C20080713"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of John Barrow
+  - name: STREET 1
+    number: '4'
+    value: PO Box 8166
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Savannah
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '31412'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4GA12010
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Barrow
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: J
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bordeaux
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Tom
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080713'
+- input: "F65\x1CC00384735\x1CC4685798\x1CPAC\x1CWENDYS INTERNATIONAL INC. POLITICAL
+    ACTION COMMITT\x1C\x1C\x1C\x1C\x1C\x1C4288 WEST DUBLIN GRANVILLE ROAD\x1C\x1CDUBLIN\x1COH\x1C43017\x1CC00369090\x1C20080712\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4685798
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WENDYS INTERNATIONAL INC. POLITICAL ACTION COMMITT
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4288 WEST DUBLIN GRANVILLE ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: DUBLIN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43017'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00369090
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080712'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00384735\x1CC4685801\x1CPAC\x1CDIRECT SELLING ASSOCIATION\x1C\x1C\x1C\x1C\x1C\x1C1667
+    K Street, NW\x1CSuite 1100\x1CWashington\x1CDC\x1C20006\x1CC00078535\x1C20080712\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4685801
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DIRECT SELLING ASSOCIATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1667 K Street, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00078535
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080712'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00384735\x1CC4684928\x1CPAC\x1CNACS POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Duke Street\x1C\x1CAlexandria\x1CVA\x1C22314\x1CC00126763\x1C20080711\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4684928
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NACS POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1600 Duke Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00126763
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080711'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00384735\x1CC4685802\x1CPAC\x1CAMERICAN OCCUPATIONAL THERAPY ASSOCIATION
+    INC POLI\x1C\x1C\x1C\x1C\x1C\x1C4720 MONTGOMERY LANE\x1CPO BOX 31220\x1CBETHESDA\x1CMD\x1C20824\x1CC00089086\x1C20080712\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4685802
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN OCCUPATIONAL THERAPY ASSOCIATION INC POLI
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4720 MONTGOMERY LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PO BOX 31220
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BETHESDA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20824'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00089086
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080712'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00384735\x1CC4685805\x1CPAC\x1CPILGRIMS PRIDE CORPORATION POLITICAL
+    ACTION COMMIT\x1C\x1C\x1C\x1C\x1C\x1C4845 U.S. Highway 271 North\x1C\x1CPittsburg\x1CTX\x1C75686\x1CC00113902\x1C20080712\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4685805
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PILGRIMS PRIDE CORPORATION POLITICAL ACTION COMMIT
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4845 U.S. Highway 271 North
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pittsburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75686'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00113902
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080712'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00384735\x1CC4684923\x1CIND\x1C\x1CSavage\x1CBrent\x1CJ.\x1CMr.\x1C\x1C304
+    East Bay Street\x1C\x1CSavannah\x1CGA\x1C314011206\x1C\x1C20080711\x1C2300.00\x1CSavage,
+    Herndon & Turner\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4684923
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Savage
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 304 East Bay Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '314011206'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080711'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Savage, Herndon & Turner
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00384735\x1CC4684922\x1CIND\x1C\x1CSavage\x1CBrent\x1CJ.\x1CMr.\x1C\x1C304
+    East Bay Street\x1C\x1CSavannah\x1CGA\x1C314011206\x1C\x1C20080711\x1C2300.00\x1CSavage,
+    Herndon & Turner\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4684922
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Savage
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 304 East Bay Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '314011206'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080711'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Savage, Herndon & Turner
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00384735\x1CC4685799\x1CIND\x1C\x1CWooten\x1CJoel\x1CO.\x1CMr.\x1CJr.\x1CButler,
+    Wooten & Fryhofer, LLP\x1C105 13th Street\x1CColumbus\x1CGA\x1C31902\x1C\x1C20080712\x1C1000.00\x1CButler,
+    Wooten & Fryhofer, LLP\x1CAttorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4685799
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wooten
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: O.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Butler, Wooten & Fryhofer, LLP
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 105 13th Street
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '31902'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080712'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Butler, Wooten & Fryhofer, LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+sourceurl: !!python/unicode 20080714
+type: single
