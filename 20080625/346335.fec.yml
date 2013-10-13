@@ -1,0 +1,635 @@
+countraw: 11
+countrows: 9
+filename: 346335.fec
+header: {}
+rows:
+- input: "F9A\x1CC30000871\x1C\x1CAMERICAN LEADERSHIP PROJECT\x1C\x1C\x1C\x1C\x1C\x1C\x1C2261
+    MARKET STREET PMB 319\x1C\x1CSAN FRANCISCO\x1CCA\x1C94114\x1C\x1C\x1C20080417\x1C20080418\x1C20080418\x1CEvery/Difference\x1COTH\x1C527
+    organization\x1CY\x1CWarren\x1CNancy\x1CL\x1C\x1C\x1C2261 Market Street PMB 319\x1C\x1CSan
+    Francisco\x1CCA\x1C94114\x1CWarren & Associates LLC\x1CAccountant\x1C255000.00\x1C198142.75\x1CWarren\x1CNancy\x1CL\x1C\x1C\x1C20080625"
+  record: fec.version.v6_2.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: AMERICAN LEADERSHIP PROJECT
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 2261 MARKET STREET PMB 319
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: SAN FRANCISCO
+  - name: STATE
+    number: '14'
+    value: CA
+  - name: ZIP
+    number: '15'
+    value: '94114'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20080417'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20080418'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20080418'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Every/Difference
+  - name: FILER CODE
+    number: '22'
+    value: OTH
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: 527 organization
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: Y
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Warren
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Nancy
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: L
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 2261 Market Street PMB 319
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: San Francisco
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: CA
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '94114'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Warren & Associates LLC
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Accountant
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '255000.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '198142.75'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Warren
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Nancy
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: L
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20080625'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Kinney
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Jason
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 980 9th Street
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Sacramento
+  - name: CONTROLLER STATE
+    number: '12'
+    value: CA
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '95814'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: California Strategies LLC
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Consultant
+  - value: ''
+  expected_count: 15
+  input: "F91\x1CC30000871\x1CF91.000001\x1CKinney\x1CJason\x1C\x1C\x1C\x1C980 9th
+    Street\x1C\x1CSacramento\x1CCA\x1C95814\x1CCalifornia Strategies LLC\x1CConsultant\x1C"
+  input_count: 16
+  record: fec.version.v6_2.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000002
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Salazar
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Roger
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 1005 12th Street
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Sacramento
+  - name: CONTROLLER STATE
+    number: '12'
+    value: CA
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '95814'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Acosta Salazar LLC
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Consultant
+  - value: ''
+  expected_count: 15
+  input: "F91\x1CC30000871\x1CF91.000002\x1CSalazar\x1CRoger\x1C\x1C\x1C\x1C1005 12th
+    Street\x1C\x1CSacramento\x1CCA\x1C95814\x1CAcosta Salazar LLC\x1CConsultant\x1C"
+  input_count: 16
+  record: fec.version.v6_2.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bronfman
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Edgar
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: M
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 375 Park Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10151'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080417'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '5000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000871\x1CF92.000001\x1C\x1C\x1CIND\x1C\x1CBronfman\x1CEdgar\x1CM\x1C\x1C\x1C375
+    Park Avenue\x1C\x1CNew York\x1CNY\x1C10151\x1C20080417\x1C5000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: Amer Federation of State Cnty Muni Emps
+  - name: DONOR LAST NAME
+    number: '8'
+    value: ''
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 1625 L Street NW
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Washington
+  - name: DONOR STATE
+    number: '16'
+    value: DC
+  - name: DONOR ZIP
+    number: '17'
+    value: '20036'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080417'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '200000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000871\x1CF92.000002\x1C\x1C\x1CORG\x1CAmer Federation of State
+    Cnty Muni Emps\x1C\x1C\x1C\x1C\x1C\x1C1625 L Street NW\x1C\x1CWashington\x1CDC\x1C20036\x1C20080417\x1C200000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: Office & Professional Empls Union Intl
+  - name: DONOR LAST NAME
+    number: '8'
+    value: ''
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 1660 L Street NW
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Washington
+  - name: DONOR STATE
+    number: '16'
+    value: DC
+  - name: DONOR ZIP
+    number: '17'
+    value: '20036'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080418'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '50000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000871\x1CF92.000003\x1C\x1C\x1CORG\x1COffice & Professional Empls
+    Union Intl\x1C\x1C\x1C\x1C\x1C\x1C1660 L Street NW\x1C\x1CWashington\x1CDC\x1C20036\x1C20080418\x1C50000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Lisa Cabanel Consulting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1604 Fawn Lane
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Huntingdon Valley
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '19006'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080417'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '198142.75'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: TV airtime - Every/Difference
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: NA
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: NA
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20080417'
+  - value: ''
+  expected_count: 26
+  input: "F93\x1CC30000871\x1CF93.000001\x1C\x1C\x1CORG\x1CLisa Cabanel Consulting\x1C\x1C\x1C\x1C\x1C\x1C1604
+    Fawn Lane\x1C\x1CHuntingdon Valley\x1CPA\x1C19006\x1CP2008\x1C\x1C20080417\x1C198142.75\x1C\x1CTV
+    airtime - Every/Difference\x1CNA\x1CNA\x1C20080417\x1C"
+  input_count: 27
+  record: fec.version.v6_2.F93
+  result: []
+- input: "F94\x1CC30000871\x1CF94.000002\x1CF93.000001\x1CF93\x1C\x1CClinton\x1CHillary\x1C\x1C\x1C\x1CP\x1CPA\x1C\x1CP2008\x1C"
+  record: fec.version.v6_2.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Clinton
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Hillary
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: PA
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: ''
+- input: "F94\x1CC30000871\x1CF94.000003\x1CF93.000001\x1CF93\x1C\x1CObama\x1CBarrack\x1C\x1C\x1C\x1CP\x1CPA\x1C\x1CP2008\x1C"
+  record: fec.version.v6_2.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000871
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000003
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Obama
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Barrack
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: PA
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: ''
+sourceurl: !!python/unicode 20080625
+type: single
