@@ -1,0 +1,194 @@
+countraw: 5
+countrows: 3
+filename: 359413.fec
+header: {}
+rows:
+- input: "F2N\x1CH6IL10119\x1CSeals\x1CDaniel\x1CJoseph\x1C\x1C\x1C\x1C638 Laporte
+    Avenue\x1C\x1CWilmette\x1CIL\x1C60091\x1CDEM\x1CH\x1CIL\x1C10\x1C2008\x1CC00417501\x1CDan
+    Seals for Congress\x1CP.O. Box 584\x1C\x1CWilmette\x1CIL\x1C60091\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C0.00\x1C0.00\x1CSeals\x1CDaniel\x1CJ\x1C\x1C\x1C20080823"
+  record: fec.version.v6_2.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6IL10119
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Seals
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Daniel
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Joseph
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 638 Laporte Avenue
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Wilmette
+  - name: CANDIDATE STATE
+    number: '12'
+    value: IL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '60091'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00417501
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Dan Seals for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: P.O. Box 584
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Wilmette
+  - name: PCC STATE
+    number: '24'
+    value: IL
+  - name: PCC ZIP
+    number: '25'
+    value: '60091'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: Seals
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: Daniel
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: J
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080823'
+- input: "f2s\x1CH6IL10119\x1CC00451567\x1CBlue Illinois 2008\x1C500 N Dearborn\x1CSuite
+    518\x1CChicago\x1CIL\x1C60610"
+  record: fec.version.v6_2.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: f2s
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6IL10119
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00451567
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Blue Illinois 2008
+  - name: AUTH STREET 1
+    number: '5'
+    value: 500 N Dearborn
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 518
+  - name: AUTH CITY
+    number: '7'
+    value: Chicago
+  - name: AUTH STATE
+    number: '8'
+    value: IL
+  - name: AUTH ZIP
+    number: '9'
+    value: '60610'
+- input: "f2s\x1CH6IL10119\x1CC00452045\x1CRangel Victory Fund\x1CPO Box 5577\x1C\x1CManhattanville
+    Sta\x1CNY\x1C10027"
+  record: fec.version.v6_2.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: f2s
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6IL10119
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00452045
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Rangel Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 5577
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Manhattanville Sta
+  - name: AUTH STATE
+    number: '8'
+    value: NY
+  - name: AUTH ZIP
+    number: '9'
+    value: '10027'
+sourceurl: !!python/unicode 20080823
+type: single
