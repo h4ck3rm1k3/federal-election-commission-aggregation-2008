@@ -1,0 +1,130 @@
+countraw: 4
+countrows: 2
+filename: 342977.fec
+header: {}
+rows:
+- input: "F10\x1CC00448357\x1CCOMMITTEE TO ELECT CHERYL BASWELL GUTHRIE TO CONGRESS\x1C3300
+    WESTMILL DRIVE SW\x1C\x1CHUNTSVILLE\x1CAL\x1C35805\x1CH8AL05133\x1CBaswell Guthrie\x1CCheryl\x1CAnn\x1C\x1C\x1CH\x1CAL\x1C05\x1C457211.26\x1C15400.00\x1C472611.26\x1CX\x1CBaswell-Guthrie
+    PC\x1CPresident\x1CHargrove\x1CBrandon\x1C\x1C\x1C\x1C20080530"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448357
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT CHERYL BASWELL GUTHRIE TO CONGRESS
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 3300 WESTMILL DRIVE SW
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: HUNTSVILLE
+  - name: COMMITTEE STATE
+    number: '7'
+    value: AL
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '35805'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8AL05133
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Baswell Guthrie
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Cheryl
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Ann
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AL
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '05'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '457211.26'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '15400.00'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '472611.26'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: X
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: Baswell-Guthrie PC
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: President
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Hargrove
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Brandon
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080530'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448357
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080529'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '15400.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00448357\x1CF105.000001\x1CP2008\x1C\x1C20080529\x1C15400.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080530
+type: single
