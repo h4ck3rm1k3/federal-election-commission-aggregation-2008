@@ -1,0 +1,226 @@
+countraw: 6
+countrows: 4
+filename: 334549.fec
+header: {}
+rows:
+- input: "F2A\x1CP80002801\x1C\"MCCAIN\"\x1C\"JOHN\"\x1C\"S.\"\x1C\x1C\x1C\x1C\"PO
+    BOX 16118\"\x1C\x1C\"ARLINGTON\"\x1CVA\x1C22215\x1CREP\x1CP\x1C\x1C\x1C2008\x1CC00430470\x1C\"JOHN
+    MCCAIN 2008, INC.\"\x1C\"PO BOX 16118\"\x1C\x1C\"ARLINGTON\"\x1CVA\x1C22215\x1CC00446104\x1C\"JOHN
+    MCCAIN 2008 GENERAL ELECTION COMPLIANCE FUND, INC\"\x1C\"PO BOX 16118\"\x1C\x1C\"ARLINGTON\"\x1CVA\x1C22215\x1C0.00\x1C0.00\x1C\"MCCAIN\"\x1C\"JOHN\"\x1C\"S.\"\x1C\x1C\x1C20080417"
+  record: fec.version.v6_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P80002801
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: MCCAIN
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: JOHN
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: S.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO BOX 16118
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: ARLINGTON
+  - name: CANDIDATE STATE
+    number: '12'
+    value: VA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '22215'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: P
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00430470
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: JOHN MCCAIN 2008, INC.
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 16118
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: ARLINGTON
+  - name: PCC STATE
+    number: '24'
+    value: VA
+  - name: PCC ZIP
+    number: '25'
+    value: '22215'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00446104
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: JOHN MCCAIN 2008 GENERAL ELECTION COMPLIANCE FUND, INC
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO BOX 16118
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ARLINGTON
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22215'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: MCCAIN
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: JOHN
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: S.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080417'
+- input: "F2S\x1CP80002801\x1CC00446682\x1C\"MCCAIN VICTORY COMMITTEE (JOINT FUNDRAISING
+    REPRESENTATIVE)\"\x1C\"228 S WASHINGTON ST STE 115\"\x1C\x1C\"ALEXANDRIA\"\x1CVA\x1C22314"
+  record: fec.version.v6_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P80002801
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00446682
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: MCCAIN VICTORY COMMITTEE (JOINT FUNDRAISING REPRESENTATIVE)
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314'
+- input: "F2S\x1CP80002801\x1CC00448498\x1C\"MCCAIN VICTORY 2008 (JOINT FUNDRAISING
+    REPRESENTATIVE)\"\x1C\"228 S WASHINGTON ST STE 115\"\x1C\x1C\"ALEXANDRIA\"\x1CVA\x1C22314"
+  record: fec.version.v6_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P80002801
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00448498
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: MCCAIN VICTORY 2008 (JOINT FUNDRAISING REPRESENTATIVE)
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314'
+- input: "F2S\x1CP80002801\x1C\x1C\"MCCAIN VICTORY CALIFORNIA (JOINT FUNDRAISING REPRESENTATIVE)\"\x1C\"228
+    S WASHINGTON ST STE 115\"\x1C\x1C\"ALEXANDRIA\"\x1CVA\x1C22314"
+  record: fec.version.v6_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P80002801
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: MCCAIN VICTORY CALIFORNIA (JOINT FUNDRAISING REPRESENTATIVE)
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314'
+sourceurl: !!python/unicode 20080417
+type: single
