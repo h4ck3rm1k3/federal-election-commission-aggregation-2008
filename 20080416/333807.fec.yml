@@ -1,0 +1,467 @@
+countraw: 9
+countrows: 7
+filename: 333807.fec
+header: {}
+rows:
+- input: "F6\x1CC00386847\x1CCharlie Dent for Congress\x1CPO Box 442\x1C\x1CAllentown\x1CPA\x1C18105
+    \  \x1CH4PA15087\x1CDent\x1CCharles\x1CW.\x1C\x1C\x1CH\x1CPA\x1C15\x1CBerdahl\x1CJeffrey\x1CS.\x1C\x1C\x1C20080415"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Charlie Dent for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 442
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Allentown
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '18105   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4PA15087
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Dent
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: W.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '15'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Berdahl
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Jeffrey
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: S.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080415'
+- input: "F65\x1CC00386847\x1C80415.C14951\x1CIND\x1C\x1CScheller\x1CJoseph\x1C\x1C\x1C\x1C2278
+    Bobby Court\x1C\x1COrefield\x1CPA\x1C180699540\x1C\x1C20080415\x1C2300.00\x1C\x1CRetired"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14951
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scheller
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2278 Bobby Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Orefield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '180699540'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00386847\x1C80415.C14949\x1CIND\x1C\x1CHaddad\x1CRamzi\x1C\x1C\x1C\x1C1177
+    6th Street\x1C\x1CWhitehall\x1CPA\x1C18052\x1C\x1C20080415\x1C2300.00\x1CBrookside
+    Construction\x1CV.P. -- Operations"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14949
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Haddad
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ramzi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1177 6th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Whitehall
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '18052'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Brookside Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: V.P. -- Operations
+- input: "F65\x1CC00386847\x1C80415.C14947\x1CIND\x1C\x1CSchwab\x1CMark\x1C\x1C\x1C\x1C224
+    E Macada Road\x1C\x1CBethlehem\x1CPA\x1C180172524\x1C\x1C20080415\x1C2300.00\x1CBinney
+    and Smith\x1CPresident and CEO"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14947
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Schwab
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 224 E Macada Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethlehem
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '180172524'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Binney and Smith
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President and CEO
+- input: "F65\x1CC00386847\x1C80415.C14948\x1CIND\x1C\x1CEbert\x1CLinda A.\x1C\x1C\x1C\x1C922
+    N. 18th Street\x1C\x1CAllentown\x1CPA\x1C181044124\x1C\x1C20080415\x1C2300.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14948
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ebert
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Linda A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 922 N. 18th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Allentown
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '181044124'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00386847\x1C80415.C14952\x1CIND\x1C\x1CReinoehl\x1CJ. Benjamin\x1C\x1C\x1C\x1C562
+    Riverwoods Way\x1C\x1CBethlehem\x1CPA\x1C180186356\x1C\x1C20080415\x1C1000.00\x1CRMW
+    Solutions, LLC\x1CPrincipal"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14952
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reinoehl
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J. Benjamin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 562 Riverwoods Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethlehem
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '180186356'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RMW Solutions, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+- input: "F65\x1CC00386847\x1C80415.C14950\x1CIND\x1C\x1CFainor\x1CCathy\x1C\x1C\x1C\x1C3050
+    Fairfield Drive\x1C\x1CAllentown\x1CPA\x1C181035542\x1C\x1C20080415\x1C1000.00\x1C\x1CHomemaker"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386847
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80415.C14950
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fainor
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cathy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3050 Fairfield Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Allentown
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '181035542'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080415'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+sourceurl: !!python/unicode 20080416
+type: single
