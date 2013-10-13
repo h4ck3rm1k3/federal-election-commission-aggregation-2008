@@ -1,0 +1,191 @@
+countraw: 6
+countrows: 4
+filename: 329222.fec
+header: {}
+rows:
+- input: "F10\x1CC00444836\x1COSE FOR CONGRESS\x1C9321 Silverbend Lane\x1C\x1CElk
+    Grove\x1CCA\x1C95624\x1CH8CA03105\x1COse\x1CDoug\x1CA.\x1C\x1C\x1CH\x1CCA\x1C04\x1C.00\x1C849000.00\x1C849000.00\x1C\x1C\x1C\x1CCopp\x1CVona\x1CL.\x1C\x1C\x1C20080401"
+  record: fec.version.v6_1.F10
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444836
+  - name: FILER (Principal Campaign) COMMITTEE NAME
+    number: '3'
+    value: OSE FOR CONGRESS
+  - name: COMMITTEE STREET 1
+    number: '4'
+    value: 9321 Silverbend Lane
+  - name: COMMITTEE STREET 2
+    number: '5'
+    value: ''
+  - name: COMMITTEE CITY
+    number: '6'
+    value: Elk Grove
+  - name: COMMITTEE STATE
+    number: '7'
+    value: CA
+  - name: COMMITTEE ZIP
+    number: '8'
+    value: '95624'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CA03105
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Ose
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Doug
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: A.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DIST
+    number: '17'
+    value: '04'
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '18'
+    value: '.00'
+  - name: EXPENDITURE TOTAL THIS REPORT
+    number: '19'
+    value: '849000.00'
+  - name: EXPENDITURE TOTAL CYCLE-TO-DATE
+    number: '20'
+    value: '849000.00'
+  - name: MEETS F6 FILING FILING REQUIREMENTS
+    number: '21'
+    value: ''
+  - name: CANDIDATE EMPLOYER
+    number: '22'
+    value: ''
+  - name: CANDIDATE OCCUPATION
+    number: '23'
+    value: ''
+  - name: TREASURER LAST NAME
+    number: '24'
+    value: Copp
+  - name: TREASURER FIRST NAME
+    number: '25'
+    value: Vona
+  - name: TREASURER MIDDLE NAME
+    number: '26'
+    value: L.
+  - name: TREASURER PREFIX
+    number: '27'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '28'
+    value: ''
+  - name: DATE SIGNED
+    number: '29'
+    value: '20080401'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444836
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000001
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080306'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '200000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444836\x1CF105.000001\x1CP2008\x1C\x1C20080306\x1C200000.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444836
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000002
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080331'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '149000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: X
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444836\x1CF105.000002\x1CP2008\x1C\x1C20080331\x1C149000.00\x1CX\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444836
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F105.000003
+  - name: ELECTION CODE
+    number: '4'
+    value: P2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '6'
+    value: '20080331'
+  - name: EXPENDITURE AMOUNT
+    number: '7'
+    value: '500000.00'
+  - name: LOAN CHECK
+    number: '8'
+    value: ''
+  - value: ''
+  expected_count: 8
+  input: "F105\x1CC00444836\x1CF105.000003\x1CP2008\x1C\x1C20080331\x1C500000.00\x1C\x1C"
+  input_count: 9
+  record: fec.version.v6_1.F105
+  result: []
+sourceurl: !!python/unicode 20080402
+type: single
