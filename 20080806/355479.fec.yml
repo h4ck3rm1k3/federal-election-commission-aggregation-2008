@@ -1,0 +1,662 @@
+countraw: 12
+countrows: 10
+filename: 355479.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JEFF CRANK FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 50887
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: COLORADO SPRINGS
+  - name: STATE
+    number: '7'
+    value: CO
+  - name: ZIP
+    number: '8'
+    value: '80949'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6CO05142
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: CRANK
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: JEFF
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: WARNOCK
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: EILEEN
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080806'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00421776\x1CJEFF CRANK FOR CONGRESS\x1CPO BOX 50887\x1C\x1CCOLORADO
+    SPRINGS\x1CCO\x1C80949\x1CH6CO05142\x1CCRANK\x1CJEFF\x1C\x1C\x1C\x1CH\x1CCO\x1C05\x1CWARNOCK\x1CEILEEN\x1C\x1C\x1C\x1C20080806\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00421776\x1CF6.8980\x1CIND\x1C\x1CBOYD\x1CMARVIN\x1C\x1C\x1C\x1C7605
+    WINDING OAKS DR\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80919\x1C\x1C20080806\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8980
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BOYD
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MARVIN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7605 WINDING OAKS DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80919'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00421776\x1CF6.8975\x1CIND\x1C\x1CBRUNER\x1CSAMANTHA\x1C\x1C\x1C\x1C5412
+    SEAL ALLEY\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80924\x1C\x1C20080806\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8975
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BRUNER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SAMANTHA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5412 SEAL ALLEY
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80924'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00421776\x1CF6.8960\x1CIND\x1C\x1CCARLEO\x1CLOUIE\x1C\x1C\x1C\x1C114
+    W 7TH ST\x1C\x1CPUEBLO\x1CCO\x1C81003\x1C\x1C20080806\x1C1000.00\x1CL.D.C. PROPERTIES\x1COWNER"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8960
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARLEO
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LOUIE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 114 W 7TH ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PUEBLO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '81003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: L.D.C. PROPERTIES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OWNER
+- input: "F65\x1CC00421776\x1CF6.8964\x1CIND\x1C\x1CDEROSE\x1CDAN\x1C\x1C\x1C\x1C29677
+    HEGLER CT\x1C\x1CPUEBLO\x1CCO\x1C81006\x1C\x1C20080806\x1C1000.00\x1CDD MARKETING
+    INC\x1COWNER"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8964
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DEROSE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DAN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 29677 HEGLER CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PUEBLO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '81006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DD MARKETING INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OWNER
+- input: "F65\x1CC00421776\x1CF6.8970\x1CIND\x1C\x1CDONALDSON\x1CDEVLIN\x1C\x1C\x1C\x1C3829
+    NUEVO CIR\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80918\x1C\x1C20080806\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8970
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DONALDSON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DEVLIN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3829 NUEVO CIR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80918'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00421776\x1CF6.8971\x1CIND\x1C\x1CHYBL\x1CBILL\x1C\x1C\x1C\x1C2
+    PENROSE LANE\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80906\x1C\x1C20080806\x1C1050.00\x1CTHE
+    BROADMOOR\x1CVICE CHAIRMAN"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8971
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HYBL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: BILL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2 PENROSE LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80906'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1050.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: THE BROADMOOR
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VICE CHAIRMAN
+- input: "F65\x1CC00421776\x1CF6.8981\x1CIND\x1C\x1CSCHUCK\x1CJOYCE\x1C\x1C\x1C\x1C1911
+    MESA AVE\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80906\x1C\x1C20080806\x1C2300.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8981
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SCHUCK
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOYCE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1911 MESA AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80906'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00421776\x1CF6.8972\x1CIND\x1C\x1CSHUGART\x1CMICHAEL\x1C\x1C\x1C\x1CPO
+    BOX 2866\x1C\x1CMONUMENT\x1CCO\x1C80132\x1C\x1C20080806\x1C2300.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8972
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SHUGART
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MICHAEL
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 2866
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MONUMENT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80132'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00421776\x1CF6.8962\x1CIND\x1C\x1CTILCOMB\x1CFORREST\x1C\x1C\x1C\x1C4035
+    SLEEPY INDIAN LANE\x1C\x1CCOLORADO SPRINGS\x1CCO\x1C80904\x1C\x1C20080806\x1C1200.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00421776
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8962
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: TILCOMB
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: FORREST
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4035 SLEEPY INDIAN LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLORADO SPRINGS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80904'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080806'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080806
+type: single
