@@ -1,0 +1,209 @@
+countraw: 5
+countrows: 3
+filename: 336839.fec
+header: {}
+rows:
+- input: "F6\x1CC00393629\x1CMCHENRY FOR CONGRESS\x1CPO BOX 1406\x1C\x1CHICKORY\x1CNC\x1C28603
+    \  \x1CH4NC10047\x1CMcHenry\x1CPatrick\x1CTimothy\x1C\x1C\x1CH\x1CNC\x1C10\x1CRains\x1CCatherine\x1CMcHenry\x1C\x1C\x1C20080430"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCHENRY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1406
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HICKORY
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28603   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4NC10047
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: McHenry
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Patrick
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: Timothy
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Rains
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Catherine
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: McHenry
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080430'
+- input: "F65\x1CC00393629\x1C80430.C7822\x1CPAC\x1CBridgestone Americas Holding Inc.
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C607 14th St NW Ste 500\x1C\x1CWashington\x1CDC\x1C200052023\x1CC00371948\x1C20080429\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80430.C7822
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Bridgestone Americas Holding Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 607 14th St NW Ste 500
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200052023'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00371948
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00393629\x1C80430.C7830\x1CIND\x1C\x1CKincaid\x1CBrent\x1C\x1C\x1C\x1C2703
+    Lakeview Dr\x1C\x1CLenoir\x1CNC\x1C286459738\x1C\x1C20080429\x1C1000.00\x1CKincaid
+    Furniture\x1COwner"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80430.C7830
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kincaid
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2703 Lakeview Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lenoir
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '286459738'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kincaid Furniture
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+sourceurl: !!python/unicode 20080501
+type: single
