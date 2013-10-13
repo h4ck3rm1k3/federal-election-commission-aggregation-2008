@@ -1,0 +1,285 @@
+countraw: 6
+countrows: 4
+filename: 340048.fec
+header: {}
+rows:
+- input: "F6\x1CC00391029\x1CJim Costa For Congress\x1C2037 W Bullard Avenue\x1C#
+    355\x1CFresno\x1CCA\x1C937111200\x1CH4CA20082\x1CCosta\x1CJim\x1C\x1CMr.\x1C\x1CH\x1CCA\x1C20\x1CCosta\x1CKen\x1C\x1C\x1C\x1C20080519"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jim Costa For Congress
+  - name: STREET 1
+    number: '4'
+    value: 2037 W Bullard Avenue
+  - name: STREET 2
+    number: '5'
+    value: '# 355'
+  - name: CITY
+    number: '6'
+    value: Fresno
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '937111200'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4CA20082
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Costa
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jim
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '20'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Costa
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Ken
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080519'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5199000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Chevron Employees PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 6016
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Ramon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '945830716'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00035006
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C5199000\x1CCOM\x1CChevron Employees PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 6016\x1C\x1CSan Ramon\x1CCA\x1C945830716\x1CC00035006\x1C20080519\x1C1000\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5197000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Farmers Rice Cooperative Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 15223
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sacramento
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '958510223'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00146605
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C5197000\x1CCOM\x1CFarmers Rice Cooperative Fund\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 15223\x1C\x1CSacramento\x1CCA\x1C958510223\x1CC00146605\x1C20080519\x1C1000\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00391029
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5196000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Grocery Manufacturers Association Political Action Committee ('Gma Pac')
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1350 I Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200053377'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00250068
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00391029\x1C5196000\x1CCOM\x1CGrocery Manufacturers Association
+    Political Action Committee ('Gma Pac')\x1C\x1C\x1C\x1C\x1C\x1C1350 I Street NW\x1CSuite
+    300\x1CWashington\x1CDC\x1C200053377\x1CC00250068\x1C20080519\x1C2500\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080520
+type: single
