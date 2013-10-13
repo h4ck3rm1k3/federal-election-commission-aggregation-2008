@@ -1,0 +1,217 @@
+countraw: 5
+countrows: 3
+filename: 342179.fec
+header: {}
+rows:
+- input: "F6\x1CC00435743\x1CNick Leibham For Congress\x1C425 W    5th Avenue\x1CSuite
+    205\x1CEscondido\x1CCA\x1C920254843\x1CH8CA50023\x1CLeibham\x1CNicholas\x1CA\x1C\x1C\x1CH\x1CCA\x1C50\x1CMartinez\x1CXavier\x1CR\x1C\x1C\x1C20080525"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Nick Leibham For Congress
+  - name: STREET 1
+    number: '4'
+    value: 425 W    5th Avenue
+  - name: STREET 2
+    number: '5'
+    value: Suite 205
+  - name: CITY
+    number: '6'
+    value: Escondido
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '920254843'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CA50023
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Leibham
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Nicholas
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '50'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Martinez
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Xavier
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: R
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080525'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1034000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Galinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Murray
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7919 Prospect Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Jolla
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '920373722'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00435743\x1C1034000\x1CIND\x1C\x1CGalinson\x1CMurray\x1C\x1C\x1C\x1C7919
+    Prospect Place\x1C\x1CLa Jolla\x1CCA\x1C920373722\x1C\x1C20080523\x1C2000\x1Cself\x1Cretired\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1037000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ladeki
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sami
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 565 Pearl Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 225
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Jolla
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '920375061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ladeki Restaurant Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00435743\x1C1037000\x1CIND\x1C\x1CLadeki\x1CSami\x1C\x1C\x1C\x1C565
+    Pearl Street\x1CSuite 225\x1CLa Jolla\x1CCA\x1C920375061\x1C\x1C20080523\x1C1000\x1CLadeki
+    Restaurant Group\x1CPresident\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080526
+type: single
