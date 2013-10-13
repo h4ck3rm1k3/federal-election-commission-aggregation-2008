@@ -1,0 +1,834 @@
+countraw: 14
+countrows: 12
+filename: 359586.fec
+header: {}
+rows:
+- input: "F6\x1CC00445114\x1CJOE GARCIA FOR CONGRESS\x1C12930 SW 128 Street\x1CSuite
+    102\x1CMiami\x1CFL\x1C33186\x1CH8FL25015\x1CGarcia\x1CJoe\x1C\x1C\x1C\x1CH\x1CFL\x1C25\x1CBarthole\x1CPaul\x1C\x1C\x1C\x1C20080825"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOE GARCIA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 12930 SW 128 Street
+  - name: STREET 2
+    number: '5'
+    value: Suite 102
+  - name: CITY
+    number: '6'
+    value: Miami
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '33186'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8FL25015
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Garcia
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Joe
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '25'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Barthole
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Paul
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080825'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Becerra for Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 261060
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90026'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000001\x1CCCM\x1CBecerra for Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 261060\x1C\x1CLos Angeles\x1CCA\x1C90026\x1C\x1C20080823\x1C2000.00\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lippman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3339 Descanso Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90026'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000002\x1CIND\x1C\x1CLippman\x1CWalter\x1C\x1C\x1C\x1C3339
+    Descanso Dr\x1C\x1CLos Angeles\x1CCA\x1C90026\x1C\x1C20080823\x1C1000.00\x1CRetired\x1CRetired\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joe
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3760 Kilroy Airport Way, Ste 560
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Long Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90806'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: J Perez & Assoc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000003\x1CIND\x1C\x1CPerez\x1CJoe\x1C\x1C\x1C\x1C\"3760
+    Kilroy Airport Way, Ste 560\"\x1C\x1CLong Beach\x1CCA\x1C90806\x1C\x1C20080823\x1C2300.00\x1CJ
+    Perez & Assoc\x1CCEO\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Silver State 21st Century PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3069 Conquista Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Las Vegas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89121'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000004\x1CPAC\x1CSilver State 21st Century PAC\x1C\x1C\x1C\x1C\x1C\x1C3069
+    Conquista Ct\x1C\x1CLas Vegas\x1CNV\x1C89121\x1C\x1C20080823\x1C1000.00\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ulloa
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ronald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11322 Chalon Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90049'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: KXLA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Broadcaster
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000005\x1CIND\x1C\x1CUlloa\x1CRonald\x1C\x1C\x1C\x1C11322
+    Chalon Rd\x1C\x1CLos Angeles\x1CCA\x1C90049\x1C\x1C20080823\x1C2300.00\x1CKXLA\x1CBroadcaster\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ulloa
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15304 Sunset Blvd Ste 206
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pacific Palisades
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90272'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Entravision Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000006\x1CIND\x1C\x1CUlloa\x1CWalter\x1C\x1C\x1C\x1C15304
+    Sunset Blvd Ste 206\x1C\x1CPacific Palisades\x1CCA\x1C90272\x1C\x1C20080823\x1C2300.00\x1CEntravision
+    Communications\x1CChairman\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ulloa
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15304 Sunset Blvd Ste 206
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pacific Palisades
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90272'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Entravision Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000007\x1CIND\x1C\x1CUlloa\x1CWalter\x1C\x1C\x1C\x1C15304
+    Sunset Blvd Ste 206\x1C\x1CPacific Palisades\x1CCA\x1C90272\x1C\x1C20080823\x1C2300.00\x1CEntravision
+    Communications\x1CChairman\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wilkinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Philip
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2630
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rancho Santa Fe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92067'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Entravision Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President & COO
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000008\x1CIND\x1C\x1CWilkinson\x1CPhilip\x1C\x1C\x1C\x1CPO
+    Box 2630\x1C\x1CRancho Santa Fe\x1CCA\x1C92067\x1C\x1C20080823\x1C2300.00\x1CEntravision
+    Communications\x1CPresident & COO\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000009
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wilkinson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Philip
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2630
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rancho Santa Fe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92067'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Entravision Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President & COO
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000009\x1CIND\x1C\x1CWilkinson\x1CPhilip\x1C\x1C\x1C\x1CPO
+    Box 2630\x1C\x1CRancho Santa Fe\x1CCA\x1C92067\x1C\x1C20080823\x1C2300.00\x1CEntravision
+    Communications\x1CPresident & COO\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000010
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Zevnik
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 77 W Wacker Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Morgan Lewis Bockius
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000010\x1CIND\x1C\x1CZevnik\x1CPaul\x1C\x1C\x1C\x1C77
+    W Wacker Dr\x1C\x1CChicago\x1CIL\x1C60601\x1C\x1C20080823\x1C2300.00\x1CMorgan
+    Lewis Bockius\x1CAttorney\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00445114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000011
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SEIU COPE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1800 Massachusetts Ave., NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080823'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00445114\x1CF65.000011\x1CPAC\x1CSEIU COPE\x1C\x1C\x1C\x1C\x1C\x1C\"1800
+    Massachusetts Ave., NW\"\x1C\x1CWashington\x1CDC\x1C20036\x1C\x1C20080823\x1C5000.00\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20080826
+type: single
