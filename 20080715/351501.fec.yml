@@ -1,0 +1,164 @@
+countraw: 4
+countrows: 2
+filename: 351501.fec
+header: {}
+rows:
+- input: "F2N\x1CH6NJ07128\x1CStender\x1CLinda\x1C\x1CMrs.\x1C\x1C\x1C154 Herbert
+    Avenue\x1C\x1CFanwood\x1CNJ\x1C07023\x1CDEM\x1CH\x1CNJ\x1C07\x1C2008\x1CC00417600\x1CLinda
+    Stender for Congress\x1CPO Box 730\x1C\x1CScotch Plains\x1CNJ\x1C07076\x1CC00450882\x1CWomen
+    Lead Victory Fund 2008\x1C430 South Capitol Street, SE\x1C\x1CWashington\x1CDC\x1C20003\x1C0.00\x1C0.00\x1CStender\x1CLinda\x1C\x1C\x1C\x1C20080715"
+  record: fec.version.v6_2.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6NJ07128
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Stender
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Linda
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mrs.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 154 Herbert Avenue
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Fanwood
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NJ
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '07023'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00417600
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Linda Stender for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 730
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Scotch Plains
+  - name: PCC STATE
+    number: '24'
+    value: NJ
+  - name: PCC ZIP
+    number: '25'
+    value: '07076'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00450882
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Women Lead Victory Fund 2008
+  - name: AUTH STREET 1
+    number: '28'
+    value: 430 South Capitol Street, SE
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20003'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: Stender
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: Linda
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080715'
+- input: "f2s\x1CH6NJ07128\x1CC00452045\x1CRangel Victory Fund \x1C818 Connecticut
+    Avenue, NW\x1CSuite 1100\x1CWashington\x1CDC\x1C20006"
+  record: fec.version.v6_2.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: f2s
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H6NJ07128
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00452045
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: 'Rangel Victory Fund '
+  - name: AUTH STREET 1
+    number: '5'
+    value: 818 Connecticut Avenue, NW
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 1100
+  - name: AUTH CITY
+    number: '7'
+    value: Washington
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '20006'
+sourceurl: !!python/unicode 20080715
+type: single
