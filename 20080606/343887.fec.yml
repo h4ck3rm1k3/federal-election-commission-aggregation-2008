@@ -1,0 +1,337 @@
+countraw: 7
+countrows: 5
+filename: 343887.fec
+header: {}
+rows:
+- input: "F6\x1CC00418632\x1CJudy Feder for Congress\x1C1514 Hardwood Lane\x1C\x1CMcLean\x1CVA\x1C22101\x1CH6VA10183\x1CFeder\x1CJudy\x1C\x1C\x1C\x1CH\x1CVA\x1C10\x1CHeinitz\x1CMark\x1C\x1C\x1C\x1C20080606"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00418632
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Judy Feder for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1514 Hardwood Lane
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: McLean
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22101'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6VA10183
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Feder
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Judy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Heinitz
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Mark
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080606'
+- input: "F65\x1CC00418632\x1CC2030063\x1CIND\x1C\x1CDentzer\x1CCelia\x1C\x1C\x1C\x1C49
+    Woodbine Avenue\x1C\x1CLarchmont\x1CNY\x1C10538\x1C\x1C20080605\x1C2300.00\x1Cnone\x1Chomemaker"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00418632
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2030063
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dentzer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Celia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 49 Woodbine Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Larchmont
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10538'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: none
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: homemaker
+- input: "F65\x1CC00418632\x1CC2029709\x1CIND\x1C\x1CHunter\x1CJames\x1CR.\x1CMr.\x1C\x1C8035
+    N. Park Street\x1C\x1CDunn Loring\x1CVA\x1C22027\x1C\x1C20080604\x1C1000.00\x1CCassidy
+    & Pinkard Inc.\x1CReal Estate"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00418632
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2029709
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hunter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8035 N. Park Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dunn Loring
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22027'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cassidy & Pinkard Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+- input: "F65\x1CC00418632\x1CC2029724\x1CIND\x1C\x1CRuggles\x1CPatricia\x1C\x1C\x1C\x1C7412
+    Ridgewood Ave.\x1C\x1CChevy Chase\x1CMD\x1C20815\x1C\x1C20080604\x1C2300.00\x1CNational
+    Academy of Sciences\x1CStudy Director"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00418632
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2029724
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ruggles
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patricia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7412 Ridgewood Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chevy Chase
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20815'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: National Academy of Sciences
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Study Director
+- input: "F65\x1CC00418632\x1CC2029705\x1CIND\x1C\x1CWesner\x1CAlexa\x1C\x1C\x1C\x1C900
+    Live Oak Circle\x1C\x1CAustin\x1CTX\x1C78746\x1C\x1C20080604\x1C1000.00\x1Cn/a\x1CHomemaker"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00418632
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2029705
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Wesner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Alexa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 900 Live Oak Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78746'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+sourceurl: !!python/unicode 20080606
+type: single
