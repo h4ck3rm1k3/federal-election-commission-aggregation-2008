@@ -1,0 +1,163 @@
+countraw: 4
+countrows: 2
+filename: 343906.fec
+header: {}
+rows:
+- input: "F2N\x1CH8WV02081\x1CBarth\x1CAnne\x1C\x1CMrs.\x1C\x1C\x1CPO Box 2151\x1C\x1CCharleston\x1CWV\x1C25328\x1CDEM\x1CH\x1CWV\x1C02\x1C2008\x1CC00445049\x1CAnne
+    Barth for Congress\x1CPO Box 2151\x1C\x1CCharleston\x1CWV\x1C25328\x1CC00445049\x1CAnne
+    Barth for Congress\x1CPO Box 2151\x1C\x1CCharleston\x1CWV\x1C25328\x1C0.00\x1C0.00\x1CBarth\x1CAnne\x1C\x1C\x1C\x1C20080606"
+  record: fec.version.v6_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8WV02081
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Barth
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Anne
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mrs.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 2151
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Charleston
+  - name: CANDIDATE STATE
+    number: '12'
+    value: WV
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '25328'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: WV
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00445049
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Anne Barth for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 2151
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Charleston
+  - name: PCC STATE
+    number: '24'
+    value: WV
+  - name: PCC ZIP
+    number: '25'
+    value: '25328'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00445049
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Anne Barth for Congress
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 2151
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Charleston
+  - name: AUTH STATE
+    number: '31'
+    value: WV
+  - name: AUTH ZIP
+    number: '32'
+    value: '25328'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: Barth
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: Anne
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080606'
+- input: "f2s\x1CH8WV02081\x1CC00450882\x1CWomen Lead Victory Fund 2008\x1C430 South
+    Capitol Street, SE\x1C\x1CWashington\x1CDC\x1C20003"
+  record: fec.version.v6_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: f2s
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H8WV02081
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00450882
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Women Lead Victory Fund 2008
+  - name: AUTH STREET 1
+    number: '5'
+    value: 430 South Capitol Street, SE
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Washington
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '20003'
+sourceurl: !!python/unicode 20080606
+type: single
