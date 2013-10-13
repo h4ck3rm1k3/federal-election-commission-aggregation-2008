@@ -1,0 +1,472 @@
+countraw: 9
+countrows: 7
+filename: 328936.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCULLOUGH FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 22
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TUPELO
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '38802'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MS01079
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: MCCULLOUGH
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: GLENN L JR
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: JR
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080329'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00443515\x1CMCCULLOUGH FOR CONGRESS\x1CP.O. BOX 22\x1C\x1CTUPELO\x1CMS\x1C38802\x1CH8MS01079\x1CMCCULLOUGH\x1CGLENN
+    L JR\x1CL\x1C\x1CJR\x1CH\x1CMS\x1C01\x1C\x1C\x1C\x1C\x1C\x1C20080329\x1C"
+  input_count: 24
+  record: fec.version.v6_1.F6
+  result: []
+- input: "F65\x1CC00443515\x1CF6.6176\x1CIND\x1C\x1CCHAMBERS\x1CERIC\x1C\x1C\x1C\x1C6233
+    MS HIGHWAY 12\x1C\x1CACKERMAN\x1CMS\x1C39735\x1C\x1C20080328\x1C1000.00\x1CCHAMBERS
+    DELIMBINATOR INC\x1COWNER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6176
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CHAMBERS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ERIC
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6233 MS HIGHWAY 12
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ACKERMAN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39735'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CHAMBERS DELIMBINATOR INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: OWNER
+- input: "F65\x1CC00443515\x1CF6.6173\x1CIND\x1C\x1CCLARK\x1CALBERT\x1CC\x1C\x1C\x1CP.O.
+    BOX 966\x1C\x1CSTARKVILLE\x1CMS\x1C39760\x1C\x1C20080328\x1C2300.00\x1CCOCA COLA
+    BOTTLING\x1CEXECUTIVE"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6173
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CLARK
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ALBERT
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 966
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: STARKVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '39760'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: COCA COLA BOTTLING
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+- input: "F65\x1CC00443515\x1CF6.6171\x1CIND\x1C\x1CHICKS\x1CDAVID\x1C\x1C\x1C\x1C607
+    ROBERT E LEE DRIVE\x1C\x1CGREENWOOD\x1CMS\x1C38930\x1C\x1C20080328\x1C1000.00\x1CSELF\x1CCOTTON
+    BROKER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6171
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HICKS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DAVID
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 607 ROBERT E LEE DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GREENWOOD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38930'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: COTTON BROKER
+- input: "F65\x1CC00443515\x1CF6.6172\x1CIND\x1C\x1CHILL\x1CMARTHA\x1CREBECCA W\x1C\x1C\x1C218
+    ST ANDREWS CIRCLE\x1C\x1COXFORD\x1CMS\x1C38655\x1C\x1C20080328\x1C1000.00\x1CRETIRED\x1CRETIRED"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6172
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HILL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MARTHA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: REBECCA W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 218 ST ANDREWS CIRCLE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: OXFORD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38655'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RETIRED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: RETIRED
+- input: "F65\x1CC00443515\x1CF6.6175\x1CIND\x1C\x1CKILGORE\x1CBARBARA\x1C\x1C\x1C\x1C74
+    PRINCETON PLACE\x1C\x1CJACKSON\x1CTN\x1C38305\x1C\x1C20080328\x1C1000.00\x1CTVA\x1CENGINEER"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6175
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: KILGORE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: BARBARA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 74 PRINCETON PLACE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: JACKSON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38305'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: TVA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ENGINEER
+- input: "F65\x1CC00443515\x1CF6.6174\x1CIND\x1C\x1CSNEED\x1CJIM\x1C\x1C\x1C\x1C1121
+    B BIENVILLE ST\x1C\x1CTUPELO\x1CMS\x1C38801\x1C\x1C20080328\x1C2300.00\x1CAFFORDABLE
+    FURNITURE\x1CEXECUTIVE"
+  record: fec.version.v6_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443515
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6174
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SNEED
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JIM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1121 B BIENVILLE ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: TUPELO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38801'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080328'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AFFORDABLE FURNITURE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+sourceurl: !!python/unicode 20080329
+type: single
