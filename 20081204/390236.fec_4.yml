@@ -1,0 +1,51 @@
+countraw: 3004
+countrows: 3002
+filename: 390236.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00031054\x1CTEXT-00023\x1C21b-29-01847-01905\x1CSB21b\x1CNot a
+    public communication. Not allocable to any federal candidate"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00031054
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00023
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 21b-29-01847-01905
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB21b
+  - name: TEXT4000
+    number: '6'
+    value: Not a public communication. Not allocable to any federal candidate
+- input: "TEXT\x1CC00031054\x1CTEXT-00024\x1C21b-29-01849-01980\x1CSB21b\x1CNot a
+    public communication."
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00031054
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00024
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 21b-29-01849-01980
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB21b
+  - name: TEXT4000
+    number: '6'
+    value: Not a public communication.
+sourceurl: !!python/unicode 20081204
+type: chunk
