@@ -1,0 +1,76 @@
+countraw: 1005
+countrows: 1003
+filename: 389798.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00436063\x1CX1\x1CD233480\x1CSB17\x1CCaprara-2210; Ericson-666;
+    Greeley-906; Hegge-786; Kelly-175; Marter-1298; Seitz-1525; Tepel-1069"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436063
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D233480
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB17
+  - name: TEXT4000
+    number: '6'
+    value: Caprara-2210; Ericson-666; Greeley-906; Hegge-786; Kelly-175; Marter-1298;
+      Seitz-1525; Tepel-1069
+- input: "TEXT\x1CC00436063\x1CX2\x1CD233589\x1CSB17\x1CCaprara-2210; Ericson-666;
+    Greeley-906; Hegge-786; Marter-1298; Seitz-1525; Tepel-1069"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436063
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D233589
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB17
+  - name: TEXT4000
+    number: '6'
+    value: Caprara-2210; Ericson-666; Greeley-906; Hegge-786; Marter-1298; Seitz-1525;
+      Tepel-1069
+- input: "TEXT\x1CC00436063\x1CX3\x1CD233620\x1CSB17\x1CCaprara-2210; Ericson-666;
+    Greeley-906; Hegge-786; Marter-1298; Seitz-1525; Tepel-1069"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00436063
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D233620
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB17
+  - name: TEXT4000
+    number: '6'
+    value: Caprara-2210; Ericson-666; Greeley-906; Hegge-786; Marter-1298; Seitz-1525;
+      Tepel-1069
+sourceurl: !!python/unicode 20081204
+type: chunk
