@@ -1,0 +1,210 @@
+countraw: 5
+countrows: 3
+filename: 354370.fec
+header: {}
+rows:
+- input: "F6\x1CC00304758\x1CFriends of Roy Blunt\x1CPO Box 50100\x1C\x1CSpringfield\x1CMO\x1C65805
+    \  \x1CH6MO07128\x1CBlunt\x1CRoy\x1C\x1C\x1C\x1CH\x1CMO\x1C07\x1CTreasurer\x1CGordon\x1CA.
+    Elliott,\x1C\x1C\x1C20080726"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00304758
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Roy Blunt
+  - name: STREET 1
+    number: '4'
+    value: PO Box 50100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Springfield
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '65805   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MO07128
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Blunt
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Roy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Treasurer
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Gordon
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A. Elliott,
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080726'
+- input: "F65\x1CC00304758\x1C80725.C27267\x1CPAC\x1CCapital One Associates Political
+    Fund\x1C\x1C\x1C\x1C\x1C\x1C1680 Capital One Drive\x1C\x1CMc Lean\x1CVA\x1C221023406\x1CC00326595\x1C20080725\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00304758
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80725.C27267
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Capital One Associates Political Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1680 Capital One Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221023406'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00326595
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080725'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00304758\x1C80725.C27263\x1CIND\x1C\x1CPinegar\x1CEd\x1C\x1C\x1C\x1C769
+    E. Highway 60\x1C\x1CRepublic\x1CMO\x1C65738\x1C\x1C20080724\x1C1000.00\x1CPinegar
+    Chevrolet\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00304758
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80725.C27263
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Pinegar
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ed
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 769 E. Highway 60
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Republic
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '65738'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080724'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pinegar Chevrolet
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+sourceurl: !!python/unicode 20080726
+type: single
