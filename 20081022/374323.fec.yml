@@ -1,0 +1,336 @@
+countraw: 7
+countrows: 5
+filename: 374323.fec
+header: {}
+rows:
+- input: "F6\x1CC00309237\x1CThe Reyes Committee, Inc.\x1C1011 Montana Ave\x1C\x1CEl
+    Paso\x1CTX\x1C79902   \x1CH6TX00115\x1CReyes\x1CSilvestre\x1C\x1C\x1C\x1CH\x1CTX\x1C16\x1CPate\x1CRonald\x1CE.\x1C\x1C\x1C20081021"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Reyes Committee, Inc.
+  - name: STREET 1
+    number: '4'
+    value: 1011 Montana Ave
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: El Paso
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '79902   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX00115
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Reyes
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Silvestre
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '16'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Pate
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Ronald
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: E.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081021'
+- input: "F65\x1CC00309237\x1C81021.C9829\x1CPAC\x1CCemex, Inc. Employees PAC\x1C\x1C\x1C\x1C\x1C\x1C840
+    Gessner, Suite 1400\x1C\x1CHouston\x1CTX\x1C77024\x1CC00111880\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81021.C9829
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Cemex, Inc. Employees PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 840 Gessner, Suite 1400
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77024'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00111880
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00309237\x1C81021.C9830\x1CPAC\x1CMachinists Non-Partisan Political
+    League\x1C\x1C\x1C\x1C\x1C\x1C9000 Machinist Pl.\x1C\x1CUpper Marlboro\x1CMD\x1C20772\x1CC70000435\x1C20081021\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81021.C9830
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Machinists Non-Partisan Political League
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9000 Machinist Pl.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Upper Marlboro
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20772'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C70000435
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00309237\x1C81021.C9832\x1CPAC\x1CMidwest Region Laborers Political
+    Leagu\x1C\x1C\x1C\x1C\x1C\x1C1 North Old State Capitol Plaza\x1CSuite 525 \x1CSpringfield\x1CIL\x1C62701\x1CC00342907\x1C20081021\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81021.C9832
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Midwest Region Laborers Political Leagu
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 North Old State Capitol Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'Suite 525 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '62701'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00342907
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00309237\x1C81021.C9831\x1CPAC\x1CVFW-PAC, Inc\x1C\x1C\x1C\x1C\x1C\x1C200
+    Maryland Avenue, N.E.\x1CSuite 308 \x1CWashington\x1CDC\x1C200025799\x1CC00113001\x1C20081021\x1C1300.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00309237
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81021.C9831
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: VFW-PAC, Inc
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 Maryland Avenue, N.E.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'Suite 308 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200025799'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00113001
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081022
+type: single
