@@ -1,0 +1,680 @@
+countraw: 13
+countrows: 11
+filename: 379559.fec
+header: {}
+rows:
+- input: "F6\x1CC00128868\x1CBarney Frank for Congress Committee\x1CPO Box 260\x1C\x1CNewtonville\x1CMA\x1C02460\x1CH0MA04036\x1CFrank\x1CBarney\x1C\x1C\x1C\x1CH\x1CMA\x1C04\x1CBraey\x1CDoris
+    \x1C\x1C\x1C\x1C20081028"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Barney Frank for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 260
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Newtonville
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02460'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MA04036
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Frank
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Barney
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Braey
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: 'Doris '
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081028'
+- input: "F65\x1CC00128868\x1CC5215968\x1CPAC\x1CAFLAC PAC\x1C\x1C\x1C\x1C\x1C\x1C1932
+    Wynnton Rd\x1C\x1CColumbus\x1CGA\x1C319990002\x1CC00034157\x1C20081028\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5215968
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AFLAC PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1932 Wynnton Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '319990002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00034157
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5216000\x1CPAC\x1CChrysler PAC\x1C\x1C\x1C\x1C\x1C\x1C1000
+    Chrysler Dr\x1CCIMS 485-10-95\x1CAuburn Hills\x1CMI\x1C483262766\x1CC00043687\x1C20081028\x1C4000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5216000
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Chrysler PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1000 Chrysler Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: CIMS 485-10-95
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Auburn Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '483262766'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00043687
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5215966\x1CCCM\x1CCitizens for John Olver for Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 819\x1C\x1CAmherst\x1CMA\x1C010040819\x1CC00250860\x1C20081028\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5215966
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Citizens for John Olver for Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 819
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Amherst
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 010040819
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00250860
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5215999\x1CPAC\x1CCummins, Inc PAC\x1C\x1C\x1C\x1C\x1C\x1C601
+    Pennsylvania Ave NW\x1CNorth Bldg, Ste 625\x1CWashington\x1CDC\x1C200042601\x1CC00377952\x1C20081028\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5215999
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Cummins, Inc PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601 Pennsylvania Ave NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: North Bldg, Ste 625
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00377952
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5217077\x1CPAC\x1CHuman Rights Campaign PAC\x1C\x1C\x1C\x1C\x1C\x1C1640
+    Rhode Island Avenue NW\x1C\x1CWashington\x1CDC\x1C20036\x1CC00235853\x1C20081028\x1C4975.00\x1CHRCF
+    PAC\x1CPAC Associate"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5217077
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Human Rights Campaign PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1640 Rhode Island Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235853
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4975.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HRCF PAC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAC Associate
+- input: "F65\x1CC00128868\x1CC5216017\x1CPAC\x1CInternational Brotherhood of Electrical
+    Workers CO\x1C\x1C\x1C\x1C\x1C\x1C900 Seventh St. N.W.\x1C\x1CWashington\x1CDC\x1C20001\x1CC00027342\x1C20081028\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5216017
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: International Brotherhood of Electrical Workers CO
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 900 Seventh St. N.W.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00027342
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5215971\x1CPAC\x1CRetail PAC\x1C\x1C\x1C\x1C\x1C\x1C325
+    7th St NW\x1CSte 1100\x1CWashington\x1CDC\x1C200042818\x1C\x1C20081028\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5215971
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Retail PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 325 7th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 1100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042818'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5216022\x1CPAC\x1CSiemens Corp. PAC\x1C\x1C\x1C\x1C\x1C\x1C701
+    Pennsylvania Ave NW\x1CNorth Bldg, Ste 1100\x1CWashington\x1CDC\x1C200042626\x1C\x1C20081028\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5216022
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Siemens Corp. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 701 Pennsylvania Ave NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: North Bldg, Ste 1100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042626'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00128868\x1CC5216004\x1CPAC\x1CWells Fargo Employee PAC\x1C\x1C\x1C\x1C\x1C\x1CSixth
+    and Marquette\x1C\x1CMinneapolis\x1CMN\x1C55479\x1CC00034595\x1C20081028\x1C5000.00\x1CWells
+    Fargo\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5216004
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Wells Fargo Employee PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Sixth and Marquette
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '55479'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00034595
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Wells Fargo
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "TEXT\x1CC00128868\x1CX0\x1C\x1CF6\x1CTo correct Column B, 11(a)(i), page
+    3."
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6
+  - name: TEXT4000
+    number: '6'
+    value: To correct Column B, 11(a)(i), page 3.
+sourceurl: !!python/unicode 20081028
+type: single
