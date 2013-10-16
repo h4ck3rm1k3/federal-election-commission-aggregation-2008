@@ -1,0 +1,210 @@
+countraw: 5
+countrows: 3
+filename: 360928.fec
+header: {}
+rows:
+- input: "F6\x1CC00451336\x1CRichmond for Congress\x1C1631 Elysian Fields\x1CSte.
+    150\x1CNew Orleans\x1CLA\x1C70126\x1CH8LA02054\x1CRichmond\x1CCedric\x1CL\x1CMr\x1C\x1CH\x1CLA\x1C02\x1CGaines\x1CMaple\x1C\x1CMs\x1C\x1C20080906"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451336
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Richmond for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1631 Elysian Fields
+  - name: STREET 2
+    number: '5'
+    value: Ste. 150
+  - name: CITY
+    number: '6'
+    value: New Orleans
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70126'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8LA02054
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Richmond
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Cedric
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Gaines
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Maple
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Ms
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080906'
+- input: "F65\x1CC00451336\x1CC2082774\x1CCAN\x1C\x1CRichmond\x1CCedric\x1CL\x1C\x1C\x1C7021
+    Cove Drive\x1C\x1CNew Orleans\x1CLA\x1C70126\x1C\x1C20080829\x1C20000.00\x1CState
+    of Louisiana & Self\x1CLA State Representive/Attorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451336
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2082774
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Richmond
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cedric
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7021 Cove Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New Orleans
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70126'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080829'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '20000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: State of Louisiana & Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: LA State Representive/Attorney
+- input: "F65\x1CC00451336\x1CC2070257\x1CIND\x1C\x1CWebb\x1CCath\x1C\x1C\x1C\x1C101
+    Mesa Lane\x1C\x1CSanta Barbara\x1CCA\x1C93109\x1C\x1C20080829\x1C2300.00\x1CBlitz
+    Real Estate Corp\x1COffice Manager"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451336
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2070257
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Webb
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cath
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Mesa Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Santa Barbara
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '93109'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080829'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Blitz Real Estate Corp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Office Manager
+sourceurl: !!python/unicode 20080906
+type: single
