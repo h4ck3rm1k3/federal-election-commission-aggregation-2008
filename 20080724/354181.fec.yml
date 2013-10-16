@@ -1,0 +1,400 @@
+countraw: 8
+countrows: 6
+filename: 354181.fec
+header: {}
+rows:
+- input: "F6\x1CC00390724\x1CWalberg for Congress\x1C6769 Teachout Rd.\x1C\x1CTipton\x1CMI\x1C49287
+    \  \x1CH4MI07103\x1CWalberg\x1CTimothy\x1CL.\x1C\x1C\x1CH\x1CMI\x1C07\x1CYeutter\x1CJeffrey\x1CA.\x1C\x1C\x1C20080724"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Walberg for Congress
+  - name: STREET 1
+    number: '4'
+    value: 6769 Teachout Rd.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tipton
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '49287   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4MI07103
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Walberg
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Timothy
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Yeutter
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Jeffrey
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080724'
+- input: "F65\x1CC00390724\x1C80723.C14000\x1CPAC\x1CAmerican Frozen Food Institute
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C2000 Corporate Rdg Ste 1000\x1C\x1CMc Lean\x1CVA\x1C221027862\x1CC00042960\x1C20080723\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80723.C14000
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Frozen Food Institute PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2000 Corporate Rdg Ste 1000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221027862'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00042960
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00390724\x1C80724.C14003\x1CIND\x1C\x1CCrowner\x1CRobert\x1C\x1C\x1C\x1C3719
+    Meadow Ln\x1C\x1CSaline\x1CMI\x1C481769062\x1C\x1C20080723\x1C1000.00\x1Cretired\x1Cretired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80724.C14003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Crowner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3719 Meadow Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saline
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '481769062'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired
+- input: "F65\x1CC00390724\x1C80723.C14002\x1CPAC\x1CNational Right to Work Committee
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C8001 Braddock Rd Ste 500\x1C\x1CSpringfield\x1CVA\x1C221512125\x1CC00395533\x1C20080723\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80723.C14002
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: National Right to Work Committee PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8001 Braddock Rd Ste 500
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221512125'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00395533
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00390724\x1C80723.C13999\x1CPAC\x1CUnited Egg Association EGGPAC\x1C\x1C\x1C\x1C\x1C\x1C1720
+    Windward Concourse Ste 230\x1C\x1CAlpharetta\x1CGA\x1C300052289\x1CC00172841\x1C20080723\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80723.C13999
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: United Egg Association EGGPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1720 Windward Concourse Ste 230
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alpharetta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '300052289'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00172841
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00390724\x1C80723.C14001\x1CPAC\x1CWholesaler-Distributors PAC\x1C\x1C\x1C\x1C\x1C\x1C1325
+    G St NW Ste 1000\x1C\x1CWashington\x1CDC\x1C200053134\x1CC00109306\x1C20080723\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00390724
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 80723.C14001
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Wholesaler-Distributors PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1325 G St NW Ste 1000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200053134'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00109306
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20080724
+type: single
