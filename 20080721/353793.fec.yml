@@ -1,0 +1,286 @@
+countraw: 6
+countrows: 4
+filename: 353793.fec
+header: {}
+rows:
+- input: "F6\x1CC00376939\x1CMarsha Blackburn for Congress, Inc.\x1CPO Box 682185\x1C\x1CFranklin\x1CTN\x1C370682185\x1CH2TN06030\x1CBlackburn\x1CMarsha\x1C\x1C\x1C\x1CH\x1CTN\x1C07\x1CHoffmann\x1CTea\x1CK\x1C\x1C\x1C20080721"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376939
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Marsha Blackburn for Congress, Inc.
+  - name: STREET 1
+    number: '4'
+    value: PO Box 682185
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Franklin
+  - name: STATE
+    number: '7'
+    value: TN
+  - name: ZIP
+    number: '8'
+    value: '370682185'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TN06030
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Blackburn
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Marsha
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: TN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Hoffmann
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Tea
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: K
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080721'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376939
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '12582000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Marlow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Susan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3201 Aspen Grove Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit G-10
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Franklin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '37067'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080721'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SDS Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: executive
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00376939\x1C12582000\x1CIND\x1C\x1CMarlow\x1CSusan\x1C\x1C\x1C\x1C3201
+    Aspen Grove Rd.\x1CUnit G-10\x1CFranklin\x1CTN\x1C37067\x1C\x1C20080721\x1C1000\x1CSDS
+    Inc.\x1Cexecutive\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376939
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '12583000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perl
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Arnold
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 304 Meadowgrove Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Memphis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '381202646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080721'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Young and Perl PLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00376939\x1C12583000\x1CIND\x1C\x1CPerl\x1CArnold\x1CE.\x1C\x1C\x1C304
+    Meadowgrove Lane\x1C\x1CMemphis\x1CTN\x1C381202646\x1C\x1C20080721\x1C1000\x1CYoung
+    and Perl PLC\x1CChairman\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376939
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '12584000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Thrash
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Debbie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2828 Old Hickory Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Nashville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '372213719'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080721'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Community Bank and Trust
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: banker
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00376939\x1C12584000\x1CIND\x1C\x1CThrash\x1CDebbie\x1C\x1C\x1C\x1C2828
+    Old Hickory Boulevard\x1C\x1CNashville\x1CTN\x1C372213719\x1C\x1C20080721\x1C1000\x1CCommunity
+    Bank and Trust\x1Cbanker\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20080721
+type: single
