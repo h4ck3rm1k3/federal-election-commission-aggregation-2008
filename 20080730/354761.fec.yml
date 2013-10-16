@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 354761.fec
+header: {}
+rows:
+- input: "F6\x1CC00442053\x1CTED HARVEY FOR CONGRESS\x1C3010 WYECLIFF LANE\x1C\x1CHIGHLANDS
+    RANCH\x1CCO\x1C80126\x1C\x1CHarvey\x1CTed\x1C\x1C\x1C\x1C\x1C\x1C\x1CBracken\x1CRob\x1C\x1C\x1C\x1C20080730"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442053
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TED HARVEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 3010 WYECLIFF LANE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HIGHLANDS RANCH
+  - name: STATE
+    number: '7'
+    value: CO
+  - name: ZIP
+    number: '8'
+    value: '80126'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Harvey
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Ted
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Bracken
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rob
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080730'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00442053
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bracken
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rob
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1408
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Golden
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80402'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080729'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: US Geological Survey
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Scientist
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00442053\x1CF65.000001\x1CIND\x1C\x1CBracken\x1CRob\x1C\x1C\x1C\x1CPO
+    Box 1408\x1C\x1CGolden\x1CCO\x1C80402\x1C\x1C20080729\x1C1200.00\x1CUS Geological
+    Survey\x1CScientist\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20080730
+type: single
