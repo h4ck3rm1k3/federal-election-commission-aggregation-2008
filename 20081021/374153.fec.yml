@@ -1,0 +1,534 @@
+countraw: 10
+countrows: 8
+filename: 374153.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Charlie Summers for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 107 Exchange Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Portland
+  - name: STATE
+    number: '7'
+    value: ME
+  - name: ZIP
+    number: '8'
+    value: '04101'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4ME01111
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Summers
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ME
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Stafford
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kenneth
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081021'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00397653\x1CCharlie Summers for Congress Committee\x1C107 Exchange
+    Street\x1C\x1CPortland\x1CME\x1C04101\x1CH4ME01111\x1CSummers\x1CCharles\x1C\x1C\x1CJr.\x1CH\x1CME\x1C01\x1CStafford\x1CKenneth\x1C\x1C\x1C\x1C20081021\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00397653\x1CF6.9066\x1CIND\x1C\x1CDwight\x1CLaRae\x1CH.\x1C\x1C\x1C46
+    Parsons Beach\x1C\x1CKennebunk\x1CME\x1C04043\x1C\x1C20081020\x1C1200.00\x1CMorgan
+    Stanley\x1CFinancial Advisor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9066
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dwight
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LaRae
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 46 Parsons Beach
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kennebunk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '04043'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Morgan Stanley
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Financial Advisor
+- input: "F65\x1CC00397653\x1CF6.9067\x1CIND\x1C\x1CGushee\x1CDuane\x1CA.\x1C\x1C\x1C43
+    Many Oakes Lane\x1C\x1CWindham\x1CME\x1C040625422\x1C\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9067
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gushee
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Duane
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 43 Many Oakes Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Windham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '040625422'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00397653\x1CF6.9068\x1CIND\x1C\x1CHaverstein\x1CWalter\x1CP.\x1C\x1C\x1C4821
+    Montgomery Lane\x1C\x1CBethesda\x1CME\x1C208143471\x1C\x1C20081020\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9068
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Haverstein
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Walter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: P.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4821 Montgomery Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208143471'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00397653\x1CF6.9069\x1CIND\x1C\x1CLagos\x1CJames\x1CH.\x1C\x1C\x1COne
+    South Limestone Street\x1CSuite 1000\x1CSpringfield\x1COH\x1C455021294\x1C\x1C20081020\x1C1000.00\x1CSelf\x1CAttorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9069
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lagos
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: One South Limestone Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1000
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '455021294'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+- input: "F65\x1CC00397653\x1CF6.9064\x1CIND\x1C\x1CZiff\x1CRobert\x1C\x1C\x1C\x1C350
+    Park Avenue\x1C11th Floor\x1CNew York\x1CNY\x1C10022\x1C\x1C20081020\x1C2300.00\x1CZiff
+    Brothers Investments\x1CInvestor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9064
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ziff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 350 Park Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 11th Floor
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10022'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ziff Brothers Investments
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investor
+- input: "F65\x1CC00397653\x1CF6.9070\x1CCOM\x1CCongressional Majority Committee\x1C\x1C\x1C\x1C\x1C\x1C2000
+    North Adams Street\x1C#30\x1CArlington\x1CVA\x1C22201\x1C\x1C20081020\x1C3000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9070
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Congressional Majority Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2000 North Adams Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '#30'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00397653\x1CF6.9065\x1CPAC\x1CProsperity Helps Inspire Liberty PAC\x1C\x1C\x1C\x1C\x1C\x1C228
+    South Washington Street\x1C#115\x1CAlexandria\x1CVA\x1C22314\x1CC00375246\x1C20081020\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00397653
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9065
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Prosperity Helps Inspire Liberty PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 228 South Washington Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '#115'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00375246
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081021
+type: single
