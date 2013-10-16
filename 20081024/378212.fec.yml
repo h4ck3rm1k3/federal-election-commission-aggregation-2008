@@ -1,0 +1,603 @@
+countraw: 11
+countrows: 9
+filename: 378212.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: COMMITTEE NAME
+    number: '3'
+    value: RICHARD HANNA FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 2308 GENESEE STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: UTICA
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '13502'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NY24066
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: HANNA
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: RICHARD
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '24'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ROBERTELLO
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: DANIEL
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: J
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081024'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00451005\x1CRICHARD HANNA FOR CONGRESS COMMITTEE\x1C2308 GENESEE
+    STREET\x1C\x1CUTICA\x1CNY\x1C13502\x1CH8NY24066\x1CHANNA\x1CRICHARD\x1C\x1C\x1C\x1CH\x1CNY\x1C24\x1CROBERTELLO\x1CDANIEL\x1CJ\x1C\x1C\x1C20081024\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00451005\x1CF6.7120\x1CIND\x1C\x1CCARBONE\x1CDOMINICK\x1C\x1C\x1C\x1C2606
+    EDMONDS RD\x1C\x1CBOONVILLE\x1CNY\x1C13309\x1C\x1C20081024\x1C2300.00\x1CINFO
+    REQUESTED\x1CINFO REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7120
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARBONE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DOMINICK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2606 EDMONDS RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BOONVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7121\x1CIND\x1C\x1CCARBONE\x1CDOMINICK\x1C\x1C\x1C\x1C2606
+    EDMONDS RD\x1C\x1CBOONVILLE\x1CNY\x1C13309\x1C\x1C20081024\x1C750.00\x1CINFO REQUESTED\x1CINFO
+    REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7121
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARBONE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DOMINICK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2606 EDMONDS RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BOONVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '750.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7122\x1CIND\x1C\x1CCARBONE\x1CEDNA\x1C\x1C\x1C\x1C2606
+    EDMONDS RD\x1C\x1CBOONVILLE\x1CNY\x1C13309\x1C\x1C20081024\x1C2300.00\x1CINFO
+    REQUESTED\x1CINFO REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7122
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARBONE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: EDNA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2606 EDMONDS RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BOONVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7123\x1CIND\x1C\x1CCARBONE\x1CEDNA\x1C\x1C\x1C\x1C2606
+    EDMONDS RD\x1C\x1CBOONVILLE\x1CNY\x1C13309\x1C\x1C20081024\x1C650.00\x1CINFO REQUESTED\x1CINFO
+    REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7123
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CARBONE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: EDNA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2606 EDMONDS RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BOONVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '650.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7116\x1CIND\x1C\x1CHAGER\x1CLOUIS\x1C\x1C\x1C\x1CP.O.
+    BOX 151\x1C\x1CCOOPERSTOWN\x1CNY\x1C13326\x1C\x1C20081024\x1C2300.00\x1CINFO REQUESTED\x1CINFO
+    REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7116
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HAGER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LOUIS
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 151
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COOPERSTOWN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13326'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7117\x1CIND\x1C\x1CHAGER\x1CSUSANNA\x1C\x1C\x1C\x1CP.O.
+    BOX 151\x1C\x1CCOOPERSTOWN\x1CNY\x1C13326\x1C\x1C20081024\x1C2300.00\x1CINFO REQUESTED\x1CINFO
+    REQUESTED"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7117
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HAGER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SUSANNA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 151
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COOPERSTOWN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '13326'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFO REQUESTED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: INFO REQUESTED
+- input: "F65\x1CC00451005\x1CF6.7118\x1CIND\x1C\x1CHILLMAN\x1CHENRY\x1CL\x1C\x1C\x1C5120
+    HOLYROOD RD\x1C\x1CPITTSBURGH\x1CPA\x1C15213\x1C\x1C20081024\x1C1000.00\x1CHILLMAN
+    CO\x1CEXECUTIVE"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7118
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HILLMAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HENRY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5120 HOLYROOD RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PITTSBURGH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '15213'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HILLMAN CO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+- input: "F65\x1CC00451005\x1CF6.7119\x1CPAC\x1CSOLUTIONS AMERICA PAC\x1C\x1C\x1C\x1C\x1C\x1C676A
+    9th Ave #320\x1CBOX 320\x1CNew York\x1CNY\x1C10036\x1CC00335448\x1C20081024\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00451005
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7119
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SOLUTIONS AMERICA PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '676A 9th Ave #320'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: BOX 320
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00335448
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081024
+type: single
