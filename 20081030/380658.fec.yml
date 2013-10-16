@@ -1,0 +1,362 @@
+countraw: 8
+countrows: 6
+filename: 380658.fec
+header: {}
+rows:
+- input: "F6\x1CC00128868\x1CBarney Frank for Congress Committee\x1CPO Box 260\x1C\x1CNewtonville\x1CMA\x1C02460\x1CH0MA04036\x1CFrank\x1CBarney\x1C\x1C\x1C\x1CH\x1CMA\x1C04\x1CBraey\x1CDoris
+    \x1C\x1C\x1C\x1C20081030"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Barney Frank for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 260
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Newtonville
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02460'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MA04036
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Frank
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Barney
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Braey
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: 'Doris '
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081030'
+- input: "F65\x1CC00128868\x1CC5228334\x1CIND\x1C\x1CFish\x1CMichael\x1CW\x1C\x1C\x1C1306
+    Columbia Rd\x1CApt 3C\x1CSouth Boston\x1CMA\x1C021272989\x1C\x1C20081030\x1C1000.00\x1CDellbrook
+    Construction\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5228334
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fish
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1306 Columbia Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 3C
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 021272989
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dellbrook Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00128868\x1CC5228333\x1CIND\x1C\x1CFish-Will\x1CKaren\x1C\x1CMs.\x1C\x1C536
+    Granite St\x1C\x1CBraintree\x1CMA\x1C021843952\x1C\x1C20081030\x1C1000.00\x1CPeabody
+    Prop.\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5228333
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fish-Will
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Karen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 536 Granite St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Braintree
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 021843952
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Peabody Prop.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00128868\x1CC5228335\x1CIND\x1C\x1CMacLean\x1CWilliam\x1C\x1CMr.\x1CJr.\x1C349
+    Dana Farm\x1CPO Box 230\x1CFairhaven\x1CMA\x1C027190230\x1C\x1C20081030\x1C1000.00\x1CSylvia
+    Group\x1CInsurance broker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5228335
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MacLean
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 349 Dana Farm
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PO Box 230
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fairhaven
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 027190230
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sylvia Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Insurance broker
+- input: "F65\x1CC00128868\x1CC5228329\x1CIND\x1C\x1CMcGhee\x1CCharlotte\x1CDavis\x1CMs.\x1C\x1C20
+    Mellon Rd\x1C\x1CWellesley\x1CMA\x1C02482\x1C\x1C20081030\x1C1000.00\x1CGrenzebach
+    Glier and Associates\x1CConsultant"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5228329
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McGhee
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charlotte
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Davis
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20 Mellon Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wellesley
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02482
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Grenzebach Glier and Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Consultant
+- input: "TEXT\x1CC00128868\x1CX0\x1C\x1CF6\x1CTo correct Column B, 11(a)(i), page
+    3."
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00128868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6
+  - name: TEXT4000
+    number: '6'
+    value: To correct Column B, 11(a)(i), page 3.
+sourceurl: !!python/unicode 20081030
+type: single
