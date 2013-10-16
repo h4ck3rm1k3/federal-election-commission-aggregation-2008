@@ -1,0 +1,532 @@
+countraw: 10
+countrows: 8
+filename: 375219.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Gene Taylor for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: Post Office Box 3838
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bay St. Louis
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39521'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MS05047
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Taylor
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Gene
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MS
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Gordon
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Carroll
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081022'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00220145\x1CGene Taylor for Congress Committee\x1CPost Office Box
+    3838\x1C\x1CBay St. Louis\x1CMS\x1C39521\x1CH8MS05047\x1CTaylor\x1CGene\x1C\x1CMr.\x1C\x1CH\x1CMS\x1C04\x1CGordon\x1CCarroll\x1C\x1CMr.\x1C\x1C20081022\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00220145\x1CF6.16157\x1CPAC\x1CBLANK ROME PAC\x1C\x1C\x1C\x1C\x1C\x1C600
+    New Hampshire Avenue NW\x1C\x1CWashington\x1CDC\x1C20037\x1CC00150797\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16157
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BLANK ROME PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 600 New Hampshire Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20037'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00150797
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16160\x1CPAC\x1CENPRO INDUSTRIES INC POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C5605 CARNEGIE BLVD SUITE 500\x1C\x1CCHARLOTTE\x1CNC\x1C28209\x1CC00379784\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16160
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ENPRO INDUSTRIES INC POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5605 CARNEGIE BLVD SUITE 500
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28209'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00379784
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16154\x1CPAC\x1CFEDERAL EXPRESS POLITICAL ACTION
+    COMMITTEE (FED EXPAC)\x1C\x1C\x1C\x1C\x1C\x1C3620 HACKS CROSSING ROAD\x1C.\x1CMEMPHIS\x1CTN\x1C38125\x1CC00068692\x1C20081022\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16154
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FEDERAL EXPRESS POLITICAL ACTION COMMITTEE (FED EXPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3620 HACKS CROSSING ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MEMPHIS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38125'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00068692
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16156\x1CPAC\x1CMACY'S INC. RETAIL ISSUES FUND\x1C\x1C\x1C\x1C\x1C\x1C611
+    Olive Street\x1CSuite 1750\x1CSt. Louis\x1CMO\x1C63101\x1CC00144311\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16156
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MACY'S INC. RETAIL ISSUES FUND
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 611 Olive Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1750
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St. Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00144311
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16159\x1CPAC\x1CNATIONAL CONCRETE MASONRY ASSOCIATION
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C13750 SUNRISE VALLEY DRIVE\x1C\x1CHERNDON\x1CVA\x1C20171\x1CC00128975\x1C20081021\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16159
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL CONCRETE MASONRY ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13750 SUNRISE VALLEY DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HERNDON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20171'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00128975
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16158\x1CPAC\x1CVEN-PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    BOX 83142\x1C\x1CGAITHERSBURG\x1CMD\x1C20883\x1CC00369660\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16158
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: VEN-PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 83142
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GAITHERSBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20883'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00369660
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00220145\x1CF6.16155\x1CPAC\x1CVETERANS OF FOREIGN WARS POLITICAL
+    ACTION COMMITTEE INC\x1C\x1C\x1C\x1C\x1C\x1C200 MARYLAND AVENUE, NE SUITE 506\x1C\x1CWASHINGTON\x1CDC\x1C20002\x1CC00113001\x1C20081022\x1C1300.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00220145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.16155
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: VETERANS OF FOREIGN WARS POLITICAL ACTION COMMITTEE INC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 MARYLAND AVENUE, NE SUITE 506
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00113001
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081022
+type: single
