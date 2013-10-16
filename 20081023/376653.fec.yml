@@ -1,0 +1,402 @@
+countraw: 7
+countrows: 5
+filename: 376653.fec
+header: {}
+rows:
+- input: "F9N\x1CC30001374\x1C\x1CREPUBLICAN JEWISH COALITION\x1C\x1C\x1C\x1C\x1C\x1C\x1C50
+    F STREET NW SUITE 100\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1C\x1C\x1C20081023\x1C20081024\x1C20081024\x1CConcerned\x1CCLQ\x1C\x1C\x1CCook\x1CRita\x1C\x1C\x1C\x1C50
+    F. Street N.W. Suite 100\x1C\x1CWashington\x1CDC\x1C20001\x1CRepublican Jewish
+    Coalition\x1CController\x1C97500.00\x1C97500.00\x1CBrooks\x1CMatt\x1C\x1C\x1C\x1C20081023"
+  record: fec.version.v6_2.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001374
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: REPUBLICAN JEWISH COALITION
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 50 F STREET NW SUITE 100
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20001'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20081023'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20081024'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20081024'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Concerned
+  - name: FILER CODE
+    number: '22'
+    value: CLQ
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Cook
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Rita
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 50 F. Street N.W. Suite 100
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Washington
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: DC
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '20001'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Republican Jewish Coalition
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Controller
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '97500.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '97500.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Brooks
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Matt
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20081023'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Brooks
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Matt
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 50 F. Street N.W. Suite 100
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20001'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Republican Jewish Coalition
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Executive Director
+  - value: ''
+  expected_count: 15
+  input: "F91\x1CC30001374\x1CF91.000001\x1CBrooks\x1CMatt\x1C\x1C\x1C\x1C50 F. Street
+    N.W. Suite 100\x1C\x1CWashington\x1CDC\x1C20001\x1CRepublican Jewish Coalition\x1CExecutive
+    Director\x1C"
+  input_count: 16
+  record: fec.version.v6_2.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Kaufman
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: David
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 4695 Main Street
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Bridgeport
+  - name: DONOR STATE
+    number: '16'
+    value: CT
+  - name: DONOR ZIP
+    number: '17'
+    value: '06606'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081023'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '97500.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30001374\x1CF92.000001\x1C\x1C\x1CIND\x1C\x1CKaufman\x1CDavid\x1C\x1C\x1C\x1C4695
+    Main Street\x1C\x1CBridgeport\x1CCT\x1C06606\x1C20081023\x1C97500.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NWBB, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6619 South Ryan St.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Seattle
+  - name: PAYEE STATE
+    number: '16'
+    value: WA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '98178'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081023'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '97500.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Media Placement: Concerned'
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20081024'
+  - value: ''
+  expected_count: 26
+  input: "F93\x1CC30001374\x1CF93.000001\x1C\x1C\x1CORG\x1C\"NWBB, Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C6619
+    South Ryan St.\x1C\x1CSeattle\x1CWA\x1C98178\x1CG2008\x1C\x1C20081023\x1C97500.00\x1C\x1CMedia
+    Placement: Concerned\x1C\x1C\x1C20081024\x1C"
+  input_count: 27
+  record: fec.version.v6_2.F93
+  result: []
+- input: "F94\x1CC30001374\x1CF94.000002\x1CF93.000001\x1CF93\x1Cp80003338\x1CObama\x1CBarack\x1CHussein\x1C\x1C\x1CP\x1CGA\x1C\x1CG2008\x1C"
+  record: fec.version.v6_2.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001374
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: p80003338
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Obama
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Barack
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: Hussein
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: GA
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: ''
+sourceurl: !!python/unicode 20081023
+type: single
