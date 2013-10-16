@@ -1,0 +1,5255 @@
+countraw: 83
+countrows: 81
+filename: 379733.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pierluisi 2008, Inc.
+  - name: STREET 1
+    number: '4'
+    value: PMB 232, 1353 ROAD 19
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: GUAYNABO
+  - name: STATE
+    number: '7'
+    value: PR
+  - name: ZIP
+    number: '8'
+    value: 00966
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8PR00062
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Pierluisi
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Pedro
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PR
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Perez
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Carlos
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081027'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00435636\x1CPierluisi 2008, Inc.\x1CPMB 232, 1353 ROAD 19\x1C\x1CGUAYNABO\x1CPR\x1C00966\x1CH8PR00062\x1CPierluisi\x1CPedro\x1C\x1C\x1C\x1CH\x1CPR\x1C00\x1CPerez\x1CCarlos\x1C\x1C\x1C\x1C20081027\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00435636\x1CF6.8875\x1CIND\x1C\x1CAbraham\x1CDavid\x1C\x1C\x1C\x1C21690
+    Frontenac Ct\x1C\x1CBoca Raton\x1CFL\x1C33433\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.8875
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Abraham
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 21690 Frontenac Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boca Raton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33433'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9030\x1CIND\x1C\x1CAncalle\x1CDiana\x1C\x1C\x1C\x1CPO
+    Box 190332\x1C\x1CSan Juan\x1CPR\x1C00919\x1C\x1C20081024\x1C1000.00\x1CCA Engineering\x1CGeneral
+    Manager"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9030
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ancalle
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Diana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 190332
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00919
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CA Engineering
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+- input: "F65\x1CC00435636\x1CF6.9032\x1CIND\x1C\x1CAndrews\x1CHugh\x1C\x1C\x1C\x1C64
+    Washington St.\x1C\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C2000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9032
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Andrews
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Hugh
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 64 Washington St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9033\x1CIND\x1C\x1CAntonmattei Rivera\x1CSadi\x1C\x1C\x1C\x1CPO
+    Box 141899\x1C\x1CArecibo\x1CPR\x1C00614\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CDoctor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9033
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Antonmattei Rivera
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sadi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 141899
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arecibo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00614'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Doctor
+- input: "F65\x1CC00435636\x1CF6.9034\x1CIND\x1C\x1CAquino Barreto\x1CJorge L.\x1C\x1C\x1C\x1CPO
+    Box 70262\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CCPA"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9034
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Aquino Barreto
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jorge L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 70262
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CPA
+- input: "F65\x1CC00435636\x1CF6.9036\x1CIND\x1C\x1CBerezdivin\x1CMark\x1C\x1C\x1C\x1CPO
+    Box 11910\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9036
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Berezdivin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 11910
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9035\x1CIND\x1C\x1CBerezdivin\x1CMoises\x1C\x1C\x1C\x1CPO
+    BOx 11910\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9035
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Berezdivin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Moises
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOx 11910
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9037\x1CIND\x1C\x1CBravo Fernandez\x1CJuan F.\x1C\x1C\x1C\x1CPO
+    Box 29105\x1C\x1CSan Juan\x1CPR\x1C00929\x1C\x1C20081024\x1C2000.00\x1CSelf Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9037
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bravo Fernandez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Juan F.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 29105
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00929
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9038\x1CIND\x1C\x1CCaban Nieves\x1CCarlos\x1C\x1C\x1C\x1CPO
+    Box 624\x1C\x1CAguada\x1CPR\x1C00602\x1C\x1C20081024\x1C1000.00\x1CUPR\x1CAgronomist"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9038
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Caban Nieves
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlos
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 624
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Aguada
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00602'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: UPR
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Agronomist
+- input: "F65\x1CC00435636\x1CF6.9039\x1CIND\x1C\x1CCarrero\x1CCesar\x1C\x1C\x1C\x1CPO
+    Box 341\x1C\x1CRincon\x1CPR\x1C00677\x1C\x1C20081024\x1C1000.00\x1CSupermercado
+    Carrero\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9039
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carrero
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cesar
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 341
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rincon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00677'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Supermercado Carrero
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00435636\x1CF6.9040\x1CIND\x1C\x1CCarro Pagan\x1CCarlos J.\x1C\x1C\x1C\x1C2225
+    Ponce by Pass\x1CEdif Parra Suite 905\x1CPonce\x1CPR\x1C00717\x1C\x1C20081024\x1C2300.00\x1CSelf
+    Employed\x1CDoctor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9040
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carro Pagan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlos J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2225 Ponce by Pass
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Edif Parra Suite 905
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Ponce
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00717'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Doctor
+- input: "F65\x1CC00435636\x1CF6.9041\x1CIND\x1C\x1CCasiano Cains\x1COdette\x1C\x1C\x1C\x1CPO
+    Box 10716\x1C\x1CSan Juan\x1CPW\x1C00922\x1C\x1C20081024\x1C2300.00\x1CNorthwestern
+    Selecta\x1CAdministrative Assistant"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9041
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Casiano Cains
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Odette
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 10716
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PW
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Northwestern Selecta
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Administrative Assistant
+- input: "F65\x1CC00435636\x1CF6.9042\x1CIND\x1C\x1CColon\x1CYiovanny\x1C\x1C\x1C\x1CPO
+    Box 11662\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CHomemaker\x1CHomemake"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9042
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Colon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Yiovanny
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 11662
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemake
+- input: "F65\x1CC00435636\x1CF6.9043\x1CIND\x1C\x1CColon-Nevarez\x1CJorge\x1C\x1C\x1C\x1CPO
+    Box 11662\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9043
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Colon-Nevarez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jorge
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 11662
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00435636\x1CF6.9045\x1CIND\x1C\x1CCordero Baez\x1CFrancisco\x1C\x1C\x1C\x1CPO
+    Box 191282\x1C\x1CSan Juan\x1CPR\x1C00919\x1C\x1C20081024\x1C2000.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9045
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cordero Baez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Francisco
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 191282
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00919
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00435636\x1CF6.9046\x1CIND\x1C\x1CCordero Kruger\x1CCesar\x1C\x1C\x1C\x1CPO
+    BOx 3903\x1C\x1CGuaynabo\x1CPR\x1C00970\x1C\x1C20081024\x1C1000.00\x1CBusiness
+    Venture Group\x1CReal Estate Broker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9046
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cordero Kruger
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cesar
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOx 3903
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00970
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Business Venture Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Broker
+- input: "F65\x1CC00435636\x1CF6.9048\x1CIND\x1C\x1CCortina\x1CAdriana\x1C\x1C\x1C\x1C1418
+    Wilson Apt. 301\x1C\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C2000.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9048
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cortina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Adriana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1418 Wilson Apt. 301
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9047\x1CIND\x1C\x1CCortina\x1CNorma\x1C\x1C\x1C\x1C1418
+    Wilson Apt. 301\x1C\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C2000.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9047
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cortina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Norma
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1418 Wilson Apt. 301
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00435636\x1CF6.9049\x1CIND\x1C\x1CCriado\x1CJose\x1C\x1C\x1C\x1C23
+    Calle H, Villa Caparra\x1C\x1CGuaynabo\x1CPR\x1C00966\x1C\x1C20081024\x1C1000.00\x1CControlled
+    Demolition & Recy\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9049
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Criado
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 23 Calle H, Villa Caparra
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00966
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Controlled Demolition & Recy
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9051\x1CIND\x1C\x1CCruzval\x1CRicardo\x1C\x1C\x1C\x1CRivera
+    Ferrer 5, San Patricio\x1C\x1CGuaynabo\x1CPR\x1C00968\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9051
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cruzval
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ricardo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Rivera Ferrer 5, San Patricio
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00968
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9052\x1CIND\x1C\x1CDel Valle\x1CManuel\x1C\x1C\x1C\x1C116
+    Dorado Beach East\x1C\x1CDorado\x1CPR\x1C00646\x1C\x1C20081024\x1C1000.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9052
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Del Valle
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Manuel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 116 Dorado Beach East
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dorado
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00435636\x1CF6.9053\x1CIND\x1C\x1CDiaz Irizarry\x1CArturo\x1C\x1C\x1C\x1CLa
+    Cima 12, Encantada\x1C\x1CTrujillo Alto\x1CPR\x1C00976\x1C\x1C20081024\x1C1000.00\x1CEmpresas
+    Diaz\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9053
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Diaz Irizarry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Arturo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: La Cima 12, Encantada
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Trujillo Alto
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00976
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Empresas Diaz
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9054\x1CIND\x1C\x1CDiaz Vivo\x1CMaria\x1C\x1C\x1C\x1C13F
+    las Carmelitas\x1CCalle San Jorge\x1CSan Juan\x1CPR\x1C00915\x1C\x1C20081024\x1C2000.00\x1CPerrie
+    Ellis International\x1CExecutive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9054
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Diaz Vivo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Maria
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13F las Carmelitas
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Calle San Jorge
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00915
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Perrie Ellis International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00435636\x1CF6.9055\x1CIND\x1C\x1CEnright\x1CJanice\x1C\x1C\x1C\x1C1300
+    Connecticut Ave. Suite 600\x1C\x1CWashington\x1CDC\x1C20036\x1C\x1C20081024\x1C1000.00\x1CThe
+    Ickes & Enright Group\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9055
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Enright
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Janice
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1300 Connecticut Ave. Suite 600
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Ickes & Enright Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00435636\x1CF6.9056\x1CIND\x1C\x1CFigueroa Morgade\x1CRamon\x1C\x1C\x1C\x1C363
+    Calle Fortaleza\x1C\x1CSan Juan\x1CPR\x1C00901\x1C\x1C20081024\x1C1000.00\x1COOF,
+    Inc.\x1CExecutive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9056
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Figueroa Morgade
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ramon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 363 Calle Fortaleza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00901
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: OOF, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00435636\x1CF6.9031\x1CIND\x1C\x1CGarcia\x1CJulie Ann\x1C\x1C\x1C\x1CPO
+    Box 364866\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1150.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9031
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Garcia
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Julie Ann
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 364866
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1150.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9057\x1CIND\x1C\x1CGarcia Ramis\x1CJose M.\x1C\x1C\x1C\x1CPO
+    Box 364866\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1150.00\x1CAction
+    Service Corp.\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9057
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Garcia Ramis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose M.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 364866
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1150.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Action Service Corp.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9058\x1CIND\x1C\x1CGarrastazu\x1CElmer\x1C\x1C\x1C\x1CMar
+    Indico 594\x1CPaseo Los Corales I\x1CDorado\x1CPR\x1C00646\x1C\x1C20081024\x1C2000.00\x1CGM
+    Holdings\x1CCPA"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9058
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Garrastazu
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Elmer
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Mar Indico 594
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Paseo Los Corales I
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dorado
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: GM Holdings
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CPA
+- input: "F65\x1CC00435636\x1CF6.9059\x1CIND\x1C\x1CGerena\x1CAntonia\x1C\x1C\x1C\x1CPO
+    Box 11662\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9059
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gerena
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Antonia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 11662
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9060\x1CIND\x1C\x1CGomez\x1CMidel\x1C\x1C\x1C\x1CPO
+    Box 365047\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1000.00\x1CFuerza
+    Industrial\x1CGeneral Manager"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9060
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gomez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Midel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 365047
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Fuerza Industrial
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+- input: "F65\x1CC00435636\x1CF6.9061\x1CIND\x1C\x1CGonzalez\x1CCarlos O.\x1C\x1C\x1C\x1C300
+    Ave. La Sierra\x1CBox 211\x1CSan Juan\x1CPR\x1C00926\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9061
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gonzalez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlos O.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 Ave. La Sierra
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Box 211
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00926
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9062\x1CIND\x1C\x1CHermida\x1CGustavo\x1C\x1C\x1C\x1CMSC
+    734 138 Ave. Winston Churchill\x1C\x1CSan Juan\x1CPR\x1C00926\x1C\x1C20081024\x1C1000.00\x1CCaribbean
+    Industrial Construct\x1CExecutive VP"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9062
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hermida
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gustavo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: MSC 734 138 Ave. Winston Churchill
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00926
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Caribbean Industrial Construct
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive VP
+- input: "F65\x1CC00435636\x1CF6.9063\x1CIND\x1C\x1CHernandez Cruz\x1CAntonio\x1C\x1C\x1C\x1C693
+    St. #425 PMB 269\x1C\x1CDorado\x1CPR\x1C00646\x1C\x1C20081024\x1C1000.00\x1CSaraa
+    Management\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9063
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hernandez Cruz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Antonio
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '693 St. #425 PMB 269'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dorado
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Saraa Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9064\x1CIND\x1C\x1CHernandez Llerena\x1CCarlos O.\x1C\x1C\x1C\x1CAve.
+    San Patricio 803, Las Lomas\x1C\x1CSan Juan\x1CPR\x1C00921\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9064
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hernandez Llerena
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlos O.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Ave. San Patricio 803, Las Lomas
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00921
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9065\x1CIND\x1C\x1CIckes\x1CHarold\x1C\x1C\x1C\x1C1300
+    Connecticut Ave. Suite 600\x1C\x1CWashington\x1CDC\x1C20036\x1C\x1C20081024\x1C1000.00\x1CThe
+    Ickes & Enright Group\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9065
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ickes
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harold
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1300 Connecticut Ave. Suite 600
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Ickes & Enright Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00435636\x1CF6.9066\x1CIND\x1C\x1CIzquierdo Martinez\x1CTeresa\x1C\x1C\x1C\x1CESJ
+    Towers Apt. 1275\x1C\x1CCarolina\x1CPR\x1C00979\x1C\x1C20081024\x1C1000.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9066
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Izquierdo Martinez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Teresa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ESJ Towers Apt. 1275
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carolina
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00979
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9067\x1CIND\x1C\x1CLlama-Izquierdo\x1CJose L.\x1C\x1C\x1C\x1CBox
+    191790\x1C\x1CSan Juan\x1CPR\x1C00919\x1C\x1C20081024\x1C1700.00\x1CSelf Employed\x1CAuto
+    Parts Executive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9067
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Llama-Izquierdo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Box 191790
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00919
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Auto Parts Executive
+- input: "F65\x1CC00435636\x1CF6.9069\x1CIND\x1C\x1CLopez Rodriguez\x1CAndres W.\x1C\x1C\x1C\x1CCond.
+    Joan Apt. 402\x1C827 Jose Marti\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9069
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lopez Rodriguez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Andres W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. Joan Apt. 402
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 827 Jose Marti
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00435636\x1CF6.9068\x1CIND\x1C\x1CMantero\x1CLourdes\x1C\x1C\x1C\x1CCond.
+    Villas del Mar Este Apt. 7J\x1C\x1CCarolina\x1CPR\x1C00979\x1C\x1C20081024\x1C2300.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9068
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mantero
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lourdes
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. Villas del Mar Este Apt. 7J
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carolina
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00979
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9071\x1CIND\x1C\x1CMarquez\x1CFernando\x1C\x1C\x1C\x1CPMB
+    120 400 Calaf Street\x1C\x1CSan Juan\x1CPR\x1C00918\x1C\x1C20081024\x1C1000.00\x1CInterservice
+    Group\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9071
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Marquez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Fernando
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PMB 120 400 Calaf Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00918
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Interservice Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9070\x1CIND\x1C\x1CMarquez\x1CJoaquin A.\x1C\x1C\x1C\x1C8411
+    Willow Forge Road\x1C\x1CSpirngfield\x1CVA\x1C22152\x1C\x1C20081024\x1C1000.00\x1CDrinker
+    Biddle & Reath, LLP\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9070
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Marquez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joaquin A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8411 Willow Forge Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Spirngfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22152'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Drinker Biddle & Reath, LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00435636\x1CF6.9072\x1CIND\x1C\x1CMarrero Combas\x1CMaria\x1C\x1C\x1C\x1CNebraska
+    S2, Parkville\x1C\x1CGuaynabo\x1CPR\x1C00969\x1C\x1C20081024\x1C1000.00\x1CEuromodas,
+    Inc.\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9072
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Marrero Combas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Maria
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Nebraska S2, Parkville
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00969
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Euromodas, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00435636\x1CF6.9073\x1CIND\x1C\x1CMartinez\x1CGerardo\x1C\x1C\x1C\x1CAcropolis
+    St. Monte Olimpo\x1C\x1CGuaynabo\x1CPR\x1C00969\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9073
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Martinez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gerardo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Acropolis St. Monte Olimpo
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00969
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9074\x1CIND\x1C\x1CMartinez Barroso\x1CJose\x1C\x1C\x1C\x1CPO
+    Box 1000\x1C\x1CManati\x1CPR\x1C00674\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CDoctor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9074
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Martinez Barroso
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Manati
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00674'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Doctor
+- input: "F65\x1CC00435636\x1CF6.9075\x1CIND\x1C\x1CMartinez Palacios\x1CIleana\x1C\x1C\x1C\x1CGranada
+    15-25, Torrimar\x1C\x1CGuaynabo\x1CPR\x1C00966\x1C\x1C20081024\x1C1000.00\x1CPalacios
+    Corp.\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9075
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Martinez Palacios
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ileana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Granada 15-25, Torrimar
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00966
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Palacios Corp.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00435636\x1CF6.9076\x1CIND\x1C\x1CMedina Otero\x1CLiliana\x1C\x1C\x1C\x1CPaseo
+    del Oriente 53\x1CPaseo del Parque\x1CSan Juan\x1CPR\x1C00925\x1C\x1C20081024\x1C2000.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9076
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Medina Otero
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Liliana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Paseo del Oriente 53
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Paseo del Parque
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00925
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9077\x1CIND\x1C\x1CMelendez\x1CWilliam\x1C\x1C\x1C\x1CPO
+    Box 970\x1C\x1CNaguabo\x1CPR\x1C00718\x1C\x1C20081024\x1C1000.00\x1CML Construction
+    Management\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9077
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Melendez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 970
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Naguabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00718
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ML Construction Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9078\x1CIND\x1C\x1CMorales Chico\x1CHector\x1C\x1C\x1C\x1C270
+    Concepcion Vela\x1C\x1CMoca\x1CPR\x1C00676\x1C\x1C20081024\x1C1000.00\x1CUPR\x1CAgronomist"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9078
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morales Chico
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Hector
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 270 Concepcion Vela
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Moca
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00676'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: UPR
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Agronomist
+- input: "F65\x1CC00435636\x1CF6.9081\x1CIND\x1C\x1CMorrow\x1CDavid\x1C\x1C\x1C\x1CCond.
+    Caribe Plaza Apt. 1803\x1C35 Munoz Rivera\x1CSan Juan\x1CPR\x1C00901\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9081
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morrow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. Caribe Plaza Apt. 1803
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 35 Munoz Rivera
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00901
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9079\x1CIND\x1C\x1CMorrow\x1CMary Helen\x1C\x1C\x1C\x1COlympic
+    Tower Aapt. 501\x1C1 Rodriguez Sierra St.\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C1000.00\x1CReinhold\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9079
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morrow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mary Helen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Olympic Tower Aapt. 501
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 1 Rodriguez Sierra St.
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Reinhold
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00435636\x1CF6.9082\x1CIND\x1C\x1CMunoz Suarez\x1CAngel\x1C\x1C\x1C\x1CHC
+    58 Box 12885\x1C\x1CAguada\x1CPR\x1C00602\x1C\x1C20081024\x1C1000.00\x1CHewlett
+    Packard\x1CAnalyst"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9082
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Munoz Suarez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Angel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: HC 58 Box 12885
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Aguada
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00602'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hewlett Packard
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Analyst
+- input: "F65\x1CC00435636\x1CF6.9083\x1CIND\x1C\x1CMuntaner\x1CAngel S.\x1C\x1C\x1C\x1CCond.
+    The Millennium Apt. 1003\x1C\x1CSan Juan\x1CPR\x1C00901\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CDoctor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9083
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Muntaner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Angel S.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. The Millennium Apt. 1003
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00901
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Doctor
+- input: "F65\x1CC00435636\x1CF6.9084\x1CIND\x1C\x1CNunez\x1CElpidio P.\x1C\x1C\x1C\x1CPO
+    Box 420497\x1C\x1CMiami\x1CFL\x1C33142\x1C\x1C20081024\x1C2300.00\x1CNorthwestern
+    Selecta\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9084
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nunez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Elpidio P.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 420497
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Miami
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33142'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Northwestern Selecta
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9085\x1CIND\x1C\x1CNunez Batista\x1CElpidio\x1C\x1C\x1C\x1CPO
+    Box 10718\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C2300.00\x1CNorthwestern
+    Selecta\x1CGeneral Manager"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9085
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nunez Batista
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Elpidio
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 10718
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Northwestern Selecta
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+- input: "F65\x1CC00435636\x1CF6.9086\x1CIND\x1C\x1CNunez Czepiel\x1CVentura\x1C\x1C\x1C\x1CPO
+    Box 10718\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C2300.00\x1CNorthwestern
+    Selecta\x1CVice President Food Service"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9086
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nunez Czepiel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ventura
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 10718
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Northwestern Selecta
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Vice President Food Service
+- input: "F65\x1CC00435636\x1CF6.9087\x1CIND\x1C\x1CPagan\x1CJose D.\x1C\x1C\x1C\x1CAmapola
+    F8, Terrazas Guanabo\x1C\x1CGuaynabo\x1CPR\x1C00969\x1C\x1C20081024\x1C2000.00\x1CSelf
+    Employed\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9087
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Pagan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose D.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Amapola F8, Terrazas Guanabo
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00969
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9088\x1CIND\x1C\x1CPerdomo\x1CDiego\x1C\x1C\x1C\x1CPMB
+    227, PO Box 194000\x1C\x1CSan Juan\x1CPR\x1C00919\x1C\x1C20081024\x1C1000.00\x1CPerdomo,
+    Ferrer & Co.\x1CCPA"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9088
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perdomo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Diego
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PMB 227, PO Box 194000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00919
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Perdomo, Ferrer & Co.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CPA
+- input: "F65\x1CC00435636\x1CF6.9089\x1CIND\x1C\x1CPerez Caban\x1CCesar\x1C\x1C\x1C\x1CPalma
+    Pamiche 243, Las Palmas\x1C\x1CMoca\x1CPR\x1C00676\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9089
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perez Caban
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cesar
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Palma Pamiche 243, Las Palmas
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Moca
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00676'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00435636\x1CF6.9090\x1CIND\x1C\x1CPerez Rosello\x1CMitchellson\x1C\x1C\x1C\x1CPaseo
+    del Oriente 53\x1CPaseo del Parque\x1CSan Juan\x1CPR\x1C00925\x1C\x1C20081024\x1C2300.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9090
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perez Rosello
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mitchellson
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Paseo del Oriente 53
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Paseo del Parque
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00925
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9091\x1CIND\x1C\x1CPina\x1CEvelio\x1C\x1C\x1C\x1CPO
+    Box 363484\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1000.00\x1CEvelio
+    Pina & Assoc.\x1CArquitect"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9091
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Pina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Evelio
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 363484
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Evelio Pina & Assoc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Arquitect
+- input: "F65\x1CC00435636\x1CF6.9092\x1CIND\x1C\x1CPrincipe\x1CMiguel\x1C\x1C\x1C\x1CPO
+    Box 16321\x1C\x1CSan Juan\x1CPR\x1C00908\x1C\x1C20081024\x1C1000.00\x1CMocoroa
+    & Castellanos\x1CGeneral Manager"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9092
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Principe
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Miguel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 16321
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00908
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mocoroa & Castellanos
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+- input: "F65\x1CC00435636\x1CF6.9093\x1CIND\x1C\x1CRamirez\x1CEduardo\x1C\x1C\x1C\x1CPO
+    Box 2923\x1C\x1CGuaynabo\x1CPR\x1C00970\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CCPA"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9093
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ramirez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Eduardo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2923
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00970
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CPA
+- input: "F65\x1CC00435636\x1CF6.9094\x1CIND\x1C\x1CRamirez Ball\x1CRafael\x1C\x1C\x1C\x1CSantander
+    13-14, Torrimar\x1C\x1CGuaynabo\x1CPR\x1C00966\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9094
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ramirez Ball
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rafael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Santander 13-14, Torrimar
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Guaynabo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00966
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9095\x1CIND\x1C\x1CRamis\x1CGuillermo\x1C\x1C\x1C\x1CPO
+    BOx 364248\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1000.00\x1CPradigm
+    Assoc.\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9095
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ramis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Guillermo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOx 364248
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pradigm Assoc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9096\x1CIND\x1C\x1CRamos\x1CEdward\x1C\x1C\x1C\x1CPO
+    Box 363113\x1C\x1CSan Juan\x1CPR\x1C00936\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CCPA"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9096
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ramos
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Edward
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 363113
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00936
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CPA
+- input: "F65\x1CC00435636\x1CF6.9097\x1CIND\x1C\x1CRivera\x1CMarie\x1C\x1C\x1C\x1CCond.
+    El Caribe Suite 801\x1CPalmeras 53\x1CSan Juan\x1CPR\x1C00901\x1C\x1C20081024\x1C2300.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9097
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rivera
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. El Caribe Suite 801
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Palmeras 53
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00901
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9098\x1CIND\x1C\x1CRivera Robles\x1CCarlos\x1C\x1C\x1C\x1CCalle
+    7 A24, Aponte\x1C\x1CCayey\x1CPR\x1C00736\x1C\x1C20081024\x1C1000.00\x1CSelf Employed\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9098
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rivera Robles
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlos
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Calle 7 A24, Aponte
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cayey
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00736'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9100\x1CIND\x1C\x1CRobinson Melendez\x1CLuis Fidel\x1C\x1C\x1C\x1CCalle
+    10 H15, Altamira\x1C\x1CFajardo\x1CPR\x1C00738\x1C\x1C20081024\x1C1000.00\x1CAKA
+    Electrical\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9100
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Robinson Melendez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Luis Fidel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Calle 10 H15, Altamira
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fajardo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00738
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AKA Electrical
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00435636\x1CF6.9101\x1CIND\x1C\x1CRobles Feliciano\x1CValerie\x1C\x1C\x1C\x1CTulipan
+    205, San Francisco\x1C\x1CSan Juan\x1CPR\x1C00926\x1C\x1C20081024\x1C2000.00\x1CRF
+    Law Offices\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9101
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Robles Feliciano
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Valerie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Tulipan 205, San Francisco
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00926
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RF Law Offices
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00435636\x1CF6.9102\x1CIND\x1C\x1CRodas Nazario\x1CJose r.\x1C\x1C\x1C\x1CPO
+    Box 51971\x1C\x1CToa Baja\x1CPR\x1C00950\x1C\x1C20081024\x1C1000.00\x1CEstancias
+    Villa Real Inc.\x1COwner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9102
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rodas Nazario
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jose r.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 51971
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Toa Baja
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00950
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Estancias Villa Real Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+- input: "F65\x1CC00435636\x1CF6.9044\x1CIND\x1C\x1CRodriguez\x1CMari\x1C\x1C\x1C\x1CPO
+    Box 11662\x1C\x1CSan Juan\x1CPR\x1C00922\x1C\x1C20081024\x1C1000.00\x1CHomemaker\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9044
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rodriguez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mari
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 11662
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00922
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00435636\x1CF6.9103\x1CIND\x1C\x1CRoman Lopez\x1CWilson\x1C\x1C\x1C\x1CConcepcion
+    224, La Monserrate\x1C\x1CMoca\x1CPR\x1C00676\x1C\x1C20081024\x1C1000.00\x1CMoca
+    Municipality\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9103
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Roman Lopez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Wilson
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Concepcion 224, La Monserrate
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Moca
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00676'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Moca Municipality
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9104\x1CIND\x1C\x1CSolares Rivero\x1CAniceto\x1C\x1C\x1C\x1CDorado
+    Beach East 257\x1C\x1CDorado\x1CPR\x1C00646\x1C\x1C20081024\x1C1000.00\x1CCaribbean
+    Restaurants\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9104
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Solares Rivero
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Aniceto
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Dorado Beach East 257
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dorado
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '00646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Caribbean Restaurants
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00435636\x1CF6.9105\x1CIND\x1C\x1CStephans\x1CDavid\x1C\x1C\x1C\x1C21090
+    Frontenac CT\x1C\x1CBoca Raton\x1CFL\x1C33433\x1C\x1C20081024\x1C2000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9105
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stephans
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 21090 Frontenac CT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boca Raton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33433'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9106\x1CIND\x1C\x1CTorrado\x1CRafael\x1C\x1C\x1C\x1CCond.
+    Playa Serena Torre Norte\x1CApt. 1001\x1CCarolina\x1CPR\x1C00979\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CBusinessman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9106
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Torrado
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rafael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. Playa Serena Torre Norte
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 1001
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carolina
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00979
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Businessman
+- input: "F65\x1CC00435636\x1CF6.9107\x1CIND\x1C\x1CTorres\x1COscar\x1C\x1C\x1C\x1CAmelia
+    Mellado 386, Monte Sol\x1C\x1CJuana Diaz\x1CPR\x1C00795\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CEngineer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9107
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Torres
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Oscar
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Amelia Mellado 386, Monte Sol
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Juana Diaz
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00795
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer
+- input: "F65\x1CC00435636\x1CF6.9108\x1CIND\x1C\x1CVela Pinero\x1CRosendo\x1C\x1C\x1C\x1CCond.
+    Laguna Terrace Apt. 10A\x1C\x1CSan Juan\x1CPR\x1C00907\x1C\x1C20081024\x1C1000.00\x1CSelf
+    Employed\x1CDoctor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9108
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vela Pinero
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rosendo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Cond. Laguna Terrace Apt. 10A
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00907
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Doctor
+- input: "F65\x1CC00435636\x1CF6.9109\x1CIND\x1C\x1CVivo Vale\x1CIlia\x1C\x1C\x1C\x1C13F
+    Las Carmelitas\x1CCalle San Jorge\x1CSan Juan\x1CPR\x1C00915\x1C\x1C20081024\x1C2000.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9109
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vivo Vale
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ilia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13F Las Carmelitas
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Calle San Jorge
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Juan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 00915
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00435636\x1CF6.9050\x1CPAC\x1CCROWE PAC\x1C\x1C\x1C\x1C\x1C\x1C3815
+    RIVER CROSSING PARKWAY\x1CSUITE 300\x1CINDIANAPOLIS\x1CIN\x1C46240\x1CC00451518\x1C20081024\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9050
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CROWE PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3815 RIVER CROSSING PARKWAY
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: INDIANAPOLIS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '46240'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00451518
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00435636\x1CF6.9110\x1CPAC\x1CWAL-MART STORES INC. PAC FOR RESPONSIBLE
+    GOVERNMENT\x1C\x1C\x1C\x1C\x1C\x1C702 S.W. 8th Street\x1C.\x1CBentonville\x1CAR\x1C72716\x1CC00093054\x1C20081024\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435636
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9110
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WAL-MART STORES INC. PAC FOR RESPONSIBLE GOVERNMENT
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 702 S.W. 8th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bentonville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '72716'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00093054
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081024'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081028
+type: single
