@@ -1,0 +1,5273 @@
+countraw: 40
+countrows: 38
+filename: 364355.fec
+header: {}
+rows:
+- input: "F24\x1CC00004861\x1C48\x1CUNITE HERE TIP Campaign Committee\x1C275 7th Avenue
+    10th Floor\x1C\x1CNew York\x1CNY\x1C10001\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: UNITE HERE TIP Campaign Committee
+  - name: STREET 1
+    number: '5'
+    value: 275 7th Avenue 10th Floor
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10001'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Snyder
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Thomas
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20080926'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235861
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rebecca Avelar
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1310 E 70th Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90001'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235861\x1C\x1C\x1CORG\x1CRebecca Avelar\x1C\x1C\x1C\x1C\x1C\x1C1310
+    E 70th Street\x1C\x1CLos Angeles\x1CCA\x1C90001\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235862
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Efrain Delgado
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1075 N St Andrews Pl #10'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90038'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235862\x1C\x1C\x1CORG\x1CEfrain Delgado\x1C\x1C\x1C\x1C\x1C\x1C1075
+    N St Andrews Pl #10\x1C\x1CLos Angeles\x1CCA\x1C90038\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235863
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Gary Fresquez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 13919 Imperial Highway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Whittier
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90605'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235863\x1C\x1C\x1CORG\x1CGary Fresquez\x1C\x1C\x1C\x1C\x1C\x1C13919
+    Imperial Highway\x1C\x1CWhittier\x1CCA\x1C90605\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235864
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jorge Gonzalez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1322 1/2 W 11th Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90015'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235864\x1C\x1C\x1CORG\x1CJorge Gonzalez\x1C\x1C\x1C\x1C\x1C\x1C1322
+    1/2 W 11th Street\x1C\x1CLos Angeles\x1CCA\x1C90015\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235865
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ronald D Hayes
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5149 York Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90042'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235865\x1C\x1C\x1CORG\x1CRonald D Hayes\x1C\x1C\x1C\x1C\x1C\x1C5149
+    York Blvd\x1C\x1CLos Angeles\x1CCA\x1C90042\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235866
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ignacia Hearn
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6931 Knowlton Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90045'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235866\x1C\x1C\x1CORG\x1CIgnacia Hearn\x1C\x1C\x1C\x1C\x1C\x1C6931
+    Knowlton Place\x1C\x1CLos Angeles\x1CCA\x1C90045\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235867
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jose R Lopez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '306 N Alvarado #208'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90026'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235867\x1C\x1C\x1CORG\x1CJose R Lopez\x1C\x1C\x1C\x1C\x1C\x1C306
+    N Alvarado #208\x1C\x1CLos Angeles\x1CCA\x1C90026\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235868
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rachel Moreno
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 21811 Grace Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Carson
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90745'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235868\x1C\x1C\x1CORG\x1CRachel Moreno\x1C\x1C\x1C\x1C\x1C\x1C21811
+    Grace Ave\x1C\x1CCarson\x1CCA\x1C90745\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235869
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jesus A Rodriguez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '571 S Coronado St #603'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235869\x1C\x1C\x1CORG\x1CJesus A Rodriguez\x1C\x1C\x1C\x1C\x1C\x1C571
+    S Coronado St #603\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235870
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amy Rosner
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 316 N Bonnie Brae
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90026'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235870\x1C\x1C\x1CORG\x1CAmy Rosner\x1C\x1C\x1C\x1C\x1C\x1C316
+    N Bonnie Brae\x1C\x1CLos Angeles\x1CCA\x1C90026\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235871
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rosa Urias
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1441 S Hope St #301'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90015'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235871\x1C\x1C\x1CORG\x1CRosa Urias\x1C\x1C\x1C\x1C\x1C\x1C1441
+    S Hope St #301\x1C\x1CLos Angeles\x1CCA\x1C90015\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235872
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Frank Vazquez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1304 N Summit Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pasadena
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '91103'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235872\x1C\x1C\x1CORG\x1CFrank Vazquez\x1C\x1C\x1C\x1C\x1C\x1C1304
+    N Summit Ave\x1C\x1CPasadena\x1CCA\x1C91103\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235873
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Maria Vergara
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2541 S Denmius
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90016'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235873\x1C\x1C\x1CORG\x1CMaria Vergara\x1C\x1C\x1C\x1C\x1C\x1C2541
+    S Denmius\x1C\x1CLos Angeles\x1CCA\x1C90016\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235874
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Francisco Zuniga
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2725 1/2 Blanchard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90033'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '124.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235874\x1C\x1C\x1CORG\x1CFrancisco Zuniga\x1C\x1C\x1C\x1C\x1C\x1C2725
+    1/2 Blanchard\x1C\x1CLos Angeles\x1CCA\x1C90033\x1CG2008\x1C\x1C20080922\x1C124.72\x1C79471.07\x1C24E\x1CStaff
+    Time\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235875
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Tahis Castro
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1135 Terminal Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Reno
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89502'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '268.31'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Meals for Campaign Workers
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235875\x1C\x1C\x1CORG\x1CTahis Castro\x1C\x1C\x1C\x1C\x1C\x1C1135
+    Terminal Way\x1C\x1CReno\x1CNV\x1C89502\x1CG2008\x1C\x1C20080922\x1C268.31\x1C79471.07\x1C24E\x1CMeals
+    for Campaign Workers\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235876
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Alma E Soto
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3622 Arroyo Seco Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90065'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235876\x1C\x1C\x1CORG\x1CAlma E Soto\x1C\x1C\x1C\x1C\x1C\x1C3622
+    Arroyo Seco Ave\x1C\x1CLos Angeles\x1CCA\x1C90065\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235877
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ronald D Hayes
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5149 York Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90042'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235877\x1C\x1C\x1CORG\x1CRonald D Hayes\x1C\x1C\x1C\x1C\x1C\x1C5149
+    York Road\x1C\x1CLos Angeles\x1CCA\x1C90042\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235878
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Francisco Zuniga
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2725 1/2 Blanchard
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90033'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235878\x1C\x1C\x1CORG\x1CFrancisco Zuniga\x1C\x1C\x1C\x1C\x1C\x1C2725
+    1/2 Blanchard\x1C\x1CLos Angeles\x1CCA\x1C90033\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235879
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ignacia Hearn
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6931 Knowlton Pl
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90045'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235879\x1C\x1C\x1CORG\x1CIgnacia Hearn\x1C\x1C\x1C\x1C\x1C\x1C6931
+    Knowlton Pl\x1C\x1CLos Angeles\x1CCA\x1C90045\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235880
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rachel Moreno
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 21811 Grace Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Carson
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90745'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235880\x1C\x1C\x1CORG\x1CRachel Moreno\x1C\x1C\x1C\x1C\x1C\x1C21811
+    Grace Ave\x1C\x1CCarson\x1CCA\x1C90745\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235881
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jorge Gonzalez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1322 1/2 S 11th Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90015'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235881\x1C\x1C\x1CORG\x1CJorge Gonzalez\x1C\x1C\x1C\x1C\x1C\x1C1322
+    1/2 S 11th Street\x1C\x1CLos Angeles\x1CCA\x1C90015\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235882
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Frank Vazquez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1304 N Summit Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pasadena
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '91103'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235882\x1C\x1C\x1CORG\x1CFrank Vazquez\x1C\x1C\x1C\x1C\x1C\x1C1304
+    N Summit Ave\x1C\x1CPasadena\x1CCA\x1C91103\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235883
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rosa Urias
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1441 S Hope St #301'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90015'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235883\x1C\x1C\x1CORG\x1CRosa Urias\x1C\x1C\x1C\x1C\x1C\x1C1441
+    S Hope St #301\x1C\x1CLos Angeles\x1CCA\x1C90015\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235884
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Maria Vergara
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2541 S Denmius
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90016'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235884\x1C\x1C\x1CORG\x1CMaria Vergara\x1C\x1C\x1C\x1C\x1C\x1C2541
+    S Denmius\x1C\x1CLos Angeles\x1CCA\x1C90016\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235885
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jesus A Rodriguez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '571 S Coronado St #603'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90057'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235885\x1C\x1C\x1CORG\x1CJesus A Rodriguez\x1C\x1C\x1C\x1C\x1C\x1C571
+    S Coronado St #603\x1C\x1CLos Angeles\x1CCA\x1C90057\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235886
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Efrain Delgado
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1075 N St Andrews Pl #10'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90038'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235886\x1C\x1C\x1CORG\x1CEfrain Delgado\x1C\x1C\x1C\x1C\x1C\x1C1075
+    N St Andrews Pl #10\x1C\x1CLos Angeles\x1CCA\x1C90038\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235887
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jose R Lopez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '306 N Alvarado #208'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90026'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235887\x1C\x1C\x1CORG\x1CJose R Lopez\x1C\x1C\x1C\x1C\x1C\x1C306
+    N Alvarado #208\x1C\x1CLos Angeles\x1CCA\x1C90026\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235888
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rebecca Avelar
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1310 E 70th Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90001'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235888\x1C\x1C\x1CORG\x1CRebecca Avelar\x1C\x1C\x1C\x1C\x1C\x1C1310
+    E 70th Street\x1C\x1CLos Angeles\x1CCA\x1C90001\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235889
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Gary Fresquez
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 13919 Imperial Highway
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Whittier
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90605'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235889\x1C\x1C\x1CORG\x1CGary Fresquez\x1C\x1C\x1C\x1C\x1C\x1C13919
+    Imperial Highway\x1C\x1CWhittier\x1CCA\x1C90605\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24E\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235890
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amy Rosner
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 316 N Bonnie Brae
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90026'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '252.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24K
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Per Diem for Meals, tips, incidentals
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235890\x1C\x1C\x1CORG\x1CAmy Rosner\x1C\x1C\x1C\x1C\x1C\x1C316
+    N Bonnie Brae\x1C\x1CLos Angeles\x1CCA\x1C90026\x1CG2008\x1C\x1C20080923\x1C252.00\x1C79471.07\x1C24K\x1CPer
+    Diem for Meals, tips, incidentals\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235891
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Employment Development Department
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 826276
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Sacramento
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94230'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080924'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '198.61'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24K
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Payroll Taxes Payment
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235891\x1C\x1C\x1CORG\x1CEmployment Development Department\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 826276\x1C\x1CSacramento\x1CCA\x1C94230\x1CG2008\x1C\x1C20080924\x1C198.61\x1C79471.07\x1C24K\x1CPayroll
+    Taxes Payment\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235893
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: United States Treasury
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1500 Pennsylvania Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20220'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080924'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1054.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Payroll Taxes Payment
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235893\x1C\x1C\x1CORG\x1CUnited States Treasury\x1C\x1C\x1C\x1C\x1C\x1C1500
+    Pennsylvania Avenue, NW\x1C\x1CWashington\x1CDC\x1C20220\x1CG2008\x1C\x1C20080924\x1C1054.32\x1C79471.07\x1C24E\x1CPayroll
+    Taxes Payment\x1C001\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B233576
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Diners Club
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 6935
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: The Lakes
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '88901'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080925'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '-785.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Refund of overpayment for airfare dated 9/10/08
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB233576\x1C\x1C\x1CORG\x1CDiners Club\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 6935\x1C\x1CThe Lakes\x1CNV\x1C88901\x1CG2008\x1C\x1C20080925\x1C-785.00\x1C79471.07\x1C24E\x1CRefund
+    of overpayment for airfare dated 9/10/08\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B236058
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: UNITE HERE TIP State & Local Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 275 7th Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10001'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080925'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '681.10'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Campaign Materials Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB236058\x1C\x1C\x1CORG\x1CUNITE HERE TIP State & Local
+    Fund\x1C\x1C\x1C\x1C\x1C\x1C275 7th Avenue\x1C\x1CNew York\x1CNY\x1C10001\x1CG2008\x1C\x1C20080925\x1C681.10\x1C79471.07\x1C24E\x1CCampaign
+    Materials Production\x1C004\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B236169
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Efraid Delgado
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1075 N St Andrews Pl #10'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90038'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080926'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '40.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fuel Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB236169\x1C\x1C\x1CORG\x1CEfraid Delgado\x1C\x1C\x1C\x1C\x1C\x1C1075
+    N St Andrews Pl #10\x1C\x1CLos Angeles\x1CCA\x1C90038\x1CG2008\x1C\x1C20080926\x1C40.00\x1C79471.07\x1C24E\x1CFuel
+    Costs\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B235860
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Extended Stay American Reno-South Meadows
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 9795 Geteway Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Reno
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89521'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080926'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5424.65'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Hotel Expenses for campaign workers
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB235860\x1C\x1C\x1CORG\x1CExtended Stay American Reno-South
+    Meadows\x1C\x1C\x1C\x1C\x1C\x1C9795 Geteway Drive\x1C\x1CReno\x1CNV\x1C89521\x1CG2008\x1C\x1C20080926\x1C5424.65\x1C79471.07\x1C24E\x1CHotel
+    Expenses for campaign workers\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00004861
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B236048
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: AT&T Mobility
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO box 6463
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Carol Stream
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60197'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080926'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1470.84'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '79471.07'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Cell Phones for Campaign Workers
+  - name: CATEGORY CODE
+    number: '25'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00004861
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Snyder
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Thomas
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080926'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00004861\x1CB236048\x1C\x1C\x1CORG\x1CAT&T Mobility\x1C\x1C\x1C\x1C\x1C\x1CPO
+    box 6463\x1C\x1CCarol Stream\x1CIL\x1C60197\x1CG2008\x1C\x1C20080926\x1C1470.84\x1C79471.07\x1C24E\x1CCell
+    Phones for Campaign Workers\x1C002\x1CC00004861\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CSnyder\x1CThomas\x1C\x1C\x1C\x1C20080926\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+sourceurl: !!python/unicode 20080926
+type: single
