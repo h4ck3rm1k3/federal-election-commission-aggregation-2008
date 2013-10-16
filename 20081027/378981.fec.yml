@@ -1,0 +1,330 @@
+countraw: 5
+countrows: 3
+filename: 378981.fec
+header: {}
+rows:
+- input: "F24\x1CC00453225\x1C48\x1CTake Back Georgia, Inc.\x1C1735 Buford Highway\x1CSuite
+    215-204\x1CCumming\x1CGA\x1C30041\x1CHand\x1CElizabeth\x1CStone\x1C\x1C\x1C20081027"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00453225
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Take Back Georgia, Inc.
+  - name: STREET 1
+    number: '5'
+    value: 1735 Buford Highway
+  - name: STREET 2
+    number: '6'
+    value: Suite 215-204
+  - name: CITY
+    number: '7'
+    value: Cumming
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30041'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Hand
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Elizabeth
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: Stone
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081027'
+- input: "SE\x1CC00453225\x1CSE.4137\x1C\x1C\x1CORG\x1CClear Channel Radio Savannah\x1C\x1C\x1C\x1C\x1C\x1C245
+    Alfred Street\x1C\x1CSavannah\x1CGA\x1C31408\x1CG2008\x1C\x1C20081027\x1C1200.00\x1C1200.00\x1C\x1Cradio
+    buy\x1C004\x1CC00453225\x1CO\x1CS2GA00118\x1CCHAMBLISS\x1CC SAXBY\x1C\x1C\x1C\x1CS\x1CGA\x1C\x1CHand\x1CElizabeth\x1CStone\x1C\x1C\x1C20081027\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00453225
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4137
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Clear Channel Radio Savannah
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 245 Alfred Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Savannah
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '31408'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1200.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: radio buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00453225
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S2GA00118
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: CHAMBLISS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: C SAXBY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Hand
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Elizabeth
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Stone
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081027'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00453225\x1CSE.4140\x1C\x1C\x1CORG\x1CCox Radio Athens\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Tower Place\x1C\x1CBogart\x1CGA\x1C30677\x1CG2008\x1C\x1C20081027\x1C1440.00\x1C1200.00\x1C\x1Cradio
+    buy\x1C004\x1CC00453225\x1CO\x1CS2GA00118\x1CCHAMBLISS\x1CC SAXBY\x1C\x1C\x1C\x1CS\x1CGA\x1C\x1CHand\x1CElizabeth\x1CStone\x1C\x1C\x1C20081027\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00453225
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4140
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Cox Radio Athens
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Tower Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bogart
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30677'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081027'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1440.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1200.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: radio buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00453225
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S2GA00118
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: CHAMBLISS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: C SAXBY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Hand
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Elizabeth
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Stone
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081027'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+sourceurl: !!python/unicode 20081027
+type: single
