@@ -1,0 +1,361 @@
+countraw: 6
+countrows: 4
+filename: 374007.fec
+header: {}
+rows:
+- input: "F24\x1CC00041160\x1C24\x1CMichigan Republican Party\x1C520 Seymour St.\x1C\x1CLansing\x1CMI\x1C48933
+    \  \x1CTow\x1CHenrietta\x1C\x1C\x1C\x1C20081021"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Michigan Republican Party
+  - name: STREET 1
+    number: '5'
+    value: 520 Seymour St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lansing
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48933   '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Tow
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Henrietta
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081021'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT.1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24
+  - name: TEXT4000
+    number: '6'
+    value: Attached are the 24 hour notices based on dissemination for GOTV volunteer
+      phone calls.  This report and subsequent ones are for activity from October
+      20 - November 4. They will link with the Alltel payment on October 17, 2008
+      which will be on the Post-General Report.
+  - value: ''
+  expected_count: 6
+  input: "TEXT\x1CC00041160\x1CTEXT.1\x1C\x1CF24\x1CAttached are the 24 hour notices
+    based on dissemination for GOTV volunteer phone calls.  This report and subsequent
+    ones are for activity from October 20 - November 4. They will link with the Alltel
+    payment on October 17, 2008 which will be on the Post-General Report.\x1C"
+  input_count: 7
+  record: fec.version.v6_2.TEXT
+  result: []
+- input: "SE\x1CC00041160\x1C81017.E38276\x1C\x1C\x1CORG\x1CAlltell\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 994255\x1C\x1CPalatine\x1CIL\x1C60094    \x1CG2008\x1C\x1C20081021\x1C51.12\x1C3844.10\x1C24E\x1CVol
+    GOTV Calls\x1C\x1C\x1CS\x1CH2MI11042\x1CKNOLLENBERG\x1CJOSEPH\x1CK.\x1C\x1C\x1CH\x1CMI\x1C11\x1CTow\x1CHenrietta\x1C\x1C\x1C\x1C20081021\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81017.E38276
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Alltell
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 994255
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Palatine
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60094    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081021'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '51.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3844.10'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Vol GOTV Calls
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2MI11042
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: KNOLLENBERG
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOSEPH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: K.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tow
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Henrietta
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081021'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00041160\x1C81017.E38275\x1C\x1C\x1CORG\x1CAlltell\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 994255\x1C\x1CPalatine\x1CIL\x1C60094    \x1CG2008\x1C\x1C20081020\x1C51.12\x1C3844.10\x1C24E\x1CVol
+    GOTV Calls\x1C\x1C\x1CS\x1CH2MI11042\x1CKNOLLENBERG\x1CJOSEPH\x1CK.\x1C\x1C\x1CH\x1CMI\x1C11\x1CTow\x1CHenrietta\x1C\x1C\x1C\x1C20081021\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00041160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81017.E38275
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Alltell
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 994255
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Palatine
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60094    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081020'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '51.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3844.10'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Vol GOTV Calls
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2MI11042
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: KNOLLENBERG
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOSEPH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: K.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tow
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Henrietta
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081021'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+sourceurl: !!python/unicode 20081021
+type: single
