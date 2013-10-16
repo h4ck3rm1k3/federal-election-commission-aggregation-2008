@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 341396.fec
+header: {}
+rows:
+- input: "F6\x1CC00433524\x1CDuncan D. Hunter for Congress\x1CP. O. Box 3917\x1C\x1CLa
+    Mesa\x1CCA\x1C91944\x1CH2CA42023\x1CHunter\x1CDuncan\x1CD.\x1C\x1C\x1CH\x1CCA\x1C52\x1CYoung\x1CBruce\x1C\x1C\x1C\x1C20080522"
+  record: fec.version.v6_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Duncan D. Hunter for Congress
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 3917
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: La Mesa
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '91944'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA42023
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Hunter
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Duncan
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: D.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '52'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Young
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Bruce
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080522'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6278FAF4DC39D4C58893
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ritchie
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: C.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Stewart
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1064 Creek Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Menlo Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '940255362'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Guckenheimer Ent. Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00433524\x1C6278FAF4DC39D4C58893\x1CIND\x1C\x1CRitchie\x1CC.\x1CStewart\x1C\x1C\x1C1064
+    Creek Drive\x1C\x1CMenlo Park\x1CCA\x1C940255362\x1C\x1C20080520\x1C1000.00\x1CGuckenheimer
+    Ent. Inc.\x1CCEO\x1C"
+  input_count: 21
+  record: fec.version.v6_1.F65
+  result: []
+sourceurl: !!python/unicode 20080522
+type: single
