@@ -1,0 +1,423 @@
+countraw: 8
+countrows: 6
+filename: 374852.fec
+header: {}
+rows:
+- input: "F6\x1CC00454983\x1CLUETKEMEYER VICTORY COMMITTEE\x1C729 MAIN STREET\x1C\x1CST
+    ELIZABETH\x1CMO\x1C65075\x1C\x1CLuetkemeyer\x1CBlaine\x1C\x1C\x1C\x1CH\x1CMO\x1C\x1CLuetkemeyer\x1CWilliam\x1CA.\x1CMr.\x1C\x1C20081022"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LUETKEMEYER VICTORY COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 729 MAIN STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ST ELIZABETH
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '65075'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Luetkemeyer
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Blaine
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MO
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Luetkemeyer
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: A.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081022'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Holekamp
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3630 S. Broadway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St. Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63118'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bank of Washington
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00454983\x1CF65.000001\x1CIND\x1C\x1CHolekamp\x1CWilliam\x1C\x1CMr.\x1C\x1C3630
+    S. Broadway\x1C\x1CSt. Louis\x1CMO\x1C63118\x1C\x1C20081020\x1C1000.00\x1CBank
+    of Washington\x1COwner\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Minnick
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nancy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12609 Conway Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St. Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63141'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00454983\x1CF65.000002\x1CIND\x1C\x1CMinnick\x1CNancy\x1C\x1CMrs.\x1C\x1C12609
+    Conway Road\x1C\x1CSt. Louis\x1CMO\x1C63141\x1C\x1C20081020\x1C1000.00\x1CInformation
+    Requested\x1CInformation Requested\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Holekamp
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kerry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: S. Barclay Woods
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St. Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63124'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00454983\x1CF65.000003\x1CIND\x1C\x1CHolekamp\x1CKerry\x1C\x1C\x1C\x1CS.
+    Barclay Woods\x1C\x1CSt. Louis\x1CMO\x1C63124\x1C\x1C20081020\x1C2500.00\x1CNA\x1CHomemaker\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Eckelkamp
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: L.B.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1400 Dogwood Terrace
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63090'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bank of Washington
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Banker
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00454983\x1CF65.000004\x1CIND\x1C\x1CEckelkamp\x1CL.B.\x1C\x1CMr.\x1CJr.\x1C1400
+    Dogwood Terrace\x1C\x1CWashington\x1CMO\x1C63090\x1C\x1C20081020\x1C2500.00\x1CBank
+    of Washington\x1CBanker\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MBA Federal PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 207 E. Capitol Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jefferson City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '65101'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00454983\x1CF65.000005\x1CPAC\x1CMBA Federal PAC\x1C\x1C\x1C\x1C\x1C\x1C207
+    E. Capitol Avenue\x1C\x1CJefferson City\x1CMO\x1C65101\x1C\x1C20081020\x1C5000.00\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20081022
+type: single
