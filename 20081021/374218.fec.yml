@@ -1,0 +1,144 @@
+countraw: 4
+countrows: 2
+filename: 374218.fec
+header: {}
+rows:
+- input: "F6\x1CC00238865\x1CFRIENDS OF ROSA DELAURO\x1C12 TRUMBULL STREET\x1C\x1CNEW
+    HAVEN\x1CCT\x1C06511   \x1CH0CT03072\x1CDeLauro\x1CRosa\x1C\x1C\x1C\x1CH\x1CCT\x1C03\x1CLender\x1CHelaine\x1CG.\x1C\x1C\x1C20081021"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00238865
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF ROSA DELAURO
+  - name: STREET 1
+    number: '4'
+    value: 12 TRUMBULL STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEW HAVEN
+  - name: STATE
+    number: '7'
+    value: CT
+  - name: ZIP
+    number: '8'
+    value: '06511   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CT03072
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: DeLauro
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Rosa
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CT
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Lender
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Helaine
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: G.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081021'
+- input: "F65\x1CC00238865\x1C81021.C25029\x1CPAC\x1CAssociated Milk Producers, Inc
+    PAC\x1C\x1C\x1C\x1C\x1C\x1CP.O. Box 455\x1C315 North Broadway \x1CNew Ulm\x1CMN\x1C56073\x1CC00330696\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00238865
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81021.C25029
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Associated Milk Producers, Inc PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 455
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '315 North Broadway '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New Ulm
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '56073'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00330696
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081021
+type: single
