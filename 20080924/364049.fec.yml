@@ -1,0 +1,895 @@
+countraw: 9
+countrows: 7
+filename: 364049.fec
+header: {}
+rows:
+- input: "F24\x1CC00396499\x1C24\x1CTRUTHANDHOPE.ORG\x1C15333 CULVER 340-252\x1C\x1CIRVINE\x1CCA\x1C92604\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: TRUTHANDHOPE.ORG
+  - name: STREET 1
+    number: '5'
+    value: 15333 CULVER 340-252
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: IRVINE
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92604'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Eugene
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Hedlund
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20080923'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GoDaddy.Com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 14455 N. Hayden Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 219
+  - name: PAYEE CITY
+    number: '15'
+    value: Scottsdale
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85260'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080901'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '326.06'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '779.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Hosting, Email, SMTP upgrade
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000001\x1C\x1C\x1CORG\x1CGoDaddy.Com\x1C\x1C\x1C\x1C\x1C\x1C14455
+    N. Hayden Rd.\x1CSuite 219\x1CScottsdale\x1CAZ\x1C85260\x1CG2008\x1C\x1C20080901\x1C326.06\x1C779.00\x1C\x1C\"Hosting,
+    Email, SMTP upgrade\"\x1C003\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1COH\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ereleases.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5022 Campbell Blvd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite N
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21236'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080901'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '399.99'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '779.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Press Release
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000002\x1C\x1C\x1CORG\x1CEreleases.com\x1C\x1C\x1C\x1C\x1C\x1C5022
+    Campbell Blvd.\x1CSuite N\x1CBaltimore\x1CMD\x1C21236\x1CG2008\x1C\x1C20080901\x1C399.99\x1C779.00\x1C\x1CPress
+    Release\x1C003\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1COH\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: AT&T
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1 AT&T Way
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 412
+  - name: PAYEE CITY
+    number: '15'
+    value: Bedminster
+  - name: PAYEE STATE
+    number: '16'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '17'
+    value: 07921
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080903'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '129.99'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '129.99'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Telephone services
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000003\x1C\x1C\x1CORG\x1CAT&T\x1C\x1C\x1C\x1C\x1C\x1C1
+    AT&T Way\x1CSuite 412\x1CBedminster\x1CNJ\x1C07921\x1CG2008\x1C\x1C20080903\x1C129.99\x1C129.99\x1C\x1CTelephone
+    services\x1C001\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1COH\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000004
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Spotrunner.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6300 Wilshire Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 21st Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90048'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080908'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11800.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000004\x1C\x1C\x1CORG\x1CSpotrunner.com\x1C\x1C\x1C\x1C\x1C\x1C6300
+    Wilshire Blvd\x1C21st Floor\x1CLos Angeles\x1CCA\x1C90048\x1CG2008\x1C\x1C20080908\x1C4800.00\x1C11800.00\x1C\x1CTelevision
+    Ads\x1C004\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1COH\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000005
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Godaddy.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 14455 N. Hayden Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 219
+  - name: PAYEE CITY
+    number: '15'
+    value: Scottsdale
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85297'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080919'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '52.95'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '779.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Domain Registrations
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000005\x1C\x1C\x1CORG\x1CGodaddy.com\x1C\x1C\x1C\x1C\x1C\x1C14455
+    N. Hayden Rd.\x1CSuite 219\x1CScottsdale\x1CAZ\x1C85297\x1CG2008\x1C\x1C20080919\x1C52.95\x1C779.00\x1C\x1CDomain
+    Registrations\x1C003\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1COH\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00396499
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.000006
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Spotrunner.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6300 Wishire Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: 21st Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: Los Angeles
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '90048'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080922'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '7000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11800.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McCain
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: John
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Eugene
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Hedlund
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080923'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00396499\x1CSE.000006\x1C\x1C\x1CORG\x1CSpotrunner.com\x1C\x1C\x1C\x1C\x1C\x1C6300
+    Wishire Blvd\x1C21st Floor\x1CLos Angeles\x1CCA\x1C90048\x1CG2008\x1C\x1C20080922\x1C7000.00\x1C11800.00\x1C\x1CTelevision
+    Ads\x1C\x1C\x1CO\x1C\x1CMcCain\x1CJohn\x1C\x1C\x1C\x1CP\x1CMI\x1C00\x1CEugene\x1CHedlund\x1C\x1C\x1C\x1C20080923"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+sourceurl: !!python/unicode 20080924
+type: single
