@@ -1,0 +1,405 @@
+countraw: 8
+countrows: 6
+filename: 378712.fec
+header: {}
+rows:
+- input: "F6\x1CC00187419\x1CFriends of Jim Oberstar\x1C1017 8th St. NE\x1C\x1CWashingtion\x1CDC\x1C20002\x1CH6MN08047\x1COberstar\x1CJames\x1CL.\x1C\x1C\x1CH\x1CMN\x1C08\x1CRichard\x1CCarlotta\x1CM\x1CMs\x1C\x1C20081025"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Jim Oberstar
+  - name: STREET 1
+    number: '4'
+    value: 1017 8th St. NE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washingtion
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20002'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MN08047
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Oberstar
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: James
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: L.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 08
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Richard
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Carlotta
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: M
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Ms
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081025'
+- input: "F65\x1CC00187419\x1CC1338632\x1CIND\x1C\x1CEngelsma\x1CBruce\x1CW.\x1C\x1C\x1C525
+    S 8th St\x1C\x1CMinneapolis\x1CMN\x1C554041077\x1C\x1C20081025\x1C1000.00\x1CKraus-Anderson
+    Construction\x1CCEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C1338632
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Engelsma
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bruce
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 525 S 8th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '554041077'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kraus-Anderson Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+- input: "F65\x1CC00187419\x1CC1338631\x1CPAC\x1CWEYERHAEUSER COMPANY POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CCH1M31\x1C\x1CFederal Way\x1CWA\x1C98063\x1CC00007948\x1C20081025\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C1338631
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WEYERHAEUSER COMPANY POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: CH1M31
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Federal Way
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '98063'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007948
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00187419\x1CC1338630\x1CPAC\x1CPotlatch Employees' Politcal Fund\x1C\x1C\x1C\x1C\x1C\x1C601
+    W. Riverside Ave.\x1C#1100\x1CSpokane\x1CWA\x1C99201\x1CC00041608\x1C20081025\x1C2500.00\x1CPotlatch
+    Corporation\x1CDirector, Public Affairs"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C1338630
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Potlatch Employees' Politcal Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601 W. Riverside Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '#1100'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Spokane
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '99201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00041608
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Potlatch Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director, Public Affairs
+- input: "F65\x1CC00187419\x1CC1338591\x1CPAC\x1CHONEYWELL INTERNATIONAL POLITICAL
+    ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1001 Pennsylvania Avenue NW\x1CSuite 700
+    South\x1CWashington\x1CDC\x1C20004\x1CC00096156\x1C20081025\x1C1000.00\x1CHoneywell\x1CDirector,
+    Government Affairs, Aviation"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C1338591
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HONEYWELL INTERNATIONAL POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1001 Pennsylvania Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 700 South
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00096156
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Honeywell
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director, Government Affairs, Aviation
+- input: "F65\x1CC00187419\x1CC1338592\x1CPAC\x1CHONEYWELL INTERNATIONAL POLITICAL
+    ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1001 Pennsylvania Avenue NW\x1CSuite 700
+    South\x1CWashington\x1CDC\x1C20004\x1CC00096156\x1C20081025\x1C4000.00\x1CHoneywell\x1CDirector,
+    Government Affairs, Aviation"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00187419
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C1338592
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HONEYWELL INTERNATIONAL POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1001 Pennsylvania Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 700 South
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00096156
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081025'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Honeywell
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director, Government Affairs, Aviation
+sourceurl: !!python/unicode 20081026
+type: single
