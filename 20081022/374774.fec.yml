@@ -1,0 +1,217 @@
+countraw: 5
+countrows: 3
+filename: 374774.fec
+header: {}
+rows:
+- input: "F24\x1CC00027342\x1C24\x1CInternational Brotherhood of Electrical Workers
+    Political Action Committee\x1C900 Seventh St, NW\x1C\x1CWashington\x1CDC\x1C20001\x1CLee\x1CLindell
+    K.\x1C\x1C\x1C\x1C20081022"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027342
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: International Brotherhood of Electrical Workers Political Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 900 Seventh St, NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Lee
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Lindell K.
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081022'
+- input: "SE\x1CC00027342\x1C26812918\x1C\x1C\x1C\x1CIBEW Local Union 1238 PCE\x1C\x1C\x1C\x1C\x1C\x1C5125
+    MacArthur Blvd.\x1CNW., Suite 14\x1CWashington\x1CDC\x1C20016\x1CO2007\x1C2008
+    Presidency\x1C20081022\x1C450.00\x1C16033.00\x1C\x1CVol./Fed IE\x1C001\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CLee\x1CLindell
+    K.\x1C\x1C\x1C\x1C20081022\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027342
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26812918'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: IBEW Local Union 1238 PCE
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5125 MacArthur Blvd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: NW., Suite 14
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2007
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: 2008 Presidency
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081022'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '450.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '16033.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Vol./Fed IE
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Lee
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Lindell K.
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081022'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "TEXT\x1CC00027342\x1C26813032\x1C\x1CF24N\x1CIndependent Expenditure for
+    LU 1238"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027342
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26813032'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24N
+  - name: TEXT4000
+    number: '6'
+    value: Independent Expenditure for LU 1238
+sourceurl: !!python/unicode 20081022
+type: single
