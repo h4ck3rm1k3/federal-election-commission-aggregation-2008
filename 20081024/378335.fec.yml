@@ -1,0 +1,273 @@
+countraw: 6
+countrows: 4
+filename: 378335.fec
+header: {}
+rows:
+- input: "F6\x1CC00444034\x1CThe Bob Roggio for Congress Committee\x1COld Lincoln
+    Hwy \x1CSuite 101\x1CMalvern\x1CPA\x1C19355\x1CH8PA06079\x1CRoggio\x1CRobert \x1C\x1C\x1C\x1CH\x1CPA\x1C06\x1CSmith\x1CAlexander\x1CF\x1C\x1C\x1C20081024"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444034
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Bob Roggio for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 'Old Lincoln Hwy '
+  - name: STREET 2
+    number: '5'
+    value: Suite 101
+  - name: CITY
+    number: '6'
+    value: Malvern
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '19355'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8PA06079
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Roggio
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: 'Robert '
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Smith
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Alexander
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: F
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081024'
+- input: "F65\x1CC00444034\x1CC2641175\x1CIND\x1C\x1CLieb\x1CKathryn\x1CC.\x1C\x1C\x1CP.O.
+    Box 187\x1C\x1CValley Forge\x1CPA\x1C19481\x1C\x1C20081023\x1C1000.00\x1CN/A\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444034
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2641175
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lieb
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kathryn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 187
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Valley Forge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '19481'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00444034\x1CC2641170\x1CPAC\x1CReed Smith PAC\x1C\x1C\x1C\x1C\x1C\x1C1301
+    K Street NW\x1CSuite 1100 East Tower\x1CWashington\x1CDC\x1C20005\x1CC00242057\x1C20081023\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444034
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2641170
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Reed Smith PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1301 K Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1100 East Tower
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00242057
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00444034\x1CC2641169\x1CIND\x1C\x1CScott\x1CMichael\x1C\x1C\x1C\x1C1221
+    Lafayette Rd.\x1C\x1CGladwyne\x1CPA\x1C19035\x1C\x1C20081023\x1C1000.00\x1CReed
+    Smith LLP\x1CAttorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00444034
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C2641169
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scott
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1221 Lafayette Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Gladwyne
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '19035'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Reed Smith LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+sourceurl: !!python/unicode 20081024
+type: single
