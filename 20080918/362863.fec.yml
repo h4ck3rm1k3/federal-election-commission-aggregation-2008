@@ -1,0 +1,875 @@
+countraw: 9
+countrows: 7
+filename: 362863.fec
+header: {}
+rows:
+- input: "F24\x1CC00454363\x1C48\x1CPLR PAC\x1C10601 Shawnee\x1C\x1CEdwardsville\x1CKS\x1C66111\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: PLR PAC
+  - name: STREET 1
+    number: '5'
+    value: 10601 Shawnee
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Edwardsville
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '66111'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Nadler
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Richard
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20080918'
+- input: "SE\x1CC00454363\x1CSE.4123\x1C\x1C\x1CORG\x1CBustos Media\x1C\x1C\x1C\x1C\x1C\x1C1138
+    S 38th St\x1C\x1CWest Allis\x1CWI\x1C53214\x1CG2008\x1C\x1C20080917\x1C5100.00\x1C5100.00\x1C\x1CRadio
+    advertising\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4123
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Bustos Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1138 S 38th St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: West Allis
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53214'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '5100.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00454363\x1CSE.4125\x1C\x1C\x1CORG\x1CEntravison\x1C\x1C\x1C\x1C\x1C\x1C777
+    Grant St\x1C\x1CDenver\x1CCO\x1C80203\x1CG2008\x1C\x1C20080917\x1C23426.00\x1C28526.00\x1C\x1CRadio
+    advertising\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4125
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Entravison
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 777 Grant St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Denver
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '80203'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '23426.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '28526.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00454363\x1CSE.4133\x1C\x1C\x1CIND\x1C\x1CHolt\x1CJames\x1C\x1C\x1C\x1C410
+    NE Medford Dr\x1C\x1CLee's Summit\x1CMO\x1C64064\x1CG2008\x1C\x1C20080917\x1C150.00\x1C39513.50\x1C\x1CActor\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4133
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Holt
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: James
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 410 NE Medford Dr
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lee's Summit
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '64064'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '150.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '39513.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Actor
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00454363\x1CSE.4134\x1C\x1C\x1CORG\x1CMidwest Family Broadcasting\x1C\x1C\x1C\x1C\x1C\x1C730
+    Rayovac Dr\x1C\x1CMadison\x1CWI\x1C53711\x1CG2008\x1C\x1C20080917\x1C3400.00\x1C39513.50\x1C\x1CRadio
+    advertising\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4134
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Midwest Family Broadcasting
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 730 Rayovac Dr
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Madison
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53711'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3400.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '39513.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00454363\x1CSE.4135\x1C\x1C\x1CORG\x1CRight Way Media, LLC\x1C\x1C\x1C\x1C\x1C\x1C1001
+    Central\x1C\x1CKansas City\x1CMO\x1C64109\x1CG2008\x1C\x1C20080917\x1C637.50\x1C39513.50\x1C\x1CConsulting\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4135
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Right Way Media, LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1001 Central
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Kansas City
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '64109'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '637.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '39513.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00454363\x1CSE.4137\x1C\x1C\x1CORG\x1CWYTU\x1C\x1C\x1C\x1C\x1C\x1C809
+    S. 60th St\x1C\x1CMilwaukee\x1CWI\x1C53214\x1CG2008\x1C\x1C20080917\x1C6800.00\x1C39513.50\x1C\x1CTelevision
+    advertising\x1C004\x1CC00454363\x1CS\x1C\x1CJohn\x1CMcCain\x1C\x1C\x1C\x1CP\x1C\x1C\x1CNadler\x1CRichard\x1C\x1C\x1C\x1C20080918\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00454363
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4137
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WYTU
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 809 S. 60th St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '16'
+    value: WI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '53214'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080917'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '39513.50'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television advertising
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00454363
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: John
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: McCain
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Nadler
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Richard
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20080918'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+sourceurl: !!python/unicode 20080918
+type: single
