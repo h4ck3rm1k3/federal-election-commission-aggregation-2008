@@ -1,0 +1,209 @@
+countraw: 5
+countrows: 3
+filename: 382360.fec
+header: {}
+rows:
+- input: "F6\x1CC00416164\x1CBrown for Congress\x1C342 Lincoln St.\x1C\x1CRoseville\x1CCA\x1C95678\x1CH6CA04123\x1CBrown\x1CCharles\x1C\x1C\x1C\x1CH\x1CCA\x1C04\x1CCopeland\x1CRita\x1C\x1C\x1C\x1C20081103"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416164
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brown for Congress
+  - name: STREET 1
+    number: '4'
+    value: 342 Lincoln St.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Roseville
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95678'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6CA04123
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Brown
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Charles
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Copeland
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Rita
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081103'
+- input: "F65\x1CC00416164\x1CINC.F65.29566\x1CIND\x1C\x1CRechnitz\x1CShlomo\x1C\x1C\x1C\x1C102
+    N Alta Vista Drive\x1C\x1CLos Angeles\x1CCA\x1C90036\x1C\x1C20081101\x1C1000.00\x1CTwin
+    Med\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416164
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.29566
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rechnitz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Shlomo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 102 N Alta Vista Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Twin Med
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00416164\x1CINC.F65.29564\x1CIND\x1C\x1CTuchin\x1CMeryl\x1C\x1C\x1C\x1C11932
+    Foxboro Dr.\x1C\x1CLos Angeles\x1CCA\x1C90049\x1C\x1C20081101\x1C1000.00\x1CJules
+    Stein Eye Institute\x1COphthalmologist"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416164
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.29564
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tuchin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Meryl
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11932 Foxboro Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90049'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081101'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jules Stein Eye Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Ophthalmologist
+sourceurl: !!python/unicode 20081103
+type: single
