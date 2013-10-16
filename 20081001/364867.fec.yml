@@ -1,0 +1,162 @@
+countraw: 4
+countrows: 2
+filename: 364867.fec
+header: {}
+rows:
+- input: "F2A\x1CH2FL00250\x1CFeeney\x1CTom\x1C\x1C\x1C\x1CX\x1CP. O. Box 622345\x1C\x1COviedo\x1CFL\x1C32762\x1CREP\x1CH\x1CFL\x1C24\x1C2008\x1CC00368951\x1CTom
+    Feeney for Congress\x1CP. O. Box 622345\x1C\x1COviedo\x1CFL\x1C32762\x1CC00452425\x1CMack-Feeney
+    Victory Committee\x1CP. O. Box 65067\x1C\x1CWashington\x1CDC\x1C20035\x1C0.00\x1C0.00\x1CFeeney\x1CTom\x1C\x1C\x1C\x1C20081001"
+  record: fec.version.v6_2.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2FL00250
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Feeney
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Tom
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: P. O. Box 622345
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Oviedo
+  - name: CANDIDATE STATE
+    number: '12'
+    value: FL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '32762'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '24'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00368951
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Tom Feeney for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: P. O. Box 622345
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Oviedo
+  - name: PCC STATE
+    number: '24'
+    value: FL
+  - name: PCC ZIP
+    number: '25'
+    value: '32762'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00452425
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Mack-Feeney Victory Committee
+  - name: AUTH STREET 1
+    number: '28'
+    value: P. O. Box 65067
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20035'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: Feeney
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: Tom
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20081001'
+- input: "F2S\x1CH2FL00250\x1CC00452359\x1CROMP II\x1C228 S. Washington Street, #115\x1C\x1CAlexandria\x1CVA\x1C22314"
+  record: fec.version.v6_2.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2FL00250
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00452359
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: ROMP II
+  - name: AUTH STREET 1
+    number: '5'
+    value: '228 S. Washington Street, #115'
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314'
+sourceurl: !!python/unicode 20081001
+type: single
