@@ -1,0 +1,213 @@
+countraw: 5
+countrows: 3
+filename: 380432.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ISSA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P O BOX 760
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: VISTA
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92085'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA48024
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: ISSA
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: DARRELL
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '49'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: LEE
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: JUSTIN
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081029'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00350520\x1CISSA FOR CONGRESS\x1CP O BOX 760\x1C\x1CVISTA\x1CCA\x1C92085\x1CH0CA48024\x1CISSA\x1CDARRELL\x1C\x1C\x1C\x1CH\x1CCA\x1C49\x1CLEE\x1CJUSTIN\x1C\x1C\x1C\x1C20081029\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00350520\x1CF6.28680\x1CIND\x1C\x1CDEBS\x1CHABIB E\x1C\x1C\x1C\x1C7716
+    CARLTON PL\x1C\x1CMCLEAN\x1CVA\x1C22102\x1C\x1C20081027\x1C1000.00\x1CADVANCED
+    TECHNOLOGY SYSTEM CO\x1CPRESIDENT & CEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.28680
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DEBS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: HABIB E
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7716 CARLTON PL
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MCLEAN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22102'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ADVANCED TECHNOLOGY SYSTEM CO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PRESIDENT & CEO
+- input: "F65\x1CC00350520\x1CF6.28681\x1CIND\x1C\x1CGREGORY\x1CTHOMAS A\x1C\x1C\x1C\x1C25651
+    PASEO DE LA PAZ\x1C\x1CSAN JUAN CAPISTRAN\x1CCA\x1C92675\x1C\x1C20081028\x1C1000.00\x1CSELF
+    EMPLOYED\x1CPRIVATE INVESTOR"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.28681
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GREGORY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: THOMAS A
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25651 PASEO DE LA PAZ
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN JUAN CAPISTRAN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '92675'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PRIVATE INVESTOR
+sourceurl: !!python/unicode 20081029
+type: single
