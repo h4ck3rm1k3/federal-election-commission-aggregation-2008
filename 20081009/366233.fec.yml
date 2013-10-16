@@ -1,0 +1,996 @@
+countraw: 16
+countrows: 14
+filename: 366233.fec
+header: {}
+rows:
+- input: "F9N\x1CC30000160\x1C\x1CCAMPAIGN MONEY WATCH\x1C\x1C\x1C\x1C\x1C\x1C\x1C1320
+    19TH STREET NW SUITE M-1\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1C\x1C\x1C20080913\x1C20081007\x1C20081007\x1C\"Investigator,
+    Scratch\"\x1CUNO\x1C\x1CY\x1CGomez\x1CGail\x1C\x1C\x1C\x1Cc/o Campaign Money Watch\x1C\"1320
+    19th Street NW, Suite M-1\"\x1CWashington\x1CDC\x1C20036\x1CPublic Campaign Action
+    Fund\x1COffice Manager\x1C908000.00\x1C550000.00\x1CDonnelly\x1CDavid\x1C\x1C\x1C\x1C20081008"
+  record: fec.version.v6_2.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: CAMPAIGN MONEY WATCH
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 1320 19TH STREET NW SUITE M-1
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20036'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20080913'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20081007'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20081007'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Investigator, Scratch
+  - name: FILER CODE
+    number: '22'
+    value: UNO
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: Y
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Gomez
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Gail
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: c/o Campaign Money Watch
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: 1320 19th Street NW, Suite M-1
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Washington
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: DC
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '20036'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Public Campaign Action Fund
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Office Manager
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '908000.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '550000.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Donnelly
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: David
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20081008'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Donnelly
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: David
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: c/o Campaign Money Watch
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: 1320 19th Street NW, Suite M-1
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20036'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Public Campaign Action Fund
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Director, Campaign Money Watch
+  - value: ''
+  expected_count: 15
+  input: "F91\x1CC30000160\x1CF91.000001\x1CDonnelly\x1CDavid\x1C\x1C\x1C\x1Cc/o Campaign
+    Money Watch\x1C\"1320 19th Street NW, Suite M-1\"\x1CWashington\x1CDC\x1C20036\x1CPublic
+    Campaign Action Fund\x1C\"Director, Campaign Money Watch\"\x1C"
+  input_count: 16
+  record: fec.version.v6_2.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bonderman
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: David
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 301 Commerce Street
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Ft. Worth
+  - name: DONOR STATE
+    number: '16'
+    value: TX
+  - name: DONOR ZIP
+    number: '17'
+    value: '76102'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080926'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '75000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000001\x1C\x1C\x1CIND\x1C\x1CBonderman\x1CDavid\x1C\x1C\x1C\x1C301
+    Commerce Street\x1C\x1CFt. Worth\x1CTX\x1C76102\x1C20080926\x1C75000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Michaels
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Laurie
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 301 Commerce Street
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Ft. Worth
+  - name: DONOR STATE
+    number: '16'
+    value: TX
+  - name: DONOR ZIP
+    number: '17'
+    value: '76102'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080929'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '75000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000002\x1C\x1C\x1CIND\x1C\x1CMichaels\x1CLaurie\x1C\x1C\x1C\x1C301
+    Commerce Street\x1C\x1CFt. Worth\x1CTX\x1C76102\x1C20080929\x1C75000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000003
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Katz
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Rob
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 615 Highland Ave
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Boulder
+  - name: DONOR STATE
+    number: '16'
+    value: CO
+  - name: DONOR ZIP
+    number: '17'
+    value: '80302'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20080930'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '50000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000003\x1C\x1C\x1CIND\x1C\x1CKatz\x1CRob\x1C\x1C\x1C\x1C615
+    Highland Ave\x1C\x1CBoulder\x1CCO\x1C80302\x1C20080930\x1C50000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000004
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: Colorado First
+  - name: DONOR LAST NAME
+    number: '8'
+    value: ''
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: PO Box 371047
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Denver
+  - name: DONOR STATE
+    number: '16'
+    value: CO
+  - name: DONOR ZIP
+    number: '17'
+    value: '80237'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081001'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '122000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000004\x1C\x1C\x1CORG\x1CColorado First\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371047\x1C\x1CDenver\x1CCO\x1C80237\x1C20081001\x1C122000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000005
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Stryker
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Pat
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 103 W Mountain Ave
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Fort Collins
+  - name: DONOR STATE
+    number: '16'
+    value: CO
+  - name: DONOR ZIP
+    number: '17'
+    value: '80524'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081002'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '185000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000005\x1C\x1C\x1CIND\x1C\x1CStryker\x1CPat\x1C\x1C\x1C\x1C103
+    W Mountain Ave\x1C\x1CFort Collins\x1CCO\x1C80524\x1C20081002\x1C185000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000006
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Entenza
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Matt
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 2324 University Place
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: St. Paul
+  - name: DONOR STATE
+    number: '16'
+    value: MN
+  - name: DONOR ZIP
+    number: '17'
+    value: '55114'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081003'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '300000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000006\x1C\x1C\x1CIND\x1C\x1CEntenza\x1CMatt\x1C\x1C\x1C\x1C2324
+    University Place\x1C\x1CSt. Paul\x1CMN\x1C55114\x1C20081003\x1C300000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Findlater
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Chris
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 355 S Teller St
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Lakewood
+  - name: DONOR STATE
+    number: '16'
+    value: CO
+  - name: DONOR ZIP
+    number: '17'
+    value: '80237'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081004'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '100000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000007\x1C\x1C\x1CIND\x1C\x1CFindlater\x1CChris\x1C\x1C\x1C\x1C355
+    S Teller St\x1C\x1CLakewood\x1CCO\x1C80237\x1C20081004\x1C100000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.000008
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Berger
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Bruce
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: PO Box 482
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Aspen
+  - name: DONOR STATE
+    number: '16'
+    value: CO
+  - name: DONOR ZIP
+    number: '17'
+    value: '81612'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20081007'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1000.00'
+  - value: ''
+  expected_count: 19
+  input: "F92\x1CC30000160\x1CF92.000008\x1C\x1C\x1CIND\x1C\x1CBerger\x1CBruce\x1C\x1C\x1C\x1CPO
+    Box 482\x1C\x1CAspen\x1CCO\x1C81612\x1C20081007\x1C1000.00\x1C"
+  input_count: 20
+  record: fec.version.v6_2.F92
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MacWilliams Kirchner Sanders and Partners
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1660 L Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081003'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '95000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Placement TV ad Scratch
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: n/a
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: n/a
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20081007'
+  - value: ''
+  expected_count: 26
+  input: "F93\x1CC30000160\x1CF93.000001\x1C\x1C\x1CORG\x1CMacWilliams Kirchner Sanders
+    and Partners\x1C\x1C\x1C\x1C\x1C\x1C1660 L Street NW\x1C\x1CWashington\x1CDC\x1C20036\x1CG2008\x1C\x1C20081003\x1C95000.00\x1C\x1CPlacement
+    TV ad Scratch\x1Cn/a\x1Cn/a\x1C20081007\x1C"
+  input_count: 27
+  record: fec.version.v6_2.F93
+  result: []
+- input: "F94\x1CC30000160\x1CF94.000002\x1CF93.000001\x1CF93\x1C\x1CStevens\x1CTed\x1C\x1C\x1C\x1CS\x1CAK\x1C\x1CG2008\x1C"
+  record: fec.version.v6_2.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Stevens
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Ted
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: AK
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MacWilliams Kirchner Sanders and Partners
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1660 L Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081003'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '455000.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Production, placement TV ad Investigator
+  - name: PAYEE EMPLOYER
+    number: '24'
+    value: n/a
+  - name: PAYEE OCCUPATION
+    number: '25'
+    value: n/a
+  - name: COMMUNICATION DATE
+    number: '26'
+    value: '20081007'
+  - value: ''
+  expected_count: 26
+  input: "F93\x1CC30000160\x1CF93.000002\x1C\x1C\x1CORG\x1CMacWilliams Kirchner Sanders
+    and Partners\x1C\x1C\x1C\x1C\x1C\x1C1660 L Street NW\x1C\x1CWashington\x1CDC\x1C20036\x1CG2008\x1C\x1C20081003\x1C455000.00\x1C\x1C\"Production,
+    placement TV ad Investigator\"\x1Cn/a\x1Cn/a\x1C20081007\x1C"
+  input_count: 27
+  record: fec.version.v6_2.F93
+  result: []
+- input: "F94\x1CC30000160\x1CF94.000004\x1CF93.000002\x1CF93\x1C\x1CSchaffer\x1CBob\x1C\x1C\x1C\x1CS\x1CCO\x1C\x1CG2008\x1C"
+  record: fec.version.v6_2.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000160
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000004
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Schaffer
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Bob
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: CO
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: ''
+sourceurl: !!python/unicode 20081009
+type: single
