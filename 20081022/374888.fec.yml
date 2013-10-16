@@ -1,0 +1,472 @@
+countraw: 9
+countrows: 7
+filename: 374888.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jim Jordan for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1709 State Route 560 South
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Urbana
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43078'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OH04082
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Jordan
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: James
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: D.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Kordik
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: James
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: G.
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081022'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00416594\x1CJim Jordan for Congress\x1C1709 State Route 560 South\x1C\x1CUrbana\x1COH\x1C43078\x1CH6OH04082\x1CJordan\x1CJames\x1CD.\x1C\x1C\x1CH\x1COH\x1C04\x1CKordik\x1CJames\x1CG.\x1C\x1C\x1C20081022\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00416594\x1CF6.12806\x1CIND\x1C\x1CCriblez\x1CAnita\x1CL.\x1C\x1C\x1C10514
+    Shifferly Road\x1C\x1CBluffton\x1COH\x1C45817\x1C\x1C20081021\x1C1000.00\x1Cn/a\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12806
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Criblez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Anita
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10514 Shifferly Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bluffton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45817'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00416594\x1CF6.12807\x1CIND\x1C\x1CGarner\x1CRegina\x1CR.\x1C\x1C\x1C6830
+    Township Road 135\x1C\x1CFindlay\x1COH\x1C45840\x1C\x1C20081021\x1C1250.00\x1CGarner
+    Transportation\x1CChairman"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12807
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Garner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Regina
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6830 Township Road 135
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Findlay
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45840'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1250.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Garner Transportation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+- input: "F65\x1CC00416594\x1CF6.12808\x1CIND\x1C\x1CHawley\x1CAimee\x1C\x1C\x1C\x1C1429
+    West Market Street\x1C\x1CLima\x1COH\x1C45805\x1C\x1C20081021\x1C1000.00\x1CSelf\x1CPhysician"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12808
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hawley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Aimee
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1429 West Market Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lima
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45805'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00416594\x1CF6.12809\x1CIND\x1C\x1CJebbett\x1CDuane\x1C\x1C\x1C\x1C3309
+    Pepper Pike\x1C\x1CFindlay\x1COH\x1C45840\x1C\x1C20081021\x1C1000.00\x1CRowmark,
+    Inc.\x1CPresident / CEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12809
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jebbett
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Duane
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3309 Pepper Pike
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Findlay
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '45840'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rowmark, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President / CEO
+- input: "F65\x1CC00416594\x1CF6.12810\x1CIND\x1C\x1CKalmbach\x1CPaul\x1C\x1C\x1C\x1C7148
+    State Highway 199\x1C\x1CUpper Sandusky\x1COH\x1C43351\x1C\x1C20081021\x1C1000.00\x1CKalmbach
+    Feeds\x1CPresident / Owner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12810
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kalmbach
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7148 State Highway 199
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Upper Sandusky
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43351'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kalmbach Feeds
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President / Owner
+- input: "F65\x1CC00416594\x1CF6.12811\x1CPAC\x1CTRUCKING POLITICAL ACTION COMMITTEE
+    OF THE AMERICAN TRUCKING ASSOCIATIONS INC.\x1C\x1C\x1C\x1C\x1C\x1C430 First St.
+    SE\x1C.\x1CWashington\x1CDC\x1C20003\x1CC00002881\x1C20081021\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00416594
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12811
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: TRUCKING POLITICAL ACTION COMMITTEE OF THE AMERICAN TRUCKING ASSOCIATIONS
+      INC.
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 430 First St. SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00002881
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081021'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081022
+type: single
