@@ -1,0 +1,470 @@
+countraw: 9
+countrows: 7
+filename: 373384.fec
+header: {}
+rows:
+- input: "F6\x1CC00088658\x1CDREIER FOR CONGRESS COMMITTEE\x1CP.O. BOX 505\x1C\x1CUPLAND\x1CCA\x1C91785
+    \  \x1CH8CA35032\x1CDREIER\x1CDAVID\x1C\x1C\x1C\x1CH\x1CCA\x1C26\x1CTREASURER\x1CDAVID\x1CWM.
+    COUCH,\x1C\x1C\x1C20081020"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DREIER FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 505
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: UPLAND
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '91785   '
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CA35032
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: DREIER
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: DAVID
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '26'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: TREASURER
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: DAVID
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: WM. COUCH,
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081020'
+- input: "F65\x1CC00088658\x1C81020.C11180\x1CPAC\x1CAICPA PAC\x1C\x1C\x1C\x1C\x1C\x1C220
+    Leigh Farm Rd\x1C\x1CDurham\x1CNC\x1C277078110\x1C\x1C20081020\x1C2500.00\x1CAICPA
+    Effective Legislation Co\x1CPAC"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11180
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AICPA PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 220 Leigh Farm Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Durham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '277078110'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AICPA Effective Legislation Co
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAC
+- input: "F65\x1CC00088658\x1C81020.C11182\x1CPAC\x1CCaterpillar Employee PAC\x1C\x1C\x1C\x1C\x1C\x1C100
+    Northeast Adams Street\x1C\x1CPeoria\x1CIL\x1C616291430\x1C\x1C20081020\x1C2000.00\x1CCaterpillar
+    Committee For Effe\x1CPAC"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11182
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Caterpillar Employee PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 100 Northeast Adams Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Peoria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '616291430'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Caterpillar Committee For Effe
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAC
+- input: "F65\x1CC00088658\x1C81020.C11181\x1CIND\x1C\x1CChao\x1CWei-Wei\x1C\x1C\x1C\x1C1180
+    Sunset Bluff Road\x1C\x1CWalnut\x1CCA\x1C917891274\x1C\x1C20081020\x1C2300.00\x1CSelf
+    Employed\x1CBuyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11181
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chao
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Wei-Wei
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1180 Sunset Bluff Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Walnut
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917891274'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Buyer
+- input: "F65\x1CC00088658\x1C81020.C11172\x1CIND\x1C\x1CHensel\x1CGeorge\x1C\x1C\x1C\x1C111
+    W Pomona Blvd\x1C\x1CMonterey Park\x1CCA\x1C917547208\x1C\x1C20081020\x1C2300.00\x1CRetired\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11172
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hensel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: George
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 111 W Pomona Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Monterey Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917547208'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+- input: "F65\x1CC00088658\x1C81020.C11176\x1CIND\x1C\x1CRichards\x1CDwight\x1C\x1C\x1C\x1C1242
+    Hidden Springs Lane\x1C\x1CGlendora\x1CCA\x1C917412330\x1C\x1C20081020\x1C2300.00\x1CFairplex\x1CV.P.
+    Operations"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11176
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Richards
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dwight
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1242 Hidden Springs Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Glendora
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917412330'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Fairplex
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: V.P. Operations
+- input: "F65\x1CC00088658\x1C81020.C11183\x1CPAC\x1CUnion Pacific Corp Fund PAC\x1C\x1C\x1C\x1C\x1C\x1C600
+    Thirteenth Street, NW Suite 34\x1C\x1CWashington\x1CDC\x1C20005\x1C\x1C20081020\x1C2300.00\x1CUnion
+    Pacific Fund For Effecti\x1CPAC"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00088658
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81020.C11183
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Union Pacific Corp Fund PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 600 Thirteenth Street, NW Suite 34
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Union Pacific Fund For Effecti
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: PAC
+sourceurl: !!python/unicode 20081021
+type: single
