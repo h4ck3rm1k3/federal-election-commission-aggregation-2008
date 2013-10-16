@@ -1,0 +1,278 @@
+countraw: 6
+countrows: 4
+filename: 360925.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00452078
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jack Martins 08
+  - name: STREET 1
+    number: '4'
+    value: 225 Pershing Parkway
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Mineola
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11501'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8ny04076
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Martin
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Jack
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Carpenito
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Christopher
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080906'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00452078\x1CJack Martins 08\x1C225 Pershing Parkway\x1C\x1CMineola\x1CNY\x1C11501\x1CH8ny04076\x1CMartin\x1CJack\x1C\x1C\x1C\x1CH\x1CNY\x1C04\x1CCarpenito\x1CChristopher\x1C\x1C\x1C\x1C20080906\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00452078\x1CF6.4869\x1CIND\x1C\x1CDemenus\x1CManfred\x1C\x1C\x1C\x1C54
+    Woodland Drive\x1C\x1CRoslyn\x1CNY\x1C11576\x1C\x1C20080905\x1C1000.00\x1CMedco
+    Plumbing\x1CContractor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00452078
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4869
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Demenus
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Manfred
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 54 Woodland Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Roslyn
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11576'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080905'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Medco Plumbing
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Contractor
+- input: "F65\x1CC00452078\x1CF6.4872\x1CIND\x1C\x1CMoser\x1CWilliam\x1CJ\x1C\x1C\x1C285
+    W7th Street\x1C\x1CDeer Park\x1CNY\x1C11729\x1C\x1C20080905\x1C1000.00\x1CWRMCO
+    Electric\x1CElectrical Contracting"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00452078
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4872
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Moser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 285 W7th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Deer Park
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11729'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080905'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WRMCO Electric
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Electrical Contracting
+- input: "F65\x1CC00452078\x1CF6.4866\x1CIND\x1C\x1CVoss\x1CKenneth\x1C\x1C\x1C\x1C8
+    Fox Meadow Lane\x1C\x1CHuntington\x1CNY\x1C11743\x1C\x1C20080905\x1C1000.00\x1CPrince
+    Carpenttry, Inc.\x1CBusiness Owner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00452078
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4866
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Voss
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kenneth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8 Fox Meadow Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Huntington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11743'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080905'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Prince Carpenttry, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Business Owner
+sourceurl: !!python/unicode 20080906
+type: single
