@@ -1,0 +1,2485 @@
+countraw: 40
+countrows: 38
+filename: 378049.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: COMMITTEE NAME
+    number: '3'
+    value: RICHARD E NEAL FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 76 MAGNOLIA TERRACE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SPRINGFIELD
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 01108
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MA02041
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: NEAL
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: RICHARD E
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Hall
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Michael F.
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081024'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00226522\x1CRICHARD E NEAL FOR CONGRESS COMMITTEE\x1C76 MAGNOLIA
+    TERRACE\x1C\x1CSPRINGFIELD\x1CMA\x1C01108\x1CH8MA02041\x1CNEAL\x1CRICHARD E\x1C\x1CMr.\x1C\x1CH\x1CMA\x1C02\x1CHall\x1CMichael
+    F.\x1C\x1CMr.\x1C\x1C20081024\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00226522\x1CF6.25966\x1CIND\x1C\x1CArmstrong\x1CScott\x1C\x1CMr.\x1C\x1C65
+    Autumn Lane\x1C\x1CHanover\x1CMA\x1C02339\x1C\x1C20081023\x1C1000.00\x1CGroup
+    Health Cooperative\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25966
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Armstrong
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Scott
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 65 Autumn Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hanover
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02339
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Group Health Cooperative
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25972\x1CIND\x1C\x1CBarthold\x1CHarold J.\x1C\x1CMr.\x1CII\x1C48
+    Pheasant Hill Road\x1C\x1CScituate\x1CMA\x1C02066\x1C\x1C20081023\x1C1000.00\x1CSouth
+    Suburban Oncology Center\x1CPhysician"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25972
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Barthold
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harold J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: II
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 48 Pheasant Hill Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scituate
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02066'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: South Suburban Oncology Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00226522\x1CF6.25965\x1CIND\x1C\x1CCampion\x1CCharles\x1C\x1CMr.\x1CIII\x1C284
+    Dean Road\x1C\x1CBrookline\x1CMA\x1C02445\x1C\x1C20081023\x1C1000.00\x1CDewey
+    Square\x1CPrincipal"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25965
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Campion
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 284 Dean Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Brookline
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02445'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dewey Square
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+- input: "F65\x1CC00226522\x1CF6.25990\x1CIND\x1C\x1CConnors\x1CJohn M.\x1C\x1CMr.\x1C\x1C200
+    Clarendon Street\x1C\x1CBoston\x1CMA\x1C02116\x1C\x1C20081023\x1C1000.00\x1CHill
+    Holiday\x1CChairman, CEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25990
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Connors
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John M.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 Clarendon Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02116'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hill Holiday
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman, CEO
+- input: "F65\x1CC00226522\x1CF6.25962\x1CIND\x1C\x1CCrowe\x1CPhilip J.\x1C\x1CMr.\x1CJr.\x1C220
+    Boylsont Street 1014\x1C\x1CBoston\x1CMA\x1C02116\x1C\x1C20081023\x1C1000.00\x1CLubin
+    & Meyer\x1CAttorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25962
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Crowe
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Philip J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 220 Boylsont Street 1014
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02116'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lubin & Meyer
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+- input: "F65\x1CC00226522\x1CF6.25961\x1CIND\x1C\x1CDemianiuk\x1CWilliam\x1C\x1CMr.\x1C\x1C33
+    Jackson Circle\x1C\x1CFranklin\x1CMA\x1C02038\x1C\x1C20081023\x1C1000.00\x1CSheilds
+    Health Care Group\x1CChief Operating Officer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25961
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Demianiuk
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 33 Jackson Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Franklin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02038
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sheilds Health Care Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chief Operating Officer
+- input: "F65\x1CC00226522\x1CF6.25973\x1CIND\x1C\x1CFinucane\x1CAnne\x1C\x1CMs\x1C\x1C20
+    Trapelo Road\x1C\x1CLincoln\x1CMA\x1C01773\x1C\x1C20081023\x1C1000.00\x1CBank
+    of America\x1CExecutive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25973
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Finucane
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Anne
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20 Trapelo Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lincoln
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '01773'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bank of America
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00226522\x1CF6.25974\x1CIND\x1C\x1CGriffin\x1CColleen\x1C\x1CMs.\x1C\x1CPost
+    Office Box 1934\x1C\x1CDuxbury\x1CMA\x1C02331\x1C\x1C20081023\x1C1000.00\x1Cnone\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25974
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Griffin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Colleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Post Office Box 1934
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02331'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: none
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00226522\x1CF6.25989\x1CIND\x1C\x1CGriffin\x1CKevin\x1C\x1CMr.\x1C\x1CPost
+    Office Box 1934\x1C\x1CDuxbury\x1CMA\x1C02331\x1C\x1C20081023\x1C1000.00\x1CGriffin
+    Publishing\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25989
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Griffin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kevin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Post Office Box 1934
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02331'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Griffin Publishing
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25963\x1CIND\x1C\x1CHulick\x1CPeter R.\x1C\x1CDr.\x1C\x1C492
+    Beacon Street\x1C\x1CBoston\x1CMA\x1C02115\x1C\x1C20081023\x1C1000.00\x1CSouth
+    Suburban Oncology Center\x1CPhysician"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25963
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hulick
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Peter R.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 492 Beacon Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02115'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: South Suburban Oncology Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00226522\x1CF6.25975\x1CIND\x1C\x1CMannix\x1CJohn A.\x1C\x1CMr.\x1C\x1C409
+    Heath Street\x1C\x1CChestnut Hill\x1CMA\x1C02467\x1C\x1C20081023\x1C1000.00\x1CHRPT
+    Properties Trust\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25975
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mannix
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 409 Heath Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chestnut Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02467'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HRPT Properties Trust
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25976\x1CIND\x1C\x1CMcCarthy\x1CErin\x1C\x1CMs.\x1C\x1C2
+    King Caesar Road\x1C\x1CDuxbury\x1CMA\x1C02332\x1C\x1C20081023\x1C1000.00\x1CNone\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25976
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McCarthy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Erin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2 King Caesar Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00226522\x1CF6.25977\x1CIND\x1C\x1CMcCarthy\x1CStephen\x1C\x1CMr.\x1C\x1C2
+    King Caesar Road\x1C\x1CDuxbury\x1CMA\x1C02332\x1C\x1C20081023\x1C1000.00\x1CClear
+    Creek Distillery\x1CProprietor"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25977
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McCarthy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stephen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2 King Caesar Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Clear Creek Distillery
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Proprietor
+- input: "F65\x1CC00226522\x1CF6.25978\x1CIND\x1C\x1CMontminy\x1CThomas A.\x1C\x1CMr.\x1C\x1C20
+    Ridgewood Lane\x1C\x1CQuincy\x1CMA\x1C02169\x1C\x1C20081023\x1C1000.00\x1CPrice
+    WaterhouseCooper\x1CPartner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25978
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Montminy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20 Ridgewood Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02169
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Price WaterhouseCooper
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Partner
+- input: "F65\x1CC00226522\x1CF6.25979\x1CIND\x1C\x1CRonner\x1CJeffrey W.\x1C\x1CMr.\x1C\x1C246
+    Marlboro Road\x1C\x1CSudbury\x1CMA\x1C01776\x1C\x1C20081023\x1C1000.00\x1CShields
+    Healthcare\x1CCFO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25979
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ronner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeffrey W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 246 Marlboro Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sudbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '01776'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Healthcare
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CFO
+- input: "F65\x1CC00226522\x1CF6.25969\x1CIND\x1C\x1CRoosevelt\x1CJames\x1C\x1CMr.\x1CJr.\x1C14
+    Meadow Way\x1C\x1CCambridge\x1CMA\x1C02138\x1C\x1C20081023\x1C1000.00\x1CTufts
+    Health Plan\x1CCEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25969
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Roosevelt
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14 Meadow Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cambridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02138
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Tufts Health Plan
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+- input: "F65\x1CC00226522\x1CF6.25980\x1CIND\x1C\x1CSheehan\x1CMichael J.\x1C\x1CMr.\x1C\x1C318
+    Prospect Street\x1C\x1CNorwell\x1CMA\x1C02061\x1C\x1C20081023\x1C1000.00\x1CHill
+    Holiday\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25980
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sheehan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 318 Prospect Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norwell
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hill Holiday
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25970\x1CIND\x1C\x1CShields\x1CCarmel Anne\x1C\x1CMs\x1C\x1C409
+    Heath Street\x1C\x1CChestnut Hill\x1CMA\x1C02467\x1C\x1C20081023\x1C1000.00\x1CShields
+    Health Care Group\x1CExec VP"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25970
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carmel Anne
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 409 Heath Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chestnut Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02467'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Health Care Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Exec VP
+- input: "F65\x1CC00226522\x1CF6.25981\x1CIND\x1C\x1CShields\x1CJack M.\x1C\x1CMr.\x1C\x1C700
+    Congress Street\x1C\x1CQuincy\x1CMA\x1C02169\x1C\x1C20081023\x1C1000.00\x1CShields
+    MRI Inc\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25981
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jack M.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 700 Congress Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Quincy
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02169
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields MRI Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25982\x1CIND\x1C\x1CShields\x1CKathleen W.\x1C\x1CMs\x1C\x1C143
+    Powder Point Avenue\x1C\x1CDuxbury\x1CMA\x1C02332\x1C\x1C20081023\x1C1000.00\x1Cnone\x1Chomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25982
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kathleen W.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 143 Powder Point Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: none
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: homemaker
+- input: "F65\x1CC00226522\x1CF6.25991\x1CIND\x1C\x1CShields\x1CMary J.\x1C\x1CMs.\x1C\x1C220
+    Boylston Street #1209\x1C\x1CBoston\x1CMA\x1C02116\x1C\x1C20081023\x1C1000.00\x1CNone\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25991
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mary J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '220 Boylston Street #1209'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02116'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00226522\x1CF6.25993\x1CIND\x1C\x1CShields\x1CPatrice E.\x1C\x1CMs.\x1C\x1C45
+    Satuit Meadow Lane\x1C\x1CNorwell\x1CMA\x1C02061\x1C\x1C20081023\x1C1000.00\x1CSheilds
+    Healthcare Group\x1CExecutive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25993
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patrice E.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 45 Satuit Meadow Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norwell
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sheilds Healthcare Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00226522\x1CF6.25983\x1CIND\x1C\x1CShields\x1CThomas A.\x1CAugustine\x1CMr.\x1C\x1C45
+    Satuit Meadow Lane\x1C\x1CNorwell\x1CMA\x1C02061\x1C\x1C20081023\x1C1000.00\x1CShields
+    Health Care Group\x1CExec VP Marketing & Admin"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25983
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Augustine
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 45 Satuit Meadow Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norwell
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02061'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Health Care Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Exec VP Marketing & Admin
+- input: "F65\x1CC00226522\x1CF6.25992\x1CIND\x1C\x1CShields\x1CThomas F.\x1C\x1CMr.\x1C\x1C220
+    Boylston Street Unit1209\x1C\x1CBoston\x1CMA\x1C02116\x1C\x1C20081023\x1C1000.00\x1CShields
+    Health Care Group\x1CChairman & CEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25992
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas F.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 220 Boylston Street Unit1209
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02116'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Health Care Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman & CEO
+- input: "F65\x1CC00226522\x1CF6.25984\x1CIND\x1C\x1CShields\x1CWilliam F.\x1C\x1CDr.\x1C\x1C76
+    Woodworth Lane\x1C\x1CScituate\x1CMA\x1C02186\x1C\x1C20081023\x1C1000.00\x1CShields
+    Healthcare Group\x1CPhysician"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25984
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shields
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William F.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 76 Woodworth Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scituate
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02186
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Healthcare Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00226522\x1CF6.25985\x1CIND\x1C\x1CSmith\x1CDennis A.\x1C\x1CMr.\x1C\x1C2058
+    Canton Avenue\x1C\x1CMilton\x1CMA\x1C02186\x1C\x1C20081023\x1C1000.00\x1CDennis
+    Smith Associates\x1CConsultant"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25985
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Smith
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dennis A.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2058 Canton Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Milton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02186
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dennis Smith Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Consultant
+- input: "F65\x1CC00226522\x1CF6.25986\x1CIND\x1C\x1CSweriduk\x1CPatricia H.\x1C\x1CMs.\x1C\x1C78
+    Elm Street\x1C\x1CSouth Dartmouth\x1CMA\x1C02748\x1C\x1C20081023\x1C1000.00\x1CDartmouth
+    School System\x1CTeacher"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25986
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sweriduk
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patricia H.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 78 Elm Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Dartmouth
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02748
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dartmouth School System
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Teacher
+- input: "F65\x1CC00226522\x1CF6.25987\x1CIND\x1C\x1CSweriduk\x1CStephen T.\x1C\x1CMr.\x1C\x1C78
+    Elm Street\x1C\x1CSouth Dartmouth\x1CMA\x1C02748\x1C\x1C20081023\x1C1000.00\x1CShields
+    Healthcare\x1CMedical Director"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25987
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sweriduk
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stephen T.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 78 Elm Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Dartmouth
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02748
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Healthcare
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Medical Director
+- input: "F65\x1CC00226522\x1CF6.25988\x1CIND\x1C\x1CThorbahn\x1CJohn R.\x1C\x1CMr.\x1C\x1C69
+    Saint George Street\x1C\x1CDuxbury\x1CMA\x1C02332\x1C\x1C20081023\x1C1000.00\x1CThorbahn
+    Associates\x1CPresident"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25988
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Thorbahn
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John R.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 69 Saint George Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Duxbury
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Thorbahn Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+- input: "F65\x1CC00226522\x1CF6.25968\x1CIND\x1C\x1CTolosky\x1CMark R.\x1C\x1CMr.\x1C\x1C83
+    Willow Brook Road\x1C\x1CLongmeadow\x1CMA\x1C01106\x1C\x1C20081023\x1C1000.00\x1CBaystate
+    Health Systems\x1CPresident & CEO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25968
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tolosky
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark R.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 83 Willow Brook Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Longmeadow
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '01106'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Baystate Health Systems
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President & CEO
+- input: "F65\x1CC00226522\x1CF6.25994\x1CIND\x1C\x1CWhelan\x1CPatricia J.\x1C\x1CMs.\x1C\x1C9
+    Lakeview Avenue #7\x1C\x1CReading\x1CMA\x1C01867\x1C\x1C20081023\x1C1000.00\x1CShields
+    Healthcare\x1CVP Information Technology"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25994
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Whelan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patricia J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '9 Lakeview Avenue #7'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reading
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 01867
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Shields Healthcare
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VP Information Technology
+- input: "F65\x1CC00226522\x1CF6.25964\x1CIND\x1C\x1CWhouley\x1CMichael J.\x1C\x1CMr.\x1C\x1C208
+    Centre Street\x1C\x1CDanvers\x1CMA\x1C01923\x1C\x1C20081023\x1C1000.00\x1CDewey
+    Square\x1CPrincipal"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25964
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Whouley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael J.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 208 Centre Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Danvers
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 01923
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dewey Square
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+- input: "F65\x1CC00226522\x1CF6.25967\x1CIND\x1C\x1CYu\x1CDavid C.\x1C\x1CMr.\x1C\x1C1410
+    Columbia Road #16F\x1C\x1CSouth Boston\x1CMA\x1C02127\x1C\x1C20081023\x1C1000.00\x1CHealth
+    Group\x1CPhysician"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25967
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Yu
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David C.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '1410 Columbia Road #16F'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '02127'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Health Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Physician
+- input: "F65\x1CC00226522\x1CF6.25996\x1CPAC\x1CBIPARTISAN POLITICAL ACTION COMMITTEE/THE
+    BANK OF NEW YORK MELLON CORPORATION BIPAC/BNYMC\x1C\x1C\x1C\x1C\x1C\x1CONE MELLON
+    BANK CENTER\x1C.\x1CPITTSBURGH\x1CPA\x1C15258\x1CC00017558\x1C20081023\x1C1500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25996
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BIPARTISAN POLITICAL ACTION COMMITTEE/THE BANK OF NEW YORK MELLON CORPORATION
+      BIPAC/BNYMC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ONE MELLON BANK CENTER
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PITTSBURGH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '15258'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00017558
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00226522\x1CF6.25971\x1CPAC\x1CCITIZENS FINANCIAL GROUP, INC. POLITICAL
+    COMMITTEE (RBS CITIZENS PAC)\x1C\x1C\x1C\x1C\x1C\x1Cc/o Kenneth W. Robinson, Treasurer\x1COne
+    Citizens Plaza, 5th Floor\x1CProvidence\x1CRI\x1C02903\x1CC00307249\x1C20081023\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25971
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CITIZENS FINANCIAL GROUP, INC. POLITICAL COMMITTEE (RBS CITIZENS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: c/o Kenneth W. Robinson, Treasurer
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: One Citizens Plaza, 5th Floor
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Providence
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: RI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 02903
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00307249
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00226522\x1CF6.25995\x1CPAC\x1CSTANFORD FINANCIAL GROUP COMPANY
+    EMPLOYEES PAC\x1C\x1C\x1C\x1C\x1C\x1C1399 New York Avenue, NW\x1CSuite 375\x1CWashington\x1CDC\x1C20005\x1CC00447169\x1C20081023\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25995
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: STANFORD FINANCIAL GROUP COMPANY EMPLOYEES PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1399 New York Avenue, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 375
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00447169
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00226522\x1CF6.25960\x1CPAC\x1CWOLF BLOCK FEDERAL PAC\x1C\x1C\x1C\x1C\x1C\x1C1650
+    ARCH STREET-22ND FLOOR\x1C\x1CPHILADELPHIA\x1CPA\x1C19103\x1CC00162719\x1C20081023\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00226522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.25960
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WOLF BLOCK FEDERAL PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1650 ARCH STREET-22ND FLOOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PHILADELPHIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '19103'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00162719
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081023'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081024
+type: single
