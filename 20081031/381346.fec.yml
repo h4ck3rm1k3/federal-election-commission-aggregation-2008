@@ -1,0 +1,2958 @@
+countraw: 25
+countrows: 23
+filename: 381346.fec
+header: {}
+rows:
+- input: "F24\x1CC00111278\x1C24\x1CNational Right to Life Political Action Committee\x1C512
+    10th Street, N.W.\x1C\x1CWashington\x1CDC\x1C20004   \x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: National Right to Life Political Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 512 10th Street, N.W.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004   '
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Tobias
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Carol
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081031'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT.1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24
+  - name: TEXT4000
+    number: '6'
+    value: Report required for McCain. (VA-5 very close to limit.)
+  - value: ''
+  expected_count: 6
+  input: "TEXT\x1CC00111278\x1CTEXT.1\x1C\x1CF24\x1CReport required for McCain. (VA-5
+    very close to limit.)\x1C"
+  input_count: 7
+  record: fec.version.v6_2.TEXT
+  result: []
+- input: "SE\x1CC00111278\x1C81031.E16518\x1C\x1C\x1CORG\x1CEU Services\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 17164\x1C\x1CBaltimore\x1CMD\x1C21297    \x1CG2008\x1C\x1C20081030\x1C480.00\x1C3327.85\x1C24E\x1CPrint
+    EST\x1C\x1C\x1CS\x1CH6VA05068\x1CGOODE\x1CVIRGIL\x1CH.\x1C\x1CJR.\x1CH\x1CVA\x1C05\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16518
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: EU Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 17164
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21297    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '480.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3327.85'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Print EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6VA05068
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: GOODE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: VIRGIL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: JR.
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81031.E16514\x1C\x1C\x1CORG\x1CEU Services\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 17164\x1C\x1CBaltimore\x1CMD\x1C21297    \x1CG2008\x1C\x1C20081030\x1C800.00\x1C927744.05\x1C24E\x1CPrint
+    EST\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16514
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: EU Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 17164
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21297    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Print EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81031.E16517\x1C\x1C\x1CORG\x1CEU Services\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 17164\x1C\x1CBaltimore\x1CMD\x1C21297    \x1CG2008\x1C\x1C20081029\x1C184.41\x1C3327.85\x1C24E\x1CPrint
+    EST\x1C\x1C\x1CS\x1CH6VA05068\x1CGOODE\x1CVIRGIL\x1CH.\x1C\x1CJR.\x1CH\x1CVA\x1C05\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16517
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: EU Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 17164
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21297    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '184.41'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3327.85'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Print EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6VA05068
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: GOODE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: VIRGIL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: JR.
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16509\x1C\x1C\x1CORG\x1CEU Services\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 17164\x1C\x1CBaltimore\x1CMD\x1C21297    \x1CG2008\x1C\x1C20081029\x1C184.41\x1C35926.18\x1C24E\x1CS2
+    \ Print EST\x1C\x1C\x1CS\x1CS2NC00083\x1CDOLE\x1CELIZABETH\x1C\x1C\x1C\x1CS\x1CNC\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16509
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: EU Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 17164
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21297    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '184.41'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '35926.18'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: S2  Print EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S2NC00083
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DOLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: ELIZABETH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16506\x1C\x1C\x1CORG\x1CEU Services\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 17164\x1C\x1CBaltimore\x1CMD\x1C21297    \x1CG2008\x1C\x1C20081029\x1C2100.00\x1C927744.05\x1C24E\x1CPrint
+    EST\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16506
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: EU Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 17164
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Baltimore
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21297    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2100.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Print EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81031.E16521\x1C\x1C\x1CORG\x1CFederal Express\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371461\x1C\x1CPittsburgh\x1CPA\x1C15250    \x1CG2008\x1C\x1C20081029\x1C5.90\x1C3327.85\x1C24E\x1CShip
+    EST\x1C\x1C\x1CS\x1CH6VA05068\x1CGOODE\x1CVIRGIL\x1CH.\x1C\x1CJR.\x1CH\x1CVA\x1C05\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16521
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Federal Express
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 371461
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15250    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3327.85'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ship EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6VA05068
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: GOODE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: VIRGIL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: JR.
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81031.E16525\x1C\x1C\x1CORG\x1CFederal Express\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371461\x1C\x1CPittsburgh\x1CPA\x1C15250    \x1CG2008\x1C\x1C20081030\x1C625.38\x1C927744.05\x1C24E\x1CShip
+    EST\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16525
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Federal Express
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 371461
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15250    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '625.38'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ship EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81031.E16522\x1C\x1C\x1CORG\x1CFederal Express\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371461\x1C\x1CPittsburgh\x1CPA\x1C15250    \x1CG2008\x1C\x1C20081030\x1C317.48\x1C3327.85\x1C24E\x1CShip
+    EST\x1C\x1C\x1CS\x1CH6VA05068\x1CGOODE\x1CVIRGIL\x1CH.\x1C\x1CJR.\x1CH\x1CVA\x1C05\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81031.E16522
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Federal Express
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 371461
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15250    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '317.48'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3327.85'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ship EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6VA05068
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: GOODE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: VIRGIL
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: H.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: JR.
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '05'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16510\x1C\x1C\x1CORG\x1CFederal Express\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371461\x1C\x1CPittsburgh\x1CPA\x1C15250    \x1CG2008\x1C\x1C20081029\x1C903.36\x1C927744.05\x1C24E\x1CShip
+    EST\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16510
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Federal Express
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 371461
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15250    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '903.36'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ship EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16513\x1C\x1C\x1CORG\x1CFederal Express\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 371461\x1C\x1CPittsburgh\x1CPA\x1C15250    \x1CG2008\x1C\x1C20081029\x1C20.49\x1C35926.18\x1C24E\x1CS2
+    \ Ship EST\x1C\x1C\x1CS\x1CS2NC00083\x1CDOLE\x1CELIZABETH\x1C\x1C\x1C\x1CS\x1CNC\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1CX\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16513
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Federal Express
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 371461
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15250    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '20.49'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '35926.18'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: S2  Ship EST
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S2NC00083
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: DOLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: ELIZABETH
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NC
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81023.E16129\x1C\x1C\x1CORG\x1CKalq-fm\x1C\x1C\x1C\x1C\x1C\x1C292
+    Santa Fe Ave\x1C\x1CAlamosa\x1CCO\x1C81101    \x1CG2008\x1C\x1C20081030\x1C102.00\x1C927744.05\x1C24E\x1CAd\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81023.E16129
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Kalq-fm
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 292 Santa Fe Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alamosa
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81101    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '102.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81023.E16130\x1C\x1C\x1CORG\x1CKalq-fm\x1C\x1C\x1C\x1C\x1C\x1C292
+    Santa Fe Ave\x1C\x1CAlamosa\x1CCO\x1C81101    \x1CG2008\x1C\x1C20081030\x1C102.00\x1C75614.69\x1C24E\x1CAd\x1C\x1C\x1CS\x1CS4CO00171\x1CSCHAFFER\x1CROBERT\x1CW\x1C\x1C\x1CS\x1CCO\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81023.E16130
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Kalq-fm
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 292 Santa Fe Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alamosa
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81101    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '102.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '75614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4CO00171
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: SCHAFFER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81029.E16450\x1C\x1C\x1CORG\x1CKelk-am\x1C\x1C\x1C\x1C\x1C\x1C1800
+    Idaho Street\x1C\x1CElko\x1CNV\x1C89801    \x1CG2008\x1C\x1C20081030\x1C210.00\x1C927744.05\x1C24E\x1CAd\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81029.E16450
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Kelk-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1800 Idaho Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Elko
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89801    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '210.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81029.E16451\x1C\x1C\x1CORG\x1CKelk-am\x1C\x1C\x1C\x1C\x1C\x1C1800
+    Idaho Street\x1C\x1CElko\x1CNV\x1C89801    \x1CG2008\x1C\x1C20081030\x1C210.00\x1C10717.91\x1C24E\x1CAd\x1C\x1C\x1CS\x1CH6NV02164\x1CHELLER\x1CDEAN\x1C\x1C\x1C\x1CH\x1CNV\x1C02\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81029.E16451
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Kelk-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1800 Idaho Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Elko
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89801    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '210.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '10717.91'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H6NV02164
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HELLER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: DEAN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16504\x1C\x1C\x1CORG\x1CMegan Kittell\x1C\x1C\x1C\x1C\x1C\x1C485
+    6530 Rd.\x1C\x1CMontrose\x1CCO\x1C81401    \x1CG2008\x1C\x1C20081030\x1C32.17\x1C927744.05\x1C24E\x1Cshipping\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16504
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Megan Kittell
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 485 6530 Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Montrose
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81401    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '32.17'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81030.E16505\x1C\x1C\x1CORG\x1CMegan Kittell\x1C\x1C\x1C\x1C\x1C\x1C485
+    6530 Rd.\x1C\x1CMontrose\x1CCO\x1C81401    \x1CG2008\x1C\x1C20081030\x1C32.16\x1C75614.69\x1C24E\x1CShipping\x1C\x1C\x1CS\x1CS4CO00171\x1CSCHAFFER\x1CROBERT\x1CW\x1C\x1C\x1CS\x1CCO\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81030.E16505
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Megan Kittell
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 485 6530 Rd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Montrose
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81401    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '32.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '75614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Shipping
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4CO00171
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: SCHAFFER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81010.E15650\x1C\x1C\x1CORG\x1CKlmr-am\x1C\x1C\x1C\x1C\x1C\x1C7350
+    US Highway 50\x1C\x1CLamar\x1CCO\x1C81052    \x1CG2008\x1C\x1C20081030\x1C240.00\x1C927744.05\x1C24E\x1CAd\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81010.E15650
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Klmr-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7350 US Highway 50
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lamar
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81052    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '240.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81010.E15651\x1C\x1C\x1CORG\x1CKlmr-am\x1C\x1C\x1C\x1C\x1C\x1C7350
+    US Highway 50\x1C\x1CLamar\x1CCO\x1C81052    \x1CG2008\x1C\x1C20081030\x1C120.00\x1C75614.69\x1C24E\x1CAd\x1C\x1C\x1CS\x1CS4CO00171\x1CSCHAFFER\x1CROBERT\x1CW\x1C\x1C\x1CS\x1CCO\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81010.E15651
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Klmr-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7350 US Highway 50
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lamar
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81052    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '120.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '75614.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4CO00171
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: SCHAFFER
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81010.E15652\x1C\x1C\x1CORG\x1CKlmr-am\x1C\x1C\x1C\x1C\x1C\x1C7350
+    US Highway 50\x1C\x1CLamar\x1CCO\x1C81052    \x1CG2008\x1C\x1C20081030\x1C120.00\x1C9956.00\x1C24E\x1CAd\x1C\x1C\x1CS\x1CH2CO04045\x1CMUSGRAVE\x1CMARILYN\x1C\x1C\x1C\x1CH\x1CCO\x1C04\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81010.E15652
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Klmr-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7350 US Highway 50
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lamar
+  - name: PAYEE STATE
+    number: '16'
+    value: CO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '81052    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081030'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '120.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9956.00'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2CO04045
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MUSGRAVE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: MARILYN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '04'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81010.E15618\x1C\x1C\x1CORG\x1CWwnh-am\x1C\x1C\x1C\x1C\x1C\x1C284
+    Knox Marsh Rd\x1C\x1CLebanon\x1CNH\x1C03766    \x1CG2008\x1C\x1C20081029\x1C330.00\x1C927744.05\x1C24E\x1CAd\x1C\x1C\x1CS\x1CP80002801\x1CMCCAIN\x1CJOHN\x1CS.\x1C\x1C927744.05\x1CP\x1CP
+    \x1C\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81010.E15618
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wwnh-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 284 Knox Marsh Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lebanon
+  - name: PAYEE STATE
+    number: '16'
+    value: NH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '03766    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '330.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '927744.05'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: P80002801
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCCAIN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: S.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: '927744.05'
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: 'P '
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00111278\x1C81010.E15619\x1C\x1C\x1CORG\x1CWwnh-am\x1C\x1C\x1C\x1C\x1C\x1C284
+    Knox Marsh Rd\x1C\x1CLebanon\x1CNH\x1C03766    \x1CG2008\x1C\x1C20081029\x1C330.00\x1C4895.15\x1C24E\x1CS0
+    \ Ad\x1C\x1C\x1CS\x1CS0NH00201\x1CSUNUNU\x1CJOHN\x1CE\x1C\x1C\x1CS\x1CNH\x1C00\x1CTobias\x1CCarol\x1C\x1C\x1C\x1C20081031\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00111278
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 81010.E15619
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wwnh-am
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 284 Knox Marsh Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lebanon
+  - name: PAYEE STATE
+    number: '16'
+    value: NH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '03766    '
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '330.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '4895.15'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: S0  Ad
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0NH00201
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: SUNUNU
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: JOHN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NH
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Tobias
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Carol
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081031'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+sourceurl: !!python/unicode 20081031
+type: single
