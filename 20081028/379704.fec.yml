@@ -1,0 +1,529 @@
+countraw: 10
+countrows: 8
+filename: 379704.fec
+header: {}
+rows:
+- input: "F6\x1CC00441105\x1CMinnick for Congress\x1C8150 W Emerald Street\x1C\x1CBoise\x1CID\x1C83704\x1CH8ID01090\x1CMinnick\x1CWalter\x1CC\x1C\x1C\x1CH\x1CID\x1C01\x1CRush\x1CDick\x1C\x1C\x1C\x1C20081028"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Minnick for Congress
+  - name: STREET 1
+    number: '4'
+    value: 8150 W Emerald Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Boise
+  - name: STATE
+    number: '7'
+    value: ID
+  - name: ZIP
+    number: '8'
+    value: '83704'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8ID01090
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Minnick
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Walter
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: C
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ID
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Rush
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Dick
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081028'
+- input: "F65\x1CC00441105\x1CC4060646\x1CPAC\x1CAMERICAN MEDICAL ASSOCIATION POLITICAL
+    ACTION COMM\x1C\x1C\x1C\x1C\x1C\x1C25 MASSACHUSETTS AVENUE NW\x1CSUITE 600\x1CWASHINGTON\x1CDC\x1C20001\x1CC00000422\x1C20081027\x1C3000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4060646
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMM
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 MASSACHUSETTS AVENUE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000422
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00441105\x1CC4059514\x1CPAC\x1CDEMOCRATS WIN SEATS (DWS PAC)\x1C\x1C\x1C\x1C\x1C\x1C1071
+    Twin Branch Ln\x1C\x1CWeston\x1CFL\x1C333262828\x1CC00425470\x1C20081026\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4059514
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DEMOCRATS WIN SEATS (DWS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1071 Twin Branch Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Weston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '333262828'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00425470
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00441105\x1CC4060121\x1CIND\x1C\x1CFaulkner\x1CJudith\x1CR\x1CMrs.\x1C\x1C3033
+    Irvington Way\x1C\x1CMadison\x1CWI\x1C537133413\x1C\x1C20081027\x1C1000.00\x1CEpic
+    Systems Corporation\x1CExecutive"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4060121
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Faulkner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Judith
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3033 Irvington Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Madison
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '537133413'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Epic Systems Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+- input: "F65\x1CC00441105\x1CC4060049\x1CPAC\x1CFRIENDS OF BUD CRAMER\x1C\x1C\x1C\x1C\x1C\x1CPOST
+    OFFICE BOX 2621\x1C\x1CHuntsville\x1CAL\x1C35804\x1CC00239038\x1C20081027\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4060049
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FRIENDS OF BUD CRAMER
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: POST OFFICE BOX 2621
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Huntsville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35804'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00239038
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00441105\x1CC4060081\x1CPAC\x1CJIM COSTA FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1C2037
+    W Bullard Avenue\x1C# 355\x1CFresno\x1CCA\x1C93711\x1CC00391029\x1C20081027\x1C2000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4060081
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: JIM COSTA FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2037 W Bullard Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 355'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fresno
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '93711'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00391029
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00441105\x1CC4060216\x1CIND\x1C\x1CMinnick\x1CJo Anne\x1C\x1C\x1C\x1C632
+    San Felipe Way\x1C\x1CBoise\x1CID\x1C83712\x1C\x1C20081027\x1C1000.00\x1CN/A\x1C(Retired
+    teacher)"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4060216
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Minnick
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jo Anne
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 632 San Felipe Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boise
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ID
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '83712'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: (Retired teacher)
+- input: "F65\x1CC00441105\x1CC4059546\x1CPAC\x1CNATIONAL ACTIVE AND RETIRED FEDERAL
+    EMPLOYEES ASSO\x1C\x1C\x1C\x1C\x1C\x1C606 N Washington St\x1C\x1CAlexandria\x1CVA\x1C223141914\x1CC00091561\x1C20081026\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00441105
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4059546
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ACTIVE AND RETIRED FEDERAL EMPLOYEES ASSO
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 606 N Washington St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '223141914'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00091561
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081026'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081028
+type: single
