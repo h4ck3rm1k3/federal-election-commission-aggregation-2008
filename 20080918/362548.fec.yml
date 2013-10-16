@@ -1,0 +1,134 @@
+countraw: 3
+countrows: 1
+filename: 362548.fec
+header: {}
+rows:
+- input: "F2N\x1CP80003338\x1C/BIDEN, JOSEPH R.\x1COBAMA, BARACK\x1C\x1C\x1C\x1CX\x1CPO
+    Box 8102\x1C\x1CCHICAGO\x1CIL\x1C60680\x1CDEM\x1CP\x1C\x1C00\x1C2008\x1CC00431445\x1CObama
+    for America\x1CPO Box 8102\x1C\x1CChicago\x1CIL\x1C60680\x1CC00451393\x1CObama
+    Victory Fund\x1C430 South Capitol Street SE\x1C\x1CWashington\x1CDC\x1C20003\x1C0.00\x1C0.00\x1C/BIDEN,
+    JOSEPH R.\x1COBAMA, BARACK\x1C\x1C\x1C\x1C20080915"
+  record: fec.version.v6_2.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P80003338
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: /BIDEN, JOSEPH R.
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: OBAMA, BARACK
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: X
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 8102
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: CHICAGO
+  - name: CANDIDATE STATE
+    number: '12'
+    value: IL
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '60680'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: P
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2008'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00431445
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Obama for America
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 8102
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Chicago
+  - name: PCC STATE
+    number: '24'
+    value: IL
+  - name: PCC ZIP
+    number: '25'
+    value: '60680'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00451393
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Obama Victory Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: 430 South Capitol Street SE
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20003'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '33'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '35'
+    value: /BIDEN, JOSEPH R.
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '36'
+    value: OBAMA, BARACK
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '37'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '38'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '39'
+    value: ''
+  - name: DATE SIGNED
+    number: '40'
+    value: '20080915'
+sourceurl: !!python/unicode 20080918
+type: single
