@@ -1,0 +1,469 @@
+countraw: 9
+countrows: 7
+filename: 380908.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCNERNEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 6520 Village Parkway
+  - name: STREET 2
+    number: '5'
+    value: Second Floor
+  - name: CITY
+    number: '6'
+    value: Dublin
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '94568'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H4CA11081
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: MCNERNEY
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: JERRY
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: ''
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: ''
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081030'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00398644\x1CMCNERNEY FOR CONGRESS\x1C6520 Village Parkway\x1CSecond
+    Floor\x1CDublin\x1CCA\x1C94568\x1CH4CA11081\x1CMCNERNEY\x1CJERRY\x1C\x1C\x1C\x1CH\x1CCA\x1C11\x1C\x1C\x1C\x1C\x1C\x1C20081030\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00398644\x1CF6.4386\x1CIND\x1C\x1CEpstein\x1CJeffrey\x1C\x1C\x1C\x1C107
+    Canoe Hill Road\x1C\x1CNew Canaan\x1CCA\x1C06840\x1C\x1C20081029\x1C1000.00\x1COracle\x1CCFO"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4386
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Epstein
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeffrey
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 107 Canoe Hill Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New Canaan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 06840
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Oracle
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CFO
+- input: "F65\x1CC00398644\x1CF6.4383\x1CIND\x1C\x1CFoley\x1CLeander\x1C\x1C\x1CIII\x1C513
+    Capital Court NE #100\x1C\x1CWashington\x1CDC\x1C20002\x1C\x1C20081029\x1C1000.00\x1CFoley
+    Maldonado O'Toole\x1CManaging Partner"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4383
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Foley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Leander
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: III
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '513 Capital Court NE #100'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Foley Maldonado O'Toole
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Managing Partner
+- input: "F65\x1CC00398644\x1CF6.4398\x1CPAC\x1CBGR PAC\x1C\x1C\x1C\x1C\x1C\x1C1275
+    PENNSYLVANIA AVE NW 10TH FLR\x1C\x1CWASHINGTON\x1CDC\x1C20004\x1CC00359588\x1C20081029\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4398
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BGR PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1275 PENNSYLVANIA AVE NW 10TH FLR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00359588
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00398644\x1CF6.4392\x1CPAC\x1CLEAGUE OF CONSERVATION VOTERS ACTION
+    FUND\x1C\x1C\x1C\x1C\x1C\x1C1920 L Street, NW, Suite 800\x1C\x1CWashington\x1CDC\x1C20036\x1CC00252940\x1C20081029\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4392
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: LEAGUE OF CONSERVATION VOTERS ACTION FUND
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1920 L Street, NW, Suite 800
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00252940
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00398644\x1CF6.4395\x1CPAC\x1CNATIONAL ASSOCIATION OF POSTMASTERS
+    OF THE UNITED STATES (NAPUS PAC)\x1C\x1C\x1C\x1C\x1C\x1C8 Herbert Street\x1C.\x1CAlexandria\x1CVA\x1C22305\x1CC00100404\x1C20081029\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4395
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF POSTMASTERS OF THE UNITED STATES (NAPUS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8 Herbert Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: .
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22305'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00100404
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00398644\x1CF6.4389\x1CPAC\x1CPEACE ACTION WEST VOTER FUND\x1C\x1C\x1C\x1C\x1C\x1C2800
+    ADELINE ST\x1C\x1CBERKELEY\x1CCA\x1C94703\x1CC00293894\x1C20081029\x1C2084.97\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00398644
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4389
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PEACE ACTION WEST VOTER FUND
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2800 ADELINE ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BERKELEY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94703'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00293894
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2084.97'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+sourceurl: !!python/unicode 20081030
+type: single
