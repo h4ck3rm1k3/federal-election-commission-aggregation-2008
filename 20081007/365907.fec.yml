@@ -1,0 +1,2029 @@
+countraw: 17
+countrows: 15
+filename: 365907.fec
+header: {}
+rows:
+- input: "F24\x1CC00017525\x1C48\x1CAmerican Nurses Association PAC\x1C8515 Georgia
+    Avenue \x1CSuite 400\x1CSilver Spring \x1CMD\x1C209103492\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: American Nurses Association PAC
+  - name: STREET 1
+    number: '5'
+    value: '8515 Georgia Avenue '
+  - name: STREET 2
+    number: '6'
+    value: Suite 400
+  - name: CITY
+    number: '7'
+    value: 'Silver Spring '
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '209103492'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Behrens
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Mary
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081007'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1B48671B8C564E92883
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '54.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE1B48671B8C564E92883\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C54.15\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9B253A1B92654A99A64
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Nurses Association
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 8515 Georgia Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 400
+  - name: PAYEE CITY
+    number: '15'
+    value: Silver Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20910'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081006'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '120.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9843.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: webpage creation labor
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE9B253A1B92654A99A64\x1C\x1C\x1CORG\x1CAmerican Nurses
+    Association\x1C\x1C\x1C\x1C\x1C\x1C8515 Georgia Ave\x1CSte 400\x1CSilver Spring\x1CMD\x1C20910\x1CG2008\x1C\x1C20081006\x1C120.00\x1C9843.98\x1C\x1Cwebpage
+    creation labor\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E47699A53F00F435594C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '66.99'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE47699A53F00F435594C\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C66.99\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC5DC9A516F024C7EA73
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53.07'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CEC5DC9A516F024C7EA73\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C53.07\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ECC79C05CFA654700960
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '82.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CECC79C05CFA654700960\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C82.12\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB3C5F320FBAA466B8FB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '115.34'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CEB3C5F320FBAA466B8FB\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C115.34\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ECC0C7D5A67EC4E9FB8D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: American Nurses Association
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 8515 Georgia Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 400
+  - name: PAYEE CITY
+    number: '15'
+    value: Silver Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20910'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081006'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9843.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: webpages
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CECC0C7D5A67EC4E9FB8D\x1C\x1C\x1CORG\x1CAmerican Nurses
+    Association\x1C\x1C\x1C\x1C\x1C\x1C8515 Georgia Ave\x1CSte 400\x1CSilver Spring\x1CMD\x1C20910\x1CG2008\x1C\x1C20081006\x1C6800.00\x1C9843.98\x1C\x1Cwebpages\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3621DC48F44D4D189A5
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '80.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping for signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE3621DC48F44D4D189A5\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C80.04\x1C2923.98\x1C\x1Cshipping
+    for signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E36DA4FC99830402E9E7
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '59.55'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE36DA4FC99830402E9E7\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C59.55\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E61B1FF4D3BB74BB9949
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '128.68'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1964.27'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE61B1FF4D3BB74BB9949\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080923\x1C128.68\x1C1964.27\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDA6424B73BF44373909
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080923'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1835.59'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1964.27'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: purchase signs for Obama 4 members, distribute later
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CEDA6424B73BF44373909\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080923\x1C1835.59\x1C1964.27\x1C\x1Cpurchase
+    signs for Obama 4 members, distribute later\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3B3CAB18C1074EDFAE5
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: JIM COLEMAN LTD
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 267 E. Helen Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Palatine
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '600676954'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081007'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '17768.84'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '27612.82'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: purchase of Obama buttons, shirts, stickers, signs
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE3B3CAB18C1074EDFAE5\x1C\x1C\x1CORG\x1CJIM COLEMAN LTD\x1C\x1C\x1C\x1C\x1C\x1C267
+    E. Helen Rd\x1C\x1CPalatine\x1CIL\x1C600676954\x1CG2008\x1C\x1C20081007\x1C17768.84\x1C27612.82\x1C\x1Cpurchase
+    of Obama buttons, shirts, stickers, signs\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5326DF38E5974C15A2A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080925'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '390.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2354.27'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CE5326DF38E5974C15A2A\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080925\x1C390.00\x1C2354.27\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00017525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC8524D377EA34654B4E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Logomotion
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7300 Pearl St Ste 200
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '208143357'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20080930'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '58.45'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2923.98'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: shipping signs, distribution 10/5
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Behrens
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Mary
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081007'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: "SE\x1CC00017525\x1CEC8524D377EA34654B4E\x1C\x1C\x1CORG\x1CLogomotion\x1C\x1C\x1C\x1C\x1C\x1C7300
+    Pearl St Ste 200\x1C\x1CBethesda\x1CMD\x1C208143357\x1CG2008\x1C\x1C20080930\x1C58.45\x1C2923.98\x1C\x1Cshipping
+    signs, distribution 10/5\x1C\x1C\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CBehrens\x1CMary\x1C\x1C\x1C\x1C20081007\x1C\x1C\x1C"
+  input_count: 45
+  record: fec.version.v6_2.SE
+  result: []
+sourceurl: !!python/unicode 20081007
+type: single
