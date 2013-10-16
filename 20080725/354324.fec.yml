@@ -1,0 +1,148 @@
+countraw: 4
+countrows: 2
+filename: 354324.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435420
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Casperson for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 495
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Escanaba
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '49829'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8MI01107
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Casperson
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Tom
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Zemar
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Kay
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mrs.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20080725'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00435420\x1CCasperson for Congress\x1CP.O. Box 495\x1C\x1CEscanaba\x1CMI\x1C49829\x1CH8MI01107\x1CCasperson\x1CTom\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C01\x1CZemar\x1CKay\x1C\x1CMrs.\x1C\x1C20080725\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00435420\x1CF6.6159\x1CIND\x1C\x1CBeaumier\x1CJohn\x1C\x1CDr.\x1C\x1CN11496
+    Blue Fox Lane\x1C\x1CCedar River\x1CMI\x1C49813\x1C\x1C20080724\x1C1000.00\x1CBeaumier,
+    John\x1CRetired"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435420
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6159
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Beaumier
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: N11496 Blue Fox Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cedar River
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '49813'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20080724'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Beaumier, John
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+sourceurl: !!python/unicode 20080725
+type: single
