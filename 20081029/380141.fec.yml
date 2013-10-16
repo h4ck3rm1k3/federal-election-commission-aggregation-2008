@@ -1,0 +1,746 @@
+countraw: 14
+countrows: 12
+filename: 380141.fec
+header: {}
+rows:
+- input: "F6\x1CC00439117\x1CShulman for Congress\x1CPO Box 3\x1C\x1CDemarest\x1CNJ\x1C07627\x1CH8NJ05094\x1CShulman\x1CDennis\x1CG\x1C\x1C\x1CH\x1CNJ\x1C05\x1CTropper\x1CPamela\x1C\x1C\x1C\x1C20081029"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Shulman for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 3
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Demarest
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: '07627'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NJ05094
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Shulman
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Dennis
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: G
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Tropper
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Pamela
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081029'
+- input: "F65\x1CC00439117\x1CC4297570\x1CPAC\x1CAAJ PAC\x1C\x1C\x1C\x1C\x1C\x1C1050
+    31st St, NW\x1C\x1CWashington\x1CDC\x1C20007\x1CC00024521\x1C20081028\x1C4000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4297570
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AAJ PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1050 31st St, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20007'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00024521
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00439117\x1CC4281439\x1CCAN\x1C\x1CShulman\x1CDennis\x1C\x1CDr.\x1C\x1C285
+    Hardenburgh Ave\x1C\x1CDemarest\x1CNJ\x1C076271306\x1C\x1C20081027\x1C25000.00\x1CSelf
+    employment\x1CClinical Psychologist"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4281439
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Shulman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dennis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 285 Hardenburgh Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Demarest
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '076271306'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '25000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self employment
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Clinical Psychologist
+- input: "F65\x1CC00439117\x1CC4298942A\x1CIND\x1C\x1CHaney\x1CStafford\x1C\x1C\x1C\x1C229
+    Chestnut St.\x1C\x1CEnglewood\x1CNJ\x1C07631\x1C\x1C20081028\x1C1000.00\x1CPzena
+    Investment Management\x1CInvestment Management"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4298942A
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Haney
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stafford
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 229 Chestnut St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Englewood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07631'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pzena Investment Management
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investment Management
+- input: "F65\x1CC00439117\x1CC4297620\x1CPAC\x1CHILL PAC\x1C\x1C\x1C\x1C\x1C\x1C4420
+    Fairfax Dr\x1C\x1CArlington\x1CVA\x1C22203\x1CC00363994\x1C20081028\x1C5000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4297620
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HILL PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4420 Fairfax Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22203'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00363994
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00439117\x1CC4281923\x1CPAC\x1CHouse Majority Fund\x1C\x1C\x1C\x1C\x1C\x1C315
+    INSPIRATION LANE\x1C\x1CGaithersburg\x1CMD\x1C20878\x1CC00321596\x1C20081027\x1C1000.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4281923
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: House Majority Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 315 INSPIRATION LANE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Gaithersburg
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20878'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00321596
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081027'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00439117\x1CC4297614\x1CPAC\x1CILA COPE\x1C\x1C\x1C\x1C\x1C\x1C17
+    Battery Place, Suite 930\x1C\x1CNew York\x1CNY\x1C10004\x1CC00158576\x1C20081028\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4297614
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ILA COPE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 17 Battery Place, Suite 930
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00158576
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "F65\x1CC00439117\x1CC4298972A\x1CIND\x1C\x1CKarlinsky\x1CMartin\x1C\x1C\x1C\x1C330
+    West End Ave.\x1C\x1CNew York\x1CNY\x1C10023\x1C\x1C20081028\x1C1000.00\x1CKatten
+    Muchin Rosenman LLP\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4298972A
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Karlinsky
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Martin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 330 West End Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10023'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Katten Muchin Rosenman LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00439117\x1CC4298919A\x1CIND\x1C\x1CKrugman\x1CEdward\x1C\x1C\x1C\x1C247
+    West 12th STreet\x1CPH-A\x1CNew York\x1CNY\x1C10014\x1C\x1C20081028\x1C2300.00\x1CCahill
+    Gordon & Reindel LLP\x1CLawyer"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4298919A
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Krugman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Edward
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 247 West 12th STreet
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PH-A
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10014'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cahill Gordon & Reindel LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+- input: "F65\x1CC00439117\x1CC4298937A\x1CIND\x1C\x1CSeiden\x1CBarbara\x1C\x1C\x1C\x1C54
+    Oxford Dr\x1C\x1CTenafly\x1CNJ\x1C07670\x1C\x1C20081028\x1C1000.00\x1CN/A\x1CHomemaker"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4298937A
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Seiden
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barbara
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 54 Oxford Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tenafly
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07670'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+- input: "F65\x1CC00439117\x1CC4297568\x1CPAC\x1CShore PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 3157\x1C\x1CLong Branch\x1CNJ\x1C07740\x1CC00410308\x1C20081028\x1C2500.00\x1C\x1C"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4297568
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Shore PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 3157
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Long Branch
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07740'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00410308
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081028'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+- input: "TEXT\x1CC00439117\x1CX0\x1C\x1CF6\x1CAmended to reflect accurate ECTD totals
+    for  -Norman Seiden  -Daphne Philipson  -C Leonard Gordon"
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00439117
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6
+  - name: TEXT4000
+    number: '6'
+    value: Amended to reflect accurate ECTD totals for  -Norman Seiden  -Daphne Philipson  -C
+      Leonard Gordon
+sourceurl: !!python/unicode 20081029
+type: single
