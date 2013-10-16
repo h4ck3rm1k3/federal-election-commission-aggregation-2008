@@ -1,0 +1,897 @@
+countraw: 9
+countrows: 7
+filename: 380268.fec
+header: {}
+rows:
+- input: "F24\x1CC00358663\x1C24\x1CAMERICAN RESORT DEVELOPMENT ASSOCIATION RESORT
+    OWNERS COALITION PAC (ARDA-ROC PAC)\x1C1201 15th Street NW\x1CSuite 400\x1CWashington\x1CDC\x1C20005\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: AMERICAN RESORT DEVELOPMENT ASSOCIATION RESORT OWNERS COALITION PAC (ARDA-ROC
+      PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1201 15th Street NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 400
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Depoy
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: Sandra
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: Yartin
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: ''
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081029'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102901
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00383554
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6OR00094
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Smith
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Gordon
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102901\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.67\x1C21666.67\x1C24E\x1CRadio
+    Ads\x1C\x1CC00383554\x1CS\x1CS6OR00094\x1CSmith\x1CGordon\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102902
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00386458
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S2MN00126
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Coleman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Norm
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MN
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102902\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.67\x1C21666.67\x1C24E\x1CRadio
+    Ads\x1C\x1CC00386458\x1CS\x1CS2MN00126\x1CColeman\x1CNorm\x1C\x1C\x1C\x1CS\x1CMN\x1C00\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102903
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00266767
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H2MI11042
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Knollenberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 09
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102903\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.67\x1C21666.67\x1C24E\x1CRadio
+    Ads\x1C\x1CC00266767\x1CS\x1CH2MI11042\x1CKnollenberg\x1CJoe\x1C\x1C\x1C\x1CH\x1CMI\x1C09\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102904
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.67'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00367367
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H0NV01078
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Porter
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Jon
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102904\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.67\x1C21666.67\x1C24E\x1CRadio
+    Ads\x1C\x1CC00367367\x1CS\x1CH0NV01078\x1CPorter\x1CJon\x1C\x1C\x1C\x1CH\x1CNV\x1C03\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102905
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.66'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00283606
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4PA21051
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: English
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Philip
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102905\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.66\x1C21666.66\x1C24E\x1CRadio
+    Ads\x1C\x1CC00283606\x1CS\x1CH4PA21051\x1CEnglish\x1CPhilip\x1C\x1C\x1C\x1CH\x1CPA\x1C03\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00358663
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.0102906
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: SSG Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2120 L Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 510
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '21666.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '21666.66'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: 24E
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Radio Ads
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: C00397737
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4WA08071
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Reichert
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Dave
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: WA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 08
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Depoy
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Sandra
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: Yartin
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081029'
+  - name: MEMO CODE
+    number: '43'
+    value: NO VALUE!
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: NO VALUE!
+  expected_count: 44
+  input: "SE\x1CC00358663\x1CSE.0102906\x1C\x1C\x1CORG\x1CSSG Media, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2120
+    L Street, NW\x1CSuite 510\x1CWashington\x1CDC\x1C20037\x1CG2008\x1C\x1C20081029\x1C21666.66\x1C21666.66\x1C24E\x1CRadio
+    Ads\x1C\x1CC00397737\x1CS\x1CH4WA08071\x1CReichert\x1CDave\x1C\x1C\x1C\x1CH\x1CWA\x1C08\x1CDepoy\x1CSandra\x1CYartin\x1C\x1C\x1C20081029"
+  input_count: 42
+  record: fec.version.v6_2.SE
+  result: []
+sourceurl: !!python/unicode 20081029
+type: single
