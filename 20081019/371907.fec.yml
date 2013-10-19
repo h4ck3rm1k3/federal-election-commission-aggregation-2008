@@ -1,0 +1,286 @@
+countraw: 6
+countrows: 4
+filename: 371907.fec
+header: {}
+rows:
+- input: "F6\x1CC00435743\x1CNick Leibham For Congress\x1C425 W    5th Avenue\x1CSuite
+    205\x1CEscondido\x1CCA\x1C920254843\x1CH8CA50023\x1CLeibham\x1CNicholas\x1CA\x1C\x1C\x1CH\x1CCA\x1C50\x1CMartinez\x1CXavier\x1CR\x1C\x1C\x1C20081018"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Nick Leibham For Congress
+  - name: STREET 1
+    number: '4'
+    value: 425 W    5th Avenue
+  - name: STREET 2
+    number: '5'
+    value: Suite 205
+  - name: CITY
+    number: '6'
+    value: Escondido
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '920254843'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CA50023
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Leibham
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Nicholas
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '50'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Martinez
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Xavier
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: R
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081018'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3008000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ironworkers Political Action League
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1750 New York Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200065301'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007542
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081016'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00435743\x1C3008000\x1CCOM\x1CIronworkers Political Action League\x1C\x1C\x1C\x1C\x1C\x1C1750
+    New York Avenue NW\x1C\x1CWashington\x1CDC\x1C200065301\x1CC00007542\x1C20081016\x1C1000\x1C\x1C\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3005000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cascio
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 17151 W Bernardo Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit 203
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Diego
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '921271530'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081016'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2300'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Newland Communities
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: senior financial analyst
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00435743\x1C3005000\x1CIND\x1C\x1CCascio\x1CJoseph\x1C\x1C\x1C\x1C17151
+    W Bernardo Drive\x1CUnit 203\x1CSan Diego\x1CCA\x1C921271530\x1C\x1C20081016\x1C2300\x1CNewland
+    Communities\x1Csenior financial analyst\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435743
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3006000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Paul
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sunil
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 912 Cole Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 311'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '941174316'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081016'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Spring Ventures
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investor
+  - value: ''
+  expected_count: 20
+  input: "F65\x1CC00435743\x1C3006000\x1CIND\x1C\x1CPaul\x1CSunil\x1C\x1C\x1C\x1C912
+    Cole Street\x1C# 311\x1CSan Francisco\x1CCA\x1C941174316\x1C\x1C20081016\x1C1000\x1CSpring
+    Ventures\x1CInvestor\x1C"
+  input_count: 21
+  record: fec.version.v6_2.F65
+  result: []
+sourceurl: !!python/unicode 20081019
+type: single

@@ -1,0 +1,1344 @@
+countraw: 13
+countrows: 11
+filename: 370308.fec
+header: {}
+rows:
+- input: "F24\x1CC00030718\x1C48\x1CNATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION
+    COMMITTEE\x1C430 North Michigan Avenue\x1C\x1CChicago\x1CIL\x1C60611\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016"
+  record: fec.version.v6_2.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 430 North Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: TREASURER LAST NAME
+    number: '10'
+    value: Helsel
+  - name: TREASURER FIRST NAME
+    number: '11'
+    value: James L
+  - name: TREASURER MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '13'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '14'
+    value: Jr
+  - name: DATE SIGNED
+    number: '15'
+    value: '20081016'
+- input: "SE\x1CC00030718\x1C16024852\x1C\x1C\x1C\x1CPeter D Hart Research Associates
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Avenue NW\x1C\x1CWashington\x1CDC\x1C20009\x1CG2008\x1C\x1C20081015\x1C134.36\x1C1080933.91\x1C\x1CTravel
+    Costs for Survey Consultant (see\x1C003\x1C\x1CS\x1C\x1CKanjorski\x1CPaul\x1CE.\x1CRep.\x1C\x1CH\x1CPA\x1C11\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024852'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Avenue NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20009'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '134.36'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1080933.91'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Travel Costs for Survey Consultant (see
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Kanjorski
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Paul
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: E.
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024854\x1C\x1C\x1C\x1CPeter D Hart Research Associates
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Avenue NW\x1C\x1CWashington\x1CDC\x1C20009\x1CG2008\x1C\x1C20081015\x1C591.12\x1C765996.33\x1C\x1CTravel
+    Costs for Survey Consultant (see\x1C003\x1C\x1CS\x1C\x1CMcNerney\x1CJerry\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C11\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024854'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Avenue NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20009'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '591.12'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '765996.33'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Travel Costs for Survey Consultant (see
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McNerney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Jerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024856\x1C\x1C\x1C\x1CPeter D Hart Research Associates
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C1724 Connecticut Avenue NW\x1C\x1CWashington\x1CDC\x1C20009\x1CG2008\x1C\x1C20081015\x1C656.34\x1C597225.88\x1C\x1CTravel
+    Costs for Survey Consultant (see\x1C003\x1C\x1CS\x1C\x1CRodriguez\x1CCiro\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C23\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024856'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Peter D Hart Research Associates Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1724 Connecticut Avenue NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20009'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '656.34'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '597225.88'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Travel Costs for Survey Consultant (see
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Rodriguez
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Ciro
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '23'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024858\x1C\x1C\x1C\x1CMajority Strategies/New Wave
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C135 Professional Drive, Suite 104\x1C\x1CPointe
+    Vedra Beach\x1CFL\x1C32082\x1CG2008\x1C\x1C20081015\x1C65364.30\x1C573750.69\x1C\x1CDirect
+    Mail Costs\x1C004\x1C\x1CS\x1C\x1CShays\x1CChristopher\x1C\x1CRep.\x1C\x1CH\x1CCT\x1C04\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024858'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Majority Strategies/New Wave Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 135 Professional Drive, Suite 104
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pointe Vedra Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '32082'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '65364.30'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '573750.69'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Shays
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Christopher
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: CT
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '04'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024861\x1C\x1C\x1C\x1CMajority Strategies/New Wave
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C135 Professional Drive, Suite 104\x1C\x1CPointe
+    Vedra Beach\x1CFL\x1C32082\x1CG2008\x1C\x1C20081015\x1C87232.95\x1C623708.90\x1C\x1CDirect
+    Mail Costs\x1C004\x1C\x1CS\x1C\x1CKnollenberg\x1CJoe\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C09\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024861'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Majority Strategies/New Wave Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 135 Professional Drive, Suite 104
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pointe Vedra Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '32082'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '87232.95'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '623708.90'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Knollenberg
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: 09
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024863\x1C\x1C\x1C\x1CTerris Barnes & Walters\x1C\x1C\x1C\x1C\x1C\x1C400
+    Montgomery Street\x1CSte 900\x1CSan Francisco\x1CCA\x1C94104\x1CG2008\x1C\x1C20081015\x1C200000.00\x1C526016.22\x1C\x1CDirect
+    Mail Costs\x1C004\x1C\x1CS\x1C\x1CConnolly\x1CGerry\x1C\x1C\x1C\x1CH\x1CVA\x1C11\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024863'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Terris Barnes & Walters
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 Montgomery Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Ste 900
+  - name: PAYEE CITY
+    number: '15'
+    value: San Francisco
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94104'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '200000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '526016.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Connolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Gerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024865\x1C\x1C\x1C\x1CNational Association of Realtors\x1C\x1C\x1C\x1C\x1C\x1C430
+    N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2008\x1C\x1C20081015\x1C200.00\x1C526216.22\x1C\x1CConsulting
+    Services\x1C003\x1C\x1CS\x1C\x1CConnolly\x1CGerry\x1C\x1C\x1C\x1CH\x1CVA\x1C11\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024865'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of Realtors
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '526216.22'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Connolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Gerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024868\x1C\x1C\x1C\x1CMajority Strategies/New Wave
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C135 Professional Drive, Suite 104\x1C\x1CPointe
+    Vedra Beach\x1CFL\x1C32082\x1CG2008\x1C\x1C20081015\x1C244800.00\x1C682986.20\x1C\x1CDirect
+    Mail Costs\x1C004\x1C\x1CS\x1C\x1CCapito\x1CShelley\x1CMoore\x1CRep.\x1C\x1CH\x1CWV\x1C02\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024868'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Majority Strategies/New Wave Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 135 Professional Drive, Suite 104
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pointe Vedra Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '32082'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '244800.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '682986.20'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Capito
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Shelley
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: Moore
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: WV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "SE\x1CC00030718\x1C16024870\x1C\x1C\x1C\x1CNational Association of Realtors\x1C\x1C\x1C\x1C\x1C\x1C430
+    N Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CG2008\x1C\x1C20081015\x1C200.00\x1C683186.20\x1C\x1CConsulting
+    Services\x1C003\x1C\x1CS\x1C\x1CCapito\x1CShelley\x1CMoore\x1CRep.\x1C\x1CH\x1CWV\x1C02\x1CHelsel\x1CJames
+    L\x1C\x1C\x1CJr\x1C20081016\x1C\x1C"
+  record: fec.version.v6_2.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16024870'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of Realtors
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2008
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20081015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '683186.20'
+  - name: EXPENDITURE PURPOSE CODE
+    number: '23'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Capito
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Shelley
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: Moore
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '35'
+    value: WV
+  - name: S/O CANDIDATE DISTRICT
+    number: '36'
+    value: '02'
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Helsel
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: James L
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: Jr
+  - name: DATE SIGNED
+    number: '42'
+    value: '20081016'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+- input: "TEXT\x1CC00030718\x1C16026162\x1C\x1CF24N\x1C\"The payee entries for Peter
+    D Hart Research Associates Inc on 10/15/08 which are reflected in this report
+    represent travel costs associated with survey work the consultant completed at
+    an earlier date, however, the vendor did not notify us of or provide an invoice
+    for these additional costs until 10/15/08. The $134.36 in travel costs attributable
+    to Paul Kanjorski were associated with survey costs of $41,000.00 that were originally
+    reported on the 8/27/08 48 hour expenditure report; the $591.12 in travel costs
+    attributable to Jerry McNerney were associated with survey costs of $42,000.00
+    that were originally reported on the 9/8/08 48 hour expenditure report; the $656.34
+    in travel costs attributable to Ciro Rodriguez were associated with survey costs
+    of $42,000.00 that were originally reported on the 9/12/08 48 hour expenditure
+    report.\""
+  record: fec.version.v6_2.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00030718
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16026162'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F24N
+  - name: TEXT4000
+    number: '6'
+    value: The payee entries for Peter D Hart Research Associates Inc on 10/15/08
+      which are reflected in this report represent travel costs associated with survey
+      work the consultant completed at an earlier date, however, the vendor did not
+      notify us of or provide an invoice for these additional costs until 10/15/08.
+      The $134.36 in travel costs attributable to Paul Kanjorski were associated with
+      survey costs of $41,000.00 that were originally reported on the 8/27/08 48 hour
+      expenditure report; the $591.12 in travel costs attributable to Jerry McNerney
+      were associated with survey costs of $42,000.00 that were originally reported
+      on the 9/8/08 48 hour expenditure report; the $656.34 in travel costs attributable
+      to Ciro Rodriguez were associated with survey costs of $42,000.00 that were
+      originally reported on the 9/12/08 48 hour expenditure report.
+sourceurl: !!python/unicode 20081016
+type: single

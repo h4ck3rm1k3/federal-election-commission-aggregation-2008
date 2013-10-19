@@ -1,0 +1,210 @@
+countraw: 5
+countrows: 3
+filename: 371552.fec
+header: {}
+rows:
+- input: "F6\x1CC00313494\x1CSteve Rothman for New Jersey, Inc.\x1CP.O. Box 714\x1C\x1CHackensack\x1CNJ\x1C07602\x1CH6NJ09165\x1CRothman\x1CSteven\x1CR.\x1C\x1C\x1CH\x1CNJ\x1C09\x1CMongelli\x1CBart
+    \x1C\x1C\x1C\x1C20081017"
+  record: fec.version.v6_2.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00313494
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Steve Rothman for New Jersey, Inc.
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 714
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Hackensack
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: '07602'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H6NJ09165
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Rothman
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Steven
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Mongelli
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: 'Bart '
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '21'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081017'
+- input: "F65\x1CC00313494\x1CC4929818\x1CIND\x1C\x1CEisbrouch\x1CDavid\x1C\x1C\x1C\x1C50
+    Main St. Suite 6\x1C\x1CHackensack\x1CNJ\x1C076017047\x1C\x1C20081016\x1C1300.00\x1CBalkin
+    & Eisbrouch\x1CAttorney"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00313494
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4929818
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Eisbrouch
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 50 Main St. Suite 6
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hackensack
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '076017047'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081016'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Balkin & Eisbrouch
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+- input: "F65\x1CC00313494\x1CC4929816\x1CIND\x1C\x1CIbarria\x1CAntonio\x1C\x1C\x1C\x1C6050
+    Kennedy Blvd E., Apt. 3F\x1C\x1CWest New York\x1CNJ\x1C070933901\x1C\x1C20081016\x1C1000.00\x1CEl
+    Especialito\x1CPublisher"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00313494
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C4929816
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ibarria
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Antonio
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6050 Kennedy Blvd E., Apt. 3F
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 070933901
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081016'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: El Especialito
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Publisher
+sourceurl: !!python/unicode 20081018
+type: single

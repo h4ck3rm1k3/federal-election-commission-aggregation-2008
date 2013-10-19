@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 391173.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00457259
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Elect Malik Rahim
+  - name: STREET 1
+    number: '4'
+    value: 331 Atlantic Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New Orleans
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70114'
+  - name: CANDIDATE ID NUMBER
+    number: '9'
+    value: H8LA02120
+  - name: CANDIDATE LAST NAME
+    number: '10'
+    value: Rahim
+  - name: CANDIDATE FIRST NAME
+    number: '11'
+    value: Malik
+  - name: CANDIDATE MIDDLE NAME
+    number: '12'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '13'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '18'
+    value: Christy
+  - name: SIGNER FIRST NAME
+    number: '19'
+    value: Shawn
+  - name: SIGNER MIDDLE NAME
+    number: '20'
+    value: Galen
+  - name: SIGNER PREFIX
+    number: '21'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20081207'
+  - value: ''
+  expected_count: 23
+  input: "F6\x1CC00457259\x1CCommittee to Elect Malik Rahim\x1C331 Atlantic Avenue\x1C\x1CNew
+    Orleans\x1CLA\x1C70114\x1CH8LA02120\x1CRahim\x1CMalik\x1C\x1CMr.\x1C\x1CH\x1CLA\x1C02\x1CChristy\x1CShawn\x1CGalen\x1CMr.\x1C\x1C20081207\x1C"
+  input_count: 24
+  record: fec.version.v6_2.F6
+  result: []
+- input: "F65\x1CC00457259\x1CF6.4393\x1CIND\x1C\x1CVidas\x1CAmalia\x1C\x1C\x1C\x1C1910
+    East Coronado Road\x1C\x1CPhoenix\x1CAZ\x1C85006\x1C\x1C20081205\x1C1000.00\x1CSelf
+    \x1CGreen Activist"
+  record: fec.version.v6_2.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00457259
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4393
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vidas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Amalia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1910 East Coronado Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Phoenix
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20081205'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: 'Self '
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Green Activist
+sourceurl: !!python/unicode 20081207
+type: single
